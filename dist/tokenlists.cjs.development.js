@@ -149,7 +149,7 @@ var chains = [
 		chainName: "Ethereum Goerli",
 		testnet: true,
 		chainId: 5,
-		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
+		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/5/logo.svg",
 		rpcUrls: [
 			"https://rpc.ankr.com/eth_goerli"
 		],
@@ -171,7 +171,7 @@ var chains = [
 		chainName: "Fantom Testnet",
 		testnet: true,
 		chainId: 4002,
-		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
+		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/4002/logo.svg",
 		rpcUrls: [
 			"https://rpc.testnet.fantom.network/"
 		],
@@ -182,11 +182,11 @@ var chains = [
 		chainName: "Polygon Mumbai",
 		testnet: true,
 		chainId: 80001,
-		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
+		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/80001/logo.svg",
 		rpcUrls: [
 			"https://rpc-mumbai.maticvigil.com/"
 		],
-		explorerURL: "https://mumbai.polygonscan.com/",
+		explorerURL: "https://mumbai.pqolygonscan.com/",
 		timestamp: "2021-09-07T00:00:00+00:00"
 	}
 ];

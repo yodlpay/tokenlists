@@ -1,0 +1,24 @@
+{
+  "name": "@cheq-pay/tokenlists",
+  "version": "0.0.1",
+  "description": "Tokenlist typings, schema and lists.",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/cheq-pay/tokenlists.git",
+  "author": "cheq-pay",
+  "scripts": {
+    "start": "npx tsc --watch",
+    "build": "npx tsc --build",
+    "prepublishOnly": "npx tsc --build"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}

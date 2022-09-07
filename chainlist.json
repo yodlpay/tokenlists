@@ -14,8 +14,7 @@
       "rpcUrls": [
         "https://rpc.ankr.com/eth_goerli"
       ],
-      "explorerURL": "https://ropsten.etherscan.io",
-      "timestamp": "2021-09-07T00:00:00+00:00"
+      "explorerURL": "https://ropsten.etherscan.io"
     },
     {
       "chainId": 43113,
@@ -23,8 +22,7 @@
       "rpcUrls": [
         "https://api.avax-test.network/ext/bc/C/rpc"
       ],
-      "explorerURL": "https://testnet.snowtrace.io/",
-      "timestamp": "2021-09-07T00:00:00+00:00"
+      "explorerURL": "https://testnet.snowtrace.io/"
     },
     {
       "chainId": 4002,
@@ -32,8 +30,7 @@
       "rpcUrls": [
         "https://rpc.testnet.fantom.network/"
       ],
-      "explorerURL": "https://testnet.ftmscan.com/",
-      "timestamp": "2021-09-07T00:00:00+00:00"
+      "explorerURL": "https://testnet.ftmscan.com/"
     },
     {
       "chainId": 80001,
@@ -41,8 +38,7 @@
       "rpcUrls": [
         "https://rpc-mumbai.maticvigil.com/"
       ],
-      "explorerURL": "https://mumbai.polygonscan.com/",
-      "timestamp": "2021-09-07T00:00:00+00:00"
+      "explorerURL": "https://mumbai.polygonscan.com/"
     }
   ]
 }

@@ -146,6 +146,8 @@ var version$1 = {
 };
 var chains = [
 	{
+		chainName: "Ethereum Goerli",
+		testnet: true,
 		chainId: 5,
 		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
 		rpcUrls: [
@@ -155,6 +157,8 @@ var chains = [
 		timestamp: "2021-09-07T00:00:00+00:00"
 	},
 	{
+		chainName: "Avalanche Fuji",
+		testnet: true,
 		chainId: 43113,
 		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
 		rpcUrls: [
@@ -164,6 +168,8 @@ var chains = [
 		timestamp: "2021-09-07T00:00:00+00:00"
 	},
 	{
+		chainName: "Fantom Testnet",
+		testnet: true,
 		chainId: 4002,
 		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
 		rpcUrls: [
@@ -173,6 +179,8 @@ var chains = [
 		timestamp: "2021-09-07T00:00:00+00:00"
 	},
 	{
+		chainName: "Polygon Mumbai",
+		testnet: true,
 		chainId: 80001,
 		logoURI: "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
 		rpcUrls: [

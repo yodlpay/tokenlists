@@ -12,6 +12,7 @@
   "scripts": {
     "start": "npx tsc --watch",
     "build": "npx tsc --build",
+    "postbuild": "cp src/*.json dist/",
     "prepublishOnly": "npx tsc --build"
   },
   "license": "MIT",

@@ -10,7 +10,7 @@
   "chains": [
     {
       "chainId": 5,
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
       "rpcUrls": [
         "https://rpc.ankr.com/eth_goerli"
       ],
@@ -19,7 +19,7 @@
     },
     {
       "chainId": 43113,
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
       "rpcUrls": [
         "https://api.avax-test.network/ext/bc/C/rpc"
       ],
@@ -28,7 +28,7 @@
     },
     {
       "chainId": 4002,
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
       "rpcUrls": [
         "https://rpc.testnet.fantom.network/"
       ],
@@ -37,7 +37,7 @@
     },
     {
       "chainId": 80001,
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.png",
+      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
       "rpcUrls": [
         "https://rpc-mumbai.maticvigil.com/"
       ],

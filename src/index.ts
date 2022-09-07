@@ -12,3 +12,21 @@ export * from "./nextVersion";
 export * from "./versionComparator";
 
 export { tokenschema, tokenlist, chainlist, routerlist };
+
+export function getChain(chainId: number) {
+  return chainlist.chains.find((needle: any) => {
+    return needle.chainId === chainId;
+  });
+}
+
+export function getTokens(chainId: number) {
+  return tokenlist.tokens.filter((needle: any) => {
+    return needle.chainId === chainId;
+  });
+}
+
+export function getRouters(chainId: number) {
+  return routerlist.routers.filter((needle: any) => {
+    return needle.chainId === chainId;
+  });
+}

@@ -210,9 +210,9 @@ var routers = [
 		timestamp: "2021-09-07T00:00:00+00:00"
 	},
 	{
-		chainId: 5,
+		chainId: 43113,
 		address: "0xad4a444c23776f8ed42b3d4bab836c7ba157270e",
-		timestamp: "2021-09-07T00:00:00+00:00"
+		timestamp: "2022-09-07T00:00:00+00:00"
 	},
 	{
 		chainId: 4002,
@@ -457,6 +457,12 @@ function getRouters(chainId) {
     return needle.chainId === chainId;
   });
 }
+function latestRouter(chainId) {
+  var sorted = getRouters(chainId).sort(function (a, b) {
+    return Date.parse(a.timestamp) - Date.parse(b.timestamp);
+  });
+  return sorted[sorted.length - 1];
+}
 
-export { TokenlistTabNames, VersionUpgrade, chainlist, diffTokenLists, getChain, getRouters, getTokens, getVersionUpgrade, isVersionUpdate, minVersionBump, nextVersion, routerlist, tokenlist, tokenlist as tokenschema, versionComparator };
+export { TokenlistTabNames, VersionUpgrade, chainlist, diffTokenLists, getChain, getRouters, getTokens, getVersionUpgrade, isVersionUpdate, latestRouter, minVersionBump, nextVersion, routerlist, tokenlist, tokenlist as tokenschema, versionComparator };
 //# sourceMappingURL=tokenlists.esm.js.map

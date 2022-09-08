@@ -1,10 +1,23 @@
 type ExtensionValue = string | number | boolean | null | undefined;
 
 export enum TokenlistTabNames {
-  PEG_USD = "USD pegged",
-  PEG_EUR = "EUR pegged",
+  PEG_USD = 'USD pegged',
+  PEG_EUR = 'EUR pegged',
 
-  STABLECOIN = "Stablecoin",
+  STABLECOIN = 'Stablecoin',
+}
+
+export interface RouterInfo {
+  readonly chainId: number;
+  readonly address: string;
+  readonly timestamp: string;
+}
+
+export interface ChainInfo {
+  readonly chainId: number;
+  readonly logoURI: string;
+  readonly explorerURL: string;
+  readonly rpcUrls: string[];
 }
 
 export interface TokenInfo {

@@ -4,6 +4,17 @@ export declare enum TokenlistTabNames {
     PEG_EUR = "EUR pegged",
     STABLECOIN = "Stablecoin"
 }
+export interface RouterInfo {
+    readonly chainId: number;
+    readonly address: string;
+    readonly timestamp: string;
+}
+export interface ChainInfo {
+    readonly chainId: number;
+    readonly logoURI: string;
+    readonly explorerURL: string;
+    readonly rpcUrls: string[];
+}
 export interface TokenInfo {
     readonly chainId: number;
     readonly address: string;

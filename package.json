@@ -18,6 +18,9 @@
     "prepublishOnly": "yarn test && yarn build"
   },
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "prettier": {
     "printWidth": 80,
     "semi": true,

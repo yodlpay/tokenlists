@@ -2,7 +2,8 @@ import tokenlist from './tokenlist-v1.json';
 import chainlist from './chainlist-v1.json';
 import routerlist from './routerlist-v1.json';
 import tokenschema from './tokenlist-v1.json';
-import { ChainInfo, RouterInfo, TokenInfo } from './types';
+import testnetfaucets from './testnet-faucets-v1.json';
+import { ChainInfo, RouterInfo, TokenInfo, TestnetFaucetInfo } from './types';
 
 export * from './types';
 export * from './isVersionUpdate';
@@ -24,6 +25,14 @@ export function getTokens(chainId: number): TokenInfo[] {
   return tokenlist.tokens.filter((needle: any) => {
     return needle.chainId === chainId;
   }) as TokenInfo[];
+}
+
+export function getFaucetAddress(tokenInfo: TokenInfo): TestnetFaucetInfo {
+  return testnetfaucets.faucets.find((needle: any) => {
+    return (
+      needle.token === tokenInfo.address && needle.chainId === tokenInfo.chainId
+    );
+  }) as TestnetFaucetInfo;
 }
 
 export function getRouters(chainId: number): RouterInfo[] {

@@ -13,6 +13,12 @@ export interface RouterInfo {
   readonly timestamp: string;
 }
 
+export interface TestnetFaucetInfo {
+  readonly chainId: number;
+  readonly address: string;
+  readonly token: string;
+}
+
 export interface ChainInfo {
   readonly chainId: number;
   readonly logoURI: string;

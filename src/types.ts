@@ -11,6 +11,7 @@ export interface RouterInfo {
   readonly chainId: number;
   readonly address: string;
   readonly timestamp: string;
+  readonly version: string;
 }
 
 export interface TestnetFaucetInfo {

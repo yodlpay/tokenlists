@@ -12,31 +12,31 @@
       "chainId": 43113,
       "address": "0xc29a28bf427de03bd68b9dadb09fdd7f63e2f7b5",
       "timestamp": "2021-09-07T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.0.1"
     },
     {
       "chainId": 5,
       "address": "0xad4a444c23776f8ed42b3d4bab836c7ba157270e",
       "timestamp": "2021-09-07T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.0.1"
     },
     {
       "chainId": 4002,
       "address": "0x0aa77e0a32097ab660c83a6bc7bdbcf2323a27c1",
       "timestamp": "2021-09-07T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.0.1"
     },
     {
       "chainId": 80001,
       "address": "0x900c649fa4030a796982bed361f52d9fbf62276b",
       "timestamp": "2021-09-07T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.0.1"
     },
     {
       "chainId": 5,
-      "address": "0x6aae5b3bf6d2f7229316302c85e6db496c466711",
+      "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",
-      "version": "0.2"
+      "version": "0.1"
     }
   ]
 }

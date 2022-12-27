@@ -1,6 +1,6 @@
 {
   "name": "@cheq-pay/tokenlists",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Tokenlist typings, schema and lists.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

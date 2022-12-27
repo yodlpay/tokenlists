@@ -31,6 +31,28 @@
       "address": "0x33ca3889bb0032e9c3794b608a242d27e7293353"
     },
     {
+      "chainId": 5,
+      "name": "USDC.test",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 18,
+      "tags": [
+        "TESTNET"
+      ],
+      "address": "0xe5768E2dDEc1E50Ac2672a2d75D63d36A8Ec88d9"
+    },
+    {
+      "chainId": 5,
+      "name": "USDT.test",
+      "symbol": "USDC",
+      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 18,
+      "tags": [
+        "TESTNET"
+      ],
+      "address": "0xeB87E5d9c773d3E802989295147564985B5B358C"
+    },
+    {
       "chainId": 4002,
       "name": "XUSD",
       "symbol": "XUSD",

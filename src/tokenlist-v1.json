@@ -44,8 +44,8 @@
     {
       "chainId": 5,
       "name": "USDT.test",
-      "symbol": "USDC",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "symbol": "USDT",
+      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"

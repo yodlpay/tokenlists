@@ -5,6 +5,7 @@ import tokenschema from './tokenlist-v1.json';
 import testnetfaucets from './testnet-faucets-v1.json';
 import { ChainInfo, RouterInfo, TokenInfo, TestnetFaucetInfo } from './types';
 
+export * from './abis';
 export * from './types';
 export * from './isVersionUpdate';
 export * from './getVersionUpgrade';

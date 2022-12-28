@@ -1,6 +1,6 @@
 {
   "name": "Default",
-  "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
+  "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
   "keywords": [],
   "version": {
     "major": 0,
@@ -12,7 +12,7 @@
       "chainId": 80001,
       "name": "XUSD",
       "symbol": "XUSD",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -23,7 +23,7 @@
       "chainId": 5,
       "name": "XUSD",
       "symbol": "XUSD",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -34,7 +34,7 @@
       "chainId": 5,
       "name": "USDC.test",
       "symbol": "USDC",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -45,7 +45,7 @@
       "chainId": 5,
       "name": "USDT.test",
       "symbol": "USDT",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -56,7 +56,7 @@
       "chainId": 4002,
       "name": "XUSD",
       "symbol": "XUSD",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -67,7 +67,7 @@
       "chainId": 43113,
       "name": "USDC",
       "symbol": "USDC",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -78,7 +78,7 @@
       "chainId": 43113,
       "name": "USDT (Tether)",
       "symbol": "USDT",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -89,7 +89,7 @@
       "chainId": 43113,
       "name": "DAI",
       "symbol": "DAI",
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/dai.svg",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/dai.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -105,7 +105,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo.png"
     },
     {
       "chainId": 43114,
@@ -116,7 +116,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png"
     },
     {
       "chainId": 43114,
@@ -127,7 +127,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo.png"
     },
     {
       "chainId": 43114,
@@ -138,7 +138,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0x130966628846BFd36ff31a822705796e8cb8C18D/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0x130966628846BFd36ff31a822705796e8cb8C18D/logo.png"
     },
     {
       "chainId": 43114,
@@ -150,7 +150,7 @@
         "Stablecoins",
         "Top Tokens"
       ],
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo.png"
     },
     {
       "chainId": 43114,
@@ -162,7 +162,7 @@
         "Stablecoins",
         "Top Tokens"
       ],
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
     },
     {
       "chainId": 43114,
@@ -173,7 +173,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoURI": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64/logo.png"
     }
   ],
   "timestamp": "2021-09-07T00:00:00+00:00"

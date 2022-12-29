@@ -17,7 +17,8 @@
         "https://rpc.ankr.com/eth_goerli"
       ],
       "explorerUrl": "https://goerli.etherscan.io",
-      "timestamp": "2022-12-28T14:10:09+00:00"
+      "timestamp": "2022-12-28T14:10:09+00:00",
+      "feeTreasury": "0x3E8A61F0532BA2b58660606d61110cC9E90c4D29"
     },
     {
       "Chainname": "Avalanche Fuji",

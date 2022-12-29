@@ -9,6 +9,18 @@
   },
   "chains": [
     {
+      "chainName": "Ethereum",
+      "testnet": false,
+      "chainId": 1,
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/1/logo.svg",
+      "rpcUrls": [
+        "https://rpc.ankr.com/eth"
+      ],
+      "explorerUrl": "https://etherscan.io",
+      "timestamp": "2022-12-29T18:52:20+00:00",
+      "feeTreasury": "0x237Ada0dB0f24DbF5aB323B0A3f48f2b4806A6d5"
+    },
+    {
       "chainName": "Ethereum Goerli",
       "testnet": true,
       "chainId": 5,

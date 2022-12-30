@@ -20,6 +20,48 @@
       "address": "0x7c6df05e0335dc08e4e90e4daa6179fd5eb44c7d"
     },
     {
+      "chainId": 1,
+      "name": "Tether",
+      "symbol": "USDT",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
+      "decimals": 6,
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    },
+    {
+      "chainId": 1,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 6,
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+    },
+    {
+      "chainId": 1,
+      "name": "DAI",
+      "symbol": "DAI",
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/dai.svg",
+      "decimals": 18,
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    },
+    {
       "chainId": 5,
       "name": "XUSD",
       "symbol": "XUSD",

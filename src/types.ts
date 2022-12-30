@@ -22,8 +22,8 @@ export interface TestnetFaucetInfo {
 
 export interface ChainInfo {
   readonly chainId: number;
-  readonly logoURI: string;
-  readonly explorerURL: string;
+  readonly logoUri: string;
+  readonly explorerUrl: string;
   readonly rpcUrls: string[];
   readonly feeTreasury: string;
 }
@@ -34,7 +34,7 @@ export interface TokenInfo {
   readonly name: string;
   readonly decimals: number;
   readonly symbol: string;
-  readonly logoURI?: string;
+  readonly logoUri?: string;
   readonly tags?: TokenlistTabNames[];
   readonly extensions?: {
     readonly [key: string]:
@@ -62,5 +62,5 @@ export interface TokenList {
   readonly tokens: TokenInfo[];
   readonly keywords?: string[];
   readonly tags?: any;
-  readonly logoURI?: string;
+  readonly logoUri?: string;
 }

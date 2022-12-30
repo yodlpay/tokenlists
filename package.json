@@ -1,5 +1,5 @@
 {
-  "name": "@cheq-pay/tokenlists",
+  "name": "@hiropay/tokenlists",
   "version": "0.0.9",
   "description": "Tokenlist typings, schema and lists.",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "repository": "https://github.com/cheq-pay/tokenlists.git",
-  "author": "cheq-pay",
+  "author": "hiro",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",

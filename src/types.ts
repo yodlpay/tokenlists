@@ -25,7 +25,10 @@ export interface ChainInfo {
   readonly logoUri: string;
   readonly explorerUrl: string;
   readonly rpcUrls: string[];
-  readonly feeTreasury: string;
+  readonly feeTreasury?: string;
+  readonly priceFeeds?: {
+    readonly [key: string]: string;
+  };
 }
 
 export interface TokenInfo {

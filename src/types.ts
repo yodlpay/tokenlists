@@ -27,7 +27,7 @@ export interface ChainInfo {
   readonly rpcUrls: string[];
   readonly feeTreasury?: string;
   readonly priceFeeds?: {
-    readonly [key: string]: string;
+    readonly [key: string]: string | undefined;
   };
 }
 

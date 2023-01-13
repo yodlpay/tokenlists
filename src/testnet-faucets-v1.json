@@ -9,11 +9,6 @@
   },
   "faucets": [
     {
-      "chainId": 80001,
-      "token": "0x7c6df05e0335dc08e4e90e4daa6179fd5eb44c7d",
-      "address": "0x792f5dd598ad572012aa665421f9b42d2836112a"
-    },
-    {
       "chainId": 5,
       "token": "0x33ca3889bb0032e9c3794b608a242d27e7293353",
       "address": "0xd2bc1d97793763b7262987a67f1945169c763389"
@@ -27,16 +22,6 @@
       "chainId": 5,
       "token": "0xeB87E5d9c773d3E802989295147564985B5B358C",
       "address": "0xF47661BCe78194b44675547873ef58Ca8Db9b145"
-    },
-    {
-      "chainId": 4002,
-      "token": "0xac57881111a09e3de532a46ad084d831c5a4220a",
-      "address": "0xf992f4dc9634beeba7e46b991cf481b945482c0d"
-    },
-    {
-      "chainId": 43113,
-      "token": "0x2601Df86814DcC0F3f98C7Ab97176ae19713503d",
-      "address": "0xC0efF52B3f06B7255ce51FBbF034a70DA037cDBC"
     }
   ]
 }

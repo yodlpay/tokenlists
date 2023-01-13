@@ -51,39 +51,6 @@
       }
     },
     {
-      "Chainname": "Avalanche Fuji",
-      "testnet": true,
-      "chainId": 43113,
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
-      "rpcUrls": [
-        "https://api.avax-test.network/ext/bc/C/rpc"
-      ],
-      "explorerUrl": "https://testnet.snowtrace.io/",
-      "timestamp": "2021-09-07T00:00:00+00:00"
-    },
-    {
-      "chainName": "Fantom Testnet",
-      "testnet": true,
-      "chainId": 4002,
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/4002/logo.svg",
-      "rpcUrls": [
-        "https://rpc.testnet.fantom.network/"
-      ],
-      "explorerUrl": "https://testnet.ftmscan.com/",
-      "timestamp": "2021-09-07T00:00:00+00:00"
-    },
-    {
-      "chainName": "Polygon Mumbai",
-      "testnet": true,
-      "chainId": 80001,
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/80001/logo.svg",
-      "rpcUrls": [
-        "https://rpc-mumbai.maticvigil.com/"
-      ],
-      "explorerUrl": "https://mumbai.pqolygonscan.com/",
-      "timestamp": "2021-09-07T00:00:00+00:00"
-    },
-    {
       "chainName": "Arbitrum One",
       "testnet": false,
       "chainId": 42161,

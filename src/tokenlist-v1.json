@@ -9,17 +9,6 @@
   },
   "tokens": [
     {
-      "chainId": 80001,
-      "name": "XUSD",
-      "symbol": "XUSD",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
-      "decimals": 18,
-      "tags": [
-        "TESTNET"
-      ],
-      "address": "0x7c6df05e0335dc08e4e90e4daa6179fd5eb44c7d"
-    },
-    {
       "chainId": 1,
       "name": "Tether",
       "symbol": "USDT",
@@ -95,50 +84,6 @@
       "address": "0xeB87E5d9c773d3E802989295147564985B5B358C"
     },
     {
-      "chainId": 4002,
-      "name": "XUSD",
-      "symbol": "XUSD",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
-      "decimals": 18,
-      "tags": [
-        "TESTNET"
-      ],
-      "address": "0xac57881111a09e3de532a46ad084d831c5a4220a"
-    },
-    {
-      "chainId": 43113,
-      "name": "USDC",
-      "symbol": "USDC",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
-      "decimals": 18,
-      "tags": [
-        "TESTNET"
-      ],
-      "address": "0x2601Df86814DcC0F3f98C7Ab97176ae19713503d"
-    },
-    {
-      "chainId": 43113,
-      "name": "USDT (Tether)",
-      "symbol": "USDT",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
-      "decimals": 18,
-      "tags": [
-        "TESTNET"
-      ],
-      "address": "0x07D349103bC11105247Ec33D7deB1401206241e1"
-    },
-    {
-      "chainId": 43113,
-      "name": "DAI",
-      "symbol": "DAI",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/dai.svg",
-      "decimals": 18,
-      "tags": [
-        "TESTNET"
-      ],
-      "address": "0x0f2A5D18aD37395266c0b59e3dfCFe790a0EE8E1"
-    },
-    {
       "chainId": 43114,
       "address": "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70",
       "decimals": 18,
@@ -205,17 +150,6 @@
         "Top Tokens"
       ],
       "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
-    },
-    {
-      "chainId": 43114,
-      "address": "0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64",
-      "decimals": 18,
-      "name": "Frax",
-      "symbol": "FRAX",
-      "tags": [
-        "Stablecoins"
-      ],
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xD24C2Ad096400B6FBcd2ad8B24E7acBc21A1da64/logo.png"
     }
   ],
   "timestamp": "2021-09-07T00:00:00+00:00"

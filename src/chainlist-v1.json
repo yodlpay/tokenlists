@@ -82,6 +82,32 @@
       ],
       "explorerUrl": "https://mumbai.pqolygonscan.com/",
       "timestamp": "2021-09-07T00:00:00+00:00"
+    },
+    {
+      "chainName": "Arbitrum One",
+      "testnet": false,
+      "chainId": 42161,
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/42161/logo.svg",
+      "rpcUrls": [
+        "https://rpc.ankr.com/arbitrum"
+      ],
+      "explorerUrl": "https://arbiscan.io/",
+      "timestamp": "2023-01-13T14:52:05+00:00",
+      "feeTreasury": "0xfC132d8f345166C20ecBBcc31B72f9512d6F29c1",
+      "priceFeeds": {}
+    },
+    {
+      "chainName": "Avalanche",
+      "testnet": false,
+      "chainId": 43114,
+      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
+      "rpcUrls": [
+        "https://api.avax.network/ext/bc/C/rpc"
+      ],
+      "explorerUrl": "https://snowtrace.io/",
+      "timestamp": "2023-01-13T14:52:05+00:00",
+      "feeTreasury": "0x25e22F3ceE59F34622f7DC9a2078B85f17BfBe95",
+      "priceFeeds": {}
     }
   ]
 }

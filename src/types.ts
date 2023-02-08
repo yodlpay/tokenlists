@@ -22,10 +22,12 @@ export interface TestnetFaucetInfo {
 
 export interface ChainInfo {
   readonly chainId: number;
+  readonly chainName: string;
   readonly logoUri: string;
   readonly explorerUrl: string;
   readonly rpcUrls: string[];
   readonly feeTreasury?: string;
+  readonly testnet: boolean;
   readonly priceFeeds?: {
     readonly [key: string]: string | undefined;
   };

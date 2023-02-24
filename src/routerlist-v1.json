@@ -19,6 +19,12 @@
       "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",
       "version": "0.1"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x71f5bac8b33d139b456bb38329e106c1cbc32084",
+      "timestamp": "2023-02-23T00:00:00+00:00",
+      "version": "0.1"
     }
   ]
 }

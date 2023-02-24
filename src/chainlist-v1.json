@@ -12,7 +12,7 @@
       "chainName": "Ethereum",
       "testnet": false,
       "chainId": 1,
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
       "rpcUrls": [
         "https://rpc.ankr.com/eth"
       ],
@@ -38,7 +38,7 @@
       "chainName": "Ethereum Goerli",
       "testnet": true,
       "chainId": 5,
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/5/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/5/logo.svg",
       "rpcUrls": [
         "https://rpc.ankr.com/eth_goerli"
       ],
@@ -54,7 +54,7 @@
       "chainName": "Arbitrum One",
       "testnet": false,
       "chainId": 42161,
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/42161/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/42161/logo.svg",
       "rpcUrls": [
         "https://rpc.ankr.com/arbitrum"
       ],
@@ -78,7 +78,7 @@
       "chainName": "Avalanche",
       "testnet": false,
       "chainId": 43114,
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/chains/43113/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/43113/logo.svg",
       "rpcUrls": [
         "https://api.avax.network/ext/bc/C/rpc"
       ],

@@ -1,6 +1,6 @@
 {
   "name": "Default",
-  "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
+  "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7/logo.png",
   "keywords": [],
   "version": {
     "major": 0,
@@ -12,7 +12,7 @@
       "chainId": 1,
       "name": "Tether",
       "symbol": "USDT",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
       "decimals": 6,
       "tags": [
         "Mainnet",
@@ -23,10 +23,24 @@
       "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
     },
     {
+      "chainId": 42161,
+      "name": "Tether",
+      "symbol": "USDT",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "decimals": 6,
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+    },
+    {
       "chainId": 1,
       "name": "USD Coin",
       "symbol": "USDC",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 6,
       "tags": [
         "Mainnet",
@@ -37,10 +51,24 @@
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     },
     {
+      "chainId": 42161,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 6,
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+    },
+    {
       "chainId": 1,
       "name": "DAI",
       "symbol": "DAI",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/dai.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
       "decimals": 18,
       "tags": [
         "Mainnet",
@@ -51,10 +79,24 @@
       "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
     },
     {
+      "chainId": 42161,
+      "name": "DAI",
+      "symbol": "DAI",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
+      "decimals": 18,
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+    },
+    {
       "chainId": 5,
       "name": "XUSD",
       "symbol": "XUSD",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -65,7 +107,7 @@
       "chainId": 5,
       "name": "USDC.test",
       "symbol": "USDC",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -76,7 +118,7 @@
       "chainId": 5,
       "name": "USDT.test",
       "symbol": "USDT",
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -92,7 +134,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo.png"
     },
     {
       "chainId": 43114,
@@ -103,7 +145,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png"
     },
     {
       "chainId": 43114,
@@ -114,7 +156,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo.png"
     },
     {
       "chainId": 43114,
@@ -125,7 +167,7 @@
       "tags": [
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0x130966628846BFd36ff31a822705796e8cb8C18D/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x130966628846BFd36ff31a822705796e8cb8C18D/logo.png"
     },
     {
       "chainId": 43114,
@@ -137,7 +179,7 @@
         "Stablecoins",
         "Top Tokens"
       ],
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo.png"
     },
     {
       "chainId": 43114,
@@ -149,7 +191,7 @@
         "Stablecoins",
         "Top Tokens"
       ],
-      "logoUri": "https://raw.githubusercontent.com/cheq-pay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
     }
   ],
   "timestamp": "2021-09-07T00:00:00+00:00"

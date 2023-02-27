@@ -23,6 +23,20 @@
       "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
     },
     {
+      "chainId": 10,
+      "name": "Tether",
+      "symbol": "USDT",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "decimals": 6,
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
+    },
+    {
       "chainId": 42161,
       "name": "Tether",
       "symbol": "USDT",
@@ -51,6 +65,20 @@
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     },
     {
+      "chainId": 10,
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 6,
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+    },
+    {
       "chainId": 42161,
       "name": "USD Coin",
       "symbol": "USDC",
@@ -77,6 +105,20 @@
         "USD"
       ],
       "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    },
+    {
+      "chainId": 10,
+      "name": "DAI",
+      "symbol": "DAI",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
+      "decimals": 18,
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     },
     {
       "chainId": 42161,

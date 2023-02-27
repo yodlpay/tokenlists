@@ -75,6 +75,25 @@
       }
     },
     {
+      "chainName": "Optimism",
+      "testnet": false,
+      "chainId": 10,
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/10/logo.svg",
+      "rpcUrls": [
+        "https://mainnet.optimism.io"
+      ],
+      "explorerUrl": "https://optimistic.etherscan.io/",
+      "timestamp": "2023-02-27T14:52:05+00:00",
+      "feeTreasury": "0x1A60Fe8EE817464208361d26a91b3B2333d17669",
+      "priceFeeds": {
+        "AUD": "0x39be70e93d2d285c9e71be7f70fc5a45a7777b14",
+        "EUR": "0x3626369857a10ccc6cc3a6e4f5c2f5984a519f20",
+        "GBP": "0x540d48c01f946e729174517e013ad0bdae5f08c0",
+        "JPY": "0x536944c3a71feb7c1e5c66ee37d1a148d8d8f619",
+        "INR": "0x5535e67d8f99c8ebe961e1fc1f6ddae96fec82c9"
+      }
+    },
+    {
       "chainName": "Avalanche",
       "testnet": false,
       "chainId": 43114,

@@ -49,8 +49,7 @@
       "priceFeeds": {
         "CZK": "0xAE45DCb3eB59E27f05C170752B218C6174394Df8",
         "JPY": "0x295b398c95cEB896aFA18F25d0c6431Fd17b1431"
-      },
-      "curveRouterAddress": ""
+      }
     },
     {
       "chainName": "Arbitrum One",
@@ -114,8 +113,7 @@
         "EUR": "0x192f2dba961bb0277520c082d6bfa87d5961333e",
         "JPY": "0xf8b283ad4d969ecfd70005714dd5910160565b94",
         "TRY": "0xa61bf273688ea095b5e4c11f1af5e763f7aeee91"
-      },
-    "curveRouterAddress": "0x78cf256256c8089d68cde634cf7cdefb39286470"
+      }
     }
   ]
 }

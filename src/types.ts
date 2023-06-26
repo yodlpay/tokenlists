@@ -31,6 +31,7 @@ export interface ChainInfo {
   readonly priceFeeds?: {
     readonly [key: string]: string | undefined;
   };
+  readonly curveRouterAddress?: string;
 }
 
 export interface TokenInfo {

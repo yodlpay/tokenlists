@@ -32,7 +32,8 @@
         "BRL": "0x971e8f1b779a5f1c36e1cd7ef44ba1cc2f5eee0f",
         "SGD": "0xe25277ff4bbf9081c75ab0eb13b4a13a721f3e13",
         "TRY": "0xb09fc5fd3f11cf9eb5e1c5dba43114e3c9f477b5"
-      }
+      },
+      "curveRouterAddress": "0x99a58482BD75cbab83b27EC03CA68fF489b5788f"
     },
     {
       "chainName": "Ethereum Goerli",
@@ -72,7 +73,8 @@
         "KRW": "0x85bb02e0ae286600d1c68bb6ce22cc998d411916",
         "SEK": "0xde89a55d04ded40a410877ab87d4f567ee66a1f0",
         "SGD": "0xf0d38324d1f86a176ac727a4b0c43c9f9d9c5eb1"
-      }
+      },
+      "curveRouterAddress": "0x4c2af2df2a7e567b5155879720619ea06c5bb15d"
     },
     {
       "chainName": "Optimism",
@@ -91,7 +93,8 @@
         "GBP": "0x540d48c01f946e729174517e013ad0bdae5f08c0",
         "JPY": "0x536944c3a71feb7c1e5c66ee37d1a148d8d8f619",
         "INR": "0x5535e67d8f99c8ebe961e1fc1f6ddae96fec82c9"
-      }
+      },
+      "curveRouterAddress": "0x89287c32c2cac1c76227f6d300b2dbbab6b75c08"
     },
     {
       "chainName": "Avalanche",

@@ -1,10 +1,20 @@
 type ExtensionValue = string | number | boolean | null | undefined;
 
-export enum TokenlistTabNames {
-  PEG_USD = 'USD pegged',
-  PEG_EUR = 'EUR pegged',
+export enum TokenListTagNames {
+  // Networks
+  MAINNET = 'Mainnet',
+  OPTIMISM = 'Optimism',
+  ARBITRUM = 'Arbitrum',
+  AVALANCHE = 'Avalanche',
+  TESTNET = 'TESTNET',
 
+  // Coin/currency
   STABLECOIN = 'Stablecoin',
+  USD = 'USD',
+  EUR = 'EUR',
+
+  // Misc
+  TOP_10 = 'Top10'
 }
 
 export interface RouterInfo {
@@ -41,7 +51,7 @@ export interface TokenInfo {
   readonly decimals: number;
   readonly symbol: string;
   readonly logoUri?: string;
-  readonly tags?: TokenlistTabNames[];
+  readonly tags?: TokenListTagNames[];
   readonly extensions?: {
     readonly [key: string]:
       | {

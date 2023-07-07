@@ -174,6 +174,7 @@
       "name": "Dai Stablecoin",
       "symbol": "DAI.e",
       "tags": [
+        "Avalanche",
         "Stablecoins"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo.png"
@@ -185,6 +186,7 @@
       "name": "Tether Token - Bridged",
       "symbol": "USDT.e",
       "tags": [
+        "Avalanche",
         "Stablecoins"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png"
@@ -196,6 +198,7 @@
       "name": "USD Coin - Bridged",
       "symbol": "USDC.e",
       "tags": [
+        "Avalanche",
         "Stablecoins"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo.png"
@@ -207,6 +210,7 @@
       "name": "Magic Internet Money",
       "symbol": "MIM",
       "tags": [
+        "Avalanche",
         "Stablecoins"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x130966628846BFd36ff31a822705796e8cb8C18D/logo.png"
@@ -218,8 +222,9 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "tags": [
-        "Stablecoins",
-        "Top Tokens"
+        "Avalanche",
+        "Stablecoin",
+        "Top10"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo.png"
     },
@@ -230,8 +235,9 @@
       "name": "Tether Token",
       "symbol": "USDT",
       "tags": [
-        "Stablecoins",
-        "Top Tokens"
+        "Avalanche",
+        "Stablecoin",
+        "Top10"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
     }

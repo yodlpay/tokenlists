@@ -20,6 +20,11 @@
         "internalType": "address",
         "name": "_uniswapRouter",
         "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_curveRouter",
+        "type": "address"
       }
     ],
     "stateMutability": "nonpayable",
@@ -107,6 +112,19 @@
     "type": "event"
   },
   {
+    "inputs": [],
+    "name": "ZERO_ADDRESS",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [
       {
         "internalType": "address[]",
@@ -142,6 +160,19 @@
   },
   {
     "inputs": [],
+    "name": "getBaseFeeDivisor",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "owner",
     "outputs": [
       {
@@ -151,6 +182,77 @@
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "receiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountIn",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountOut",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "memo",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[9]",
+            "name": "route",
+            "type": "address[9]"
+          },
+          {
+            "internalType": "uint256[3][4]",
+            "name": "swapParams",
+            "type": "uint256[3][4]"
+          },
+          {
+            "internalType": "address",
+            "name": "extraFeeReceiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "extraFeeDivisor",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "returnRemainder",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct HiroRouterV1.HiroCurveParams",
+        "name": "params",
+        "type": "tuple"
+      }
+    ],
+    "name": "payWithCurve",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
@@ -308,72 +410,6 @@
     ],
     "name": "transferOwnership",
     "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "components": [
-          {
-            "internalType": "address",
-            "name": "sender",
-            "type": "address"
-          },
-          {
-            "internalType": "address",
-            "name": "receiver",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "amountIn",
-            "type": "uint256"
-          },
-          {
-            "internalType": "uint256",
-            "name": "amountOut",
-            "type": "uint256"
-          },
-          {
-            "internalType": "bytes32",
-            "name": "memo",
-            "type": "bytes32"
-          },
-          {
-            "internalType": "address[9]",
-            "name": "route",
-            "type": "address[9]"
-          },
-          {
-            "internalType": "uint256[3][4]",
-            "name": "swapParams",
-            "type": "uint256[3][4]"
-          },
-          {
-            "internalType": "address",
-            "name": "extraFeeReceiver",
-            "type": "address"
-          },
-          {
-            "internalType": "uint256",
-            "name": "extraFeeDivisor",
-            "type": "uint256"
-          }
-        ],
-        "internalType": "struct HiroRouterV1.HiroCurveParams",
-        "name": "params",
-        "type": "tuple"
-      }
-    ],
-    "name": "payWithCurve",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
     "stateMutability": "nonpayable",
     "type": "function"
   }

@@ -50,6 +50,7 @@ export interface TokenInfo {
   readonly name: string;
   readonly decimals: number;
   readonly symbol: string;
+  readonly currency?: string;
   readonly logoUri?: string;
   readonly tags?: TokenListTagNames[];
   readonly extensions?: {

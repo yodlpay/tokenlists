@@ -224,6 +224,11 @@
             "type": "uint256[3][4]"
           },
           {
+            "internalType": "address[4]",
+            "name": "factoryAddresses",
+            "type": "address[4]"
+          },
+          {
             "internalType": "address[]",
             "name": "priceFeeds",
             "type": "address[]"

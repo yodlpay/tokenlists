@@ -24,6 +24,7 @@
         "CAD": "0xa34317db73e77d453b1b8d04550c44d10e981c8e",
         "CHF": "0x449d117117838ffa61263b61da6301aa2a88b13a",
         "EUR": "0xb49f677943bc038e9857d61e7d053caa2c1734c1",
+        "ETH": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
         "GBP": "0x5c0ab2d9b5a7ed9f470386e82bb36a3613cdd4b5",
         "JPY": "0xbce206cae7f0ec07b545edde332a47c2f75bbeb3",
         "CNY": "0xef8a4af35cd47424672e3c590abd37fbb7a7759a",
@@ -66,6 +67,7 @@
         "AUD": "0x9854e9a850e7c354c1de177ea953a6b1fba8fc22",
         "CNY": "0xcc3370bde6afe51e1205a5038947b9836371eccb",
         "EUR": "0xa14d53bc1f1c0f31b4aa3bd109344e5009051a84",
+        "ETH": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
         "CAD": "0xf6da27749484843c4f02f5ad1378cee723dd61d4",
         "CHF": "0xf6da27749484843c4f02f5ad1378cee723dd61d4",
         "GBP": "0x9c4424fd84c6661f97d8d6b3fc3c1aac2bedd137",
@@ -90,6 +92,7 @@
       "priceFeeds": {
         "AUD": "0x39be70e93d2d285c9e71be7f70fc5a45a7777b14",
         "EUR": "0x3626369857a10ccc6cc3a6e4f5c2f5984a519f20",
+        "ETH": "0x13e3Ee699D1909E989722E753853AE30b17e08c5",
         "GBP": "0x540d48c01f946e729174517e013ad0bdae5f08c0",
         "JPY": "0x536944c3a71feb7c1e5c66ee37d1a148d8d8f619",
         "INR": "0x5535e67d8f99c8ebe961e1fc1f6ddae96fec82c9"
@@ -108,6 +111,7 @@
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0x25e22F3ceE59F34622f7DC9a2078B85f17BfBe95",
       "priceFeeds": {
+        "AVAX": "0x0A77230d17318075983913bC2145DB16C7366156",
         "BRL": "0x609dddb75518aa4af84ac228b62261ae68e52989",
         "CHF": "0x3b37950485b450edf90cbb85d0cd27308af4ab9a",
         "EUR": "0x192f2dba961bb0277520c082d6bfa87d5961333e",

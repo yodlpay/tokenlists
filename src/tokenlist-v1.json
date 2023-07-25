@@ -268,6 +268,34 @@
         "Top10"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
+      "decimals": 6,
+      "name": "USDT",
+      "symbol": "USDT",
+      "currency": "USD",
+      "tags": [
+        "Gnosis",
+        "Stablecoin",
+        "Top10"
+      ],
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
+    },
+    {
+      "chainId": 100,
+      "address": "0xcB444e90D8198415266c6a2724b7900fb12FC56E",
+      "decimals": 6,
+      "name": "EURe",
+      "symbol": "EURe",
+      "currency": "EUR",
+      "tags": [
+        "Gnosis",
+        "Stablecoin",
+        "Top10"
+      ],
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
     }
   ],
   "timestamp": "2021-09-07T00:00:00+00:00"

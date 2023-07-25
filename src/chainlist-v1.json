@@ -118,6 +118,20 @@
         "JPY": "0xf8b283ad4d969ecfd70005714dd5910160565b94",
         "TRY": "0xa61bf273688ea095b5e4c11f1af5e763f7aeee91"
       }
-    }
+    },
+    {
+      "chainName": "Gnosis",
+      "testnet": false,
+      "chainId": 100,
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/100/logo.svg",
+      "rpcUrls": [
+        "https://rpc.gnosis.gateway.fm"
+      ],
+      "explorerUrl": "https://gnosisscan.io/",
+      "timestamp": "2023-07-27T14:52:05+00:00",
+      "feeTreasury": "0x3Fbe48F4314f6817B7Fe39cdAD635E8Dd12ab299",
+      "priceFeeds": {},
+      "curveRouterAddress": "0x3Fbe48F4314f6817B7Fe39cdAD635E8Dd12ab299"
+    },
   ]
 }

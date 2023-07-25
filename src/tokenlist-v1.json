@@ -10,6 +10,20 @@
   "tokens": [
     {
       "chainId": 1,
+      "coinGeckoId": "ethereum",
+      "name": "Ether",
+      "symbol": "ETH",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Mainnet",
+        "Native Token",
+        "Top10"
+      ],
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+    },
+    {
+      "chainId": 1,
       "coinGeckoId": "tether",
       "name": "Tether",
       "symbol": "USDT",

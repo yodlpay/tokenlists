@@ -14,7 +14,8 @@ export enum TokenListTagNames {
   EUR = 'EUR',
 
   // Misc
-  TOP_10 = 'Top10'
+  TOP_10 = 'Top10',
+  NATIVE_TOKEN = 'Native Token'
 }
 
 export interface RouterInfo {
@@ -50,6 +51,7 @@ export interface TokenInfo {
   readonly name: string;
   readonly decimals: number;
   readonly symbol: string;
+  readonly coinGeckoId?: string;
   readonly currency?: string;
   readonly logoUri?: string;
   readonly tags?: TokenListTagNames[];

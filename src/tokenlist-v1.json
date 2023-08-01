@@ -13,6 +13,7 @@
       "coinGeckoId": "ethereum",
       "name": "Ether",
       "symbol": "ETH",
+      "currency": "ETH",
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
       "decimals": 18,
       "tags": [
@@ -21,6 +22,19 @@
         "Top10"
       ],
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+    },
+    {
+      "chainId": 1,
+      "coinGeckoId": "weth",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "currency": "ETH",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Mainnet"
+      ],
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
     },
     {
       "chainId": 1,

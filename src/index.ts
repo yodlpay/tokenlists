@@ -42,7 +42,13 @@ export function getRouters(chainId: number): RouterInfo[] {
   }) as RouterInfo[];
 }
 
-export function latestRouter(chainId: number): RouterInfo {
+export function getRouter(chainId: number, version: string): RouterInfo {
+  return routerlist.routers.find((needle: any) => {
+    return needle.chainId === chainId && needle.version === version;
+  }) as RouterInfo;
+}
+
+export function getLatestRouter(chainId: number): RouterInfo {
   const sorted = getRouters(chainId).sort((a, b) => {
     return Date.parse(a.timestamp) - Date.parse(b.timestamp);
   });

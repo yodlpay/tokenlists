@@ -8,7 +8,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_baseFeeDivisor",
+        "name": "_baseFeeBps",
         "type": "uint256"
       },
       {
@@ -24,6 +24,11 @@
       {
         "internalType": "address",
         "name": "_curveRouter",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "_weth",
         "type": "address"
       }
     ],
@@ -112,24 +117,35 @@
     "type": "event"
   },
   {
-    "inputs": [],
-    "name": "ZERO_ADDRESS",
-    "outputs": [
+    "inputs": [
       {
-        "internalType": "address",
-        "name": "",
-        "type": "address"
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "feeBps",
+        "type": "uint256"
       }
     ],
-    "stateMutability": "view",
+    "name": "calculateFee",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "pure",
     "type": "function"
   },
   {
     "inputs": [
       {
-        "internalType": "address[]",
+        "internalType": "address[2]",
         "name": "_priceFeeds",
-        "type": "address[]"
+        "type": "address[2]"
       },
       {
         "internalType": "uint256",
@@ -145,14 +161,14 @@
         "type": "uint256"
       },
       {
-        "internalType": "address",
-        "name": "priceFeed",
-        "type": "address"
+        "internalType": "address[2]",
+        "name": "priceFeeds",
+        "type": "address[2]"
       },
       {
-        "internalType": "int256",
+        "internalType": "int256[2]",
         "name": "price",
-        "type": "int256"
+        "type": "int256[2]"
       }
     ],
     "stateMutability": "view",
@@ -160,7 +176,7 @@
   },
   {
     "inputs": [],
-    "name": "getBaseFeeDivisor",
+    "name": "getBaseFeeBps",
     "outputs": [
       {
         "internalType": "uint256",
@@ -229,9 +245,9 @@
             "type": "address[4]"
           },
           {
-            "internalType": "address[]",
+            "internalType": "address[2]",
             "name": "priceFeeds",
-            "type": "address[]"
+            "type": "address[2]"
           },
           {
             "internalType": "address",
@@ -240,7 +256,7 @@
           },
           {
             "internalType": "uint256",
-            "name": "extraFeeDivisor",
+            "name": "extraFeeBps",
             "type": "uint256"
           },
           {
@@ -262,7 +278,7 @@
         "type": "uint256"
       }
     ],
-    "stateMutability": "nonpayable",
+    "stateMutability": "payable",
     "type": "function"
   },
   {
@@ -278,9 +294,9 @@
         "type": "uint256"
       },
       {
-        "internalType": "address[]",
+        "internalType": "address[2]",
         "name": "_priceFeeds",
-        "type": "address[]"
+        "type": "address[2]"
       },
       {
         "internalType": "address",
@@ -299,7 +315,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_extraFeeDivisor",
+        "name": "_extraFeeBps",
         "type": "uint256"
       }
     ],
@@ -311,7 +327,7 @@
         "type": "bool"
       }
     ],
-    "stateMutability": "nonpayable",
+    "stateMutability": "payable",
     "type": "function"
   },
   {
@@ -349,13 +365,18 @@
             "type": "bytes"
           },
           {
+            "internalType": "address[2]",
+            "name": "priceFeeds",
+            "type": "address[2]"
+          },
+          {
             "internalType": "address",
             "name": "extraFeeReceiver",
             "type": "address"
           },
           {
             "internalType": "uint256",
-            "name": "extraFeeDivisor",
+            "name": "extraFeeBps",
             "type": "uint256"
           },
           {
@@ -382,7 +403,7 @@
         "type": "uint256"
       }
     ],
-    "stateMutability": "nonpayable",
+    "stateMutability": "payable",
     "type": "function"
   },
   {
@@ -422,5 +443,9 @@
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
+  },
+  {
+    "stateMutability": "payable",
+    "type": "receive"
   }
 ]

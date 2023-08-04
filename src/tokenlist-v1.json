@@ -313,6 +313,7 @@
     },
     {
       "chainId": 100,
+      "coinGeckoId": "tether",
       "address": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
       "decimals": 6,
       "name": "USDT",
@@ -327,6 +328,7 @@
     },
     {
       "chainId": 100,
+      "coinGeckoId": "usd-coin",
       "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
       "decimals": 6,
       "name": "USDC",
@@ -341,6 +343,7 @@
     },
     {
       "chainId": 100,
+      "coinGeckoId": "wrapped-xdai",
       "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
       "decimals": 6,
       "name": "wxDAI",
@@ -355,6 +358,7 @@
     },
     {
       "chainId": 100,
+      "coinGeckoId": "monerium-eur-money",
       "address": "0xcB444e90D8198415266c6a2724b7900fb12FC56E",
       "decimals": 6,
       "name": "EURe",

@@ -343,16 +343,29 @@
     },
     {
       "chainId": 100,
+      "coinGeckoId": "xdai",
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "decimals": 18,
+      "name": "xDAI",
+      "symbol": "xDAI",
+      "currency": "USD",
+      "tags": [
+        "Gnosis",
+        "Stablecoin"
+      ],
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg"
+    },
+    {
+      "chainId": 100,
       "coinGeckoId": "wrapped-xdai",
       "address": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
-      "decimals": 6,
+      "decimals": 18,
       "name": "wxDAI",
       "symbol": "wxDAI",
       "currency": "USD",
       "tags": [
         "Gnosis",
-        "Stablecoin",
-        "Top10"
+        "Stablecoin"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg"
     },
@@ -360,14 +373,13 @@
       "chainId": 100,
       "coinGeckoId": "monerium-eur-money",
       "address": "0xcB444e90D8198415266c6a2724b7900fb12FC56E",
-      "decimals": 6,
+      "decimals": 18,
       "name": "EURe",
       "symbol": "EURe",
       "currency": "EUR",
       "tags": [
         "Gnosis",
-        "Stablecoin",
-        "Top10"
+        "Stablecoin"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/eure.svg"
     }

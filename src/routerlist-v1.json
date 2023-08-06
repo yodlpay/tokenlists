@@ -37,6 +37,12 @@
       "address": "0x448fabd2d16bc48ecdbe68890414de7a1b6348fd",
       "timestamp": "2023-07-27T00:00:00+00:00",
       "version": "0.1"
+    },
+    {
+      "chainId": 100,
+      "address": "0xB11667a7488e867b527457BF14aFa99184cA21B9",
+      "timestamp": "2023-08-05T00:00:00+00:00",
+      "version": "0.2"
     }
   ]
 }

@@ -16,6 +16,7 @@
       "rpcUrls": [
         "https://rpc.ankr.com/eth"
       ],
+      "wrappedNativeToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "explorerUrl": "https://etherscan.io",
       "timestamp": "2022-12-29T18:52:20+00:00",
       "feeTreasury": "0x237Ada0dB0f24DbF5aB323B0A3f48f2b4806A6d5",
@@ -44,6 +45,7 @@
       "rpcUrls": [
         "https://rpc.ankr.com/eth_goerli"
       ],
+      "wrappedNativeToken": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
       "explorerUrl": "https://goerli.etherscan.io",
       "timestamp": "2022-12-28T14:10:09+00:00",
       "feeTreasury": "0x3E8A61F0532BA2b58660606d61110cC9E90c4D29",
@@ -60,6 +62,7 @@
       "rpcUrls": [
         "https://rpc.ankr.com/arbitrum"
       ],
+      "wrappedNativeToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
       "explorerUrl": "https://arbiscan.io/",
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0xfC132d8f345166C20ecBBcc31B72f9512d6F29c1",
@@ -86,6 +89,7 @@
       "rpcUrls": [
         "https://mainnet.optimism.io"
       ],
+      "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
       "explorerUrl": "https://optimistic.etherscan.io/",
       "timestamp": "2023-02-27T14:52:05+00:00",
       "feeTreasury": "0x1A60Fe8EE817464208361d26a91b3B2333d17669",
@@ -107,6 +111,7 @@
       "rpcUrls": [
         "https://api.avax.network/ext/bc/C/rpc"
       ],
+      "wrappedNativeToken": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
       "explorerUrl": "https://snowtrace.io/",
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0x25e22F3ceE59F34622f7DC9a2078B85f17BfBe95",
@@ -127,10 +132,17 @@
       "rpcUrls": [
         "https://rpc.gnosis.gateway.fm"
       ],
+      "wrappedNativeToken": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
       "explorerUrl": "https://gnosisscan.io/",
       "timestamp": "2023-07-27T14:52:05+00:00",
       "feeTreasury": "0x3Fbe48F4314f6817B7Fe39cdAD635E8Dd12ab299",
-      "priceFeeds": {},
+      "priceFeeds": {
+        "CHF": "0xFb00261Af80ADb1629D3869E377ae1EEC7bE659F",
+        "DAI": "0x678df3415fc31947dA4324eC63212874be5a82f8",
+        "EUR": "0xab70BCB260073d036d1660201e9d5405F5829b7a",
+        "GNO": "0x22441d81416430A54336aB28765abd31a792Ad37",
+        "JPY": "0x2AfB993C670C01e9dA1550c58e8039C1D8b8A317"
+      },
       "curveRouterAddress": "0xe6358f6a45b502477e83cc1cda759f540e4459ee"
     }
   ]

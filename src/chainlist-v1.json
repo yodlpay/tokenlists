@@ -136,7 +136,13 @@
       "explorerUrl": "https://gnosisscan.io/",
       "timestamp": "2023-07-27T14:52:05+00:00",
       "feeTreasury": "0x3Fbe48F4314f6817B7Fe39cdAD635E8Dd12ab299",
-      "priceFeeds": {},
+      "priceFeeds": {
+        "CHF": "0xFb00261Af80ADb1629D3869E377ae1EEC7bE659F",
+        "DAI": "0x678df3415fc31947dA4324eC63212874be5a82f8",
+        "EUR": "0xab70BCB260073d036d1660201e9d5405F5829b7a",
+        "GNO": "0x22441d81416430A54336aB28765abd31a792Ad37",
+        "JPY": "0x2AfB993C670C01e9dA1550c58e8039C1D8b8A317"
+      },
       "curveRouterAddress": "0xe6358f6a45b502477e83cc1cda759f540e4459ee"
     }
   ]

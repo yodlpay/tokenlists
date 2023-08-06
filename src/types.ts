@@ -37,6 +37,7 @@ export interface ChainInfo {
   readonly logoUri: string;
   readonly explorerUrl: string;
   readonly rpcUrls: string[];
+  readonly wrappedNativeToken: string;
   readonly feeTreasury?: string;
   readonly testnet: boolean;
   readonly priceFeeds?: {

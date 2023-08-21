@@ -15,7 +15,7 @@
     "postbuild": "mkdir dist; cp src/*.json dist/",
     "lint": "tsdx lint src test",
     "test": "tsdx test --passWithNoTests",
-    "prepublishOnly": "yarn test && yarn build"
+    "prepublishOnly": "npm test && npm run build"
   },
   "license": "MIT",
   "publishConfig": {

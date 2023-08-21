@@ -92,7 +92,7 @@
       "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
       "explorerUrl": "https://optimistic.etherscan.io/",
       "timestamp": "2023-02-27T14:52:05+00:00",
-      "feeTreasury": "0x1A60Fe8EE817464208361d26a91b3B2333d17669",
+      "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "priceFeeds": {
         "AUD": "0x39be70e93d2d285c9e71be7f70fc5a45a7777b14",
         "EUR": "0x3626369857a10ccc6cc3a6e4f5c2f5984a519f20",
@@ -135,7 +135,7 @@
       "wrappedNativeToken": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
       "explorerUrl": "https://gnosisscan.io/",
       "timestamp": "2023-07-27T14:52:05+00:00",
-      "feeTreasury": "0x3Fbe48F4314f6817B7Fe39cdAD635E8Dd12ab299",
+      "feeTreasury": "0x775aaf73a50C25eEBd308BBb9C34C73D081B423b",
       "priceFeeds": {
         "CHF": "0xFb00261Af80ADb1629D3869E377ae1EEC7bE659F",
         "DAI": "0x678df3415fc31947dA4324eC63212874be5a82f8",

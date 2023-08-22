@@ -1,6 +1,6 @@
 {
   "name": "@hiropay/tokenlists",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "description": "Tokenlist typings, schema and lists.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -15,7 +15,7 @@
     "postbuild": "mkdir dist; cp src/*.json dist/",
     "lint": "tsdx lint src test",
     "test": "tsdx test --passWithNoTests",
-    "prepublishOnly": "yarn test && yarn build"
+    "prepublishOnly": "npm run test && npm run build"
   },
   "license": "MIT",
   "publishConfig": {

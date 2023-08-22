@@ -23,6 +23,34 @@
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     {
+      "chainId": 10,
+      "coinGeckoId": "ethereum",
+      "name": "Ether",
+      "symbol": "ETH",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Optimism",
+        "Native Token",
+        "Top10"
+      ],
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+    },
+    {
+      "chainId": 42161,
+      "coinGeckoId": "ethereum",
+      "name": "Ether",
+      "symbol": "ETH",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Arbitrum",
+        "Native Token",
+        "Top10"
+      ],
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+    },
+    {
       "chainId": 1,
       "coinGeckoId": "weth",
       "name": "Wrapped Ether",
@@ -34,6 +62,31 @@
       ],
       "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
     },
+    {
+      "chainId": 10,
+      "coinGeckoId": "weth",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Optimism"
+      ],
+      "address": "0x4200000000000000000000000000000000000006"
+    },
+    {
+      "chainId": 42161,
+      "coinGeckoId": "weth",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Arbitrum"
+      ],
+      "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+    },
+
     {
       "chainId": 1,
       "coinGeckoId": "tether",

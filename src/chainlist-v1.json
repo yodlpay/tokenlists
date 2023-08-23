@@ -65,7 +65,7 @@
       "wrappedNativeToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
       "explorerUrl": "https://arbiscan.io/",
       "timestamp": "2023-01-13T14:52:05+00:00",
-      "feeTreasury": "0xfC132d8f345166C20ecBBcc31B72f9512d6F29c1",
+      "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "priceFeeds": {
         "AUD": "0x9854e9a850e7c354c1de177ea953a6b1fba8fc22",
         "CNY": "0xcc3370bde6afe51e1205a5038947b9836371eccb",

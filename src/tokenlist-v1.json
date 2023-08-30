@@ -181,6 +181,22 @@
         "Top10",
         "USD"
       ],
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+    },
+    {
+      "chainId": 42161,
+      "coinGeckoId": "usd-coin",
+      "name": "USD Coin - Bridged",
+      "symbol": "USDC.e",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 6,
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
       "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     },
     {

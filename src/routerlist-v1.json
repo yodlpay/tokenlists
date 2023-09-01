@@ -15,6 +15,12 @@
       "version": "0.1"
     },
     {
+      "chainId": 1,
+      "address": "0x061888246A29fEB9bb3f168CD8589B3Cf4115668",
+      "timestamp": "2023-09-01T00:00:00+00:00",
+      "version": "0.2"
+    },
+    {
       "chainId": 5,
       "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",

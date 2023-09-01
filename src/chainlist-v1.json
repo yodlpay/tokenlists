@@ -63,7 +63,7 @@
         "https://rpc.ankr.com/arbitrum"
       ],
       "wrappedNativeToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-      "explorerUrl": "https://arbiscan.io/",
+      "explorerUrl": "https://arbiscan.io",
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "priceFeeds": {
@@ -90,7 +90,7 @@
         "https://mainnet.optimism.io"
       ],
       "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
-      "explorerUrl": "https://optimistic.etherscan.io/",
+      "explorerUrl": "https://optimistic.etherscan.io",
       "timestamp": "2023-02-27T14:52:05+00:00",
       "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "priceFeeds": {
@@ -112,7 +112,7 @@
         "https://api.avax.network/ext/bc/C/rpc"
       ],
       "wrappedNativeToken": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-      "explorerUrl": "https://snowtrace.io/",
+      "explorerUrl": "https://snowtrace.io",
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0x25e22F3ceE59F34622f7DC9a2078B85f17BfBe95",
       "priceFeeds": {
@@ -133,7 +133,7 @@
         "https://rpc.gnosis.gateway.fm"
       ],
       "wrappedNativeToken": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
-      "explorerUrl": "https://gnosisscan.io/",
+      "explorerUrl": "https://gnosisscan.io",
       "timestamp": "2023-07-27T14:52:05+00:00",
       "feeTreasury": "0x775aaf73a50C25eEBd308BBb9C34C73D081B423b",
       "priceFeeds": {

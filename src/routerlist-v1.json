@@ -15,6 +15,12 @@
       "version": "0.1"
     },
     {
+      "chainId": 1,
+      "address": "0x061888246A29fEB9bb3f168CD8589B3Cf4115668",
+      "timestamp": "2023-09-01T00:00:00+00:00",
+      "version": "0.2"
+    },
+    {
       "chainId": 5,
       "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",
@@ -27,10 +33,22 @@
       "version": "0.1"
     },
     {
+      "chainId": 10,
+      "address": "0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4",
+      "timestamp": "2023-09-01T00:00:00+00:00",
+      "version": "0.2"
+    },
+    {
       "chainId": 42161,
       "address": "0x334264f4fbb56a84f80df722ba765d210f0cf555",
       "timestamp": "2023-02-23T00:00:00+00:00",
       "version": "0.1"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4",
+      "timestamp": "2023-09-01T00:00:00+00:00",
+      "version": "0.2"
     },
     {
       "chainId": 100,
@@ -40,8 +58,8 @@
     },
     {
       "chainId": 100,
-      "address": "0xB11667a7488e867b527457BF14aFa99184cA21B9",
-      "timestamp": "2023-08-05T00:00:00+00:00",
+      "address": "0x5faD44Dc5B63f1717523c340de357ef399FeA0F2",
+      "timestamp": "2023-09-01T00:00:00+00:00",
       "version": "0.2"
     }
   ]

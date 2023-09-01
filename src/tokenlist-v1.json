@@ -181,6 +181,22 @@
         "Top10",
         "USD"
       ],
+      "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+    },
+    {
+      "chainId": 42161,
+      "coinGeckoId": "usd-coin",
+      "name": "USD Coin - Bridged",
+      "symbol": "USDC.e",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 6,
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
       "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     },
     {
@@ -305,7 +321,7 @@
         "Avalanche",
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xc7198437980c041c805A1EDcbA50c1Ce5db95118/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg"
     },
     {
       "chainId": 43114,
@@ -362,7 +378,7 @@
         "Stablecoin",
         "Top10"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg"
     },
     {
       "chainId": 100,
@@ -377,7 +393,7 @@
         "Stablecoin",
         "Top10"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x9702230A8Ea53601f5cD2dc00fDBc13d4dF4A8c7/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg"
     },
     {
       "chainId": 100,

@@ -19,7 +19,7 @@
       "wrappedNativeToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "explorerUrl": "https://etherscan.io",
       "timestamp": "2022-12-29T18:52:20+00:00",
-      "feeTreasury": "0x237Ada0dB0f24DbF5aB323B0A3f48f2b4806A6d5",
+      "feeTreasury": "0x9C48d180e4eEE0dA2A899EE1E4c533cA5e92db77",
       "priceFeeds": {
         "AUD": "0x77f9710e7d0a19669a13c055f62cd80d313df022",
         "CAD": "0xa34317db73e77d453b1b8d04550c44d10e981c8e",
@@ -63,16 +63,16 @@
         "https://rpc.ankr.com/arbitrum"
       ],
       "wrappedNativeToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
-      "explorerUrl": "https://arbiscan.io/",
+      "explorerUrl": "https://arbiscan.io",
       "timestamp": "2023-01-13T14:52:05+00:00",
-      "feeTreasury": "0xfC132d8f345166C20ecBBcc31B72f9512d6F29c1",
+      "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "priceFeeds": {
         "AUD": "0x9854e9a850e7c354c1de177ea953a6b1fba8fc22",
         "CNY": "0xcc3370bde6afe51e1205a5038947b9836371eccb",
         "EUR": "0xa14d53bc1f1c0f31b4aa3bd109344e5009051a84",
         "ETH": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
         "CAD": "0xf6da27749484843c4f02f5ad1378cee723dd61d4",
-        "CHF": "0xf6da27749484843c4f02f5ad1378cee723dd61d4",
+        "CHF": "0xe32AccC8c4eC03F6E75bd3621BfC9Fbb234E1FC3",
         "GBP": "0x9c4424fd84c6661f97d8d6b3fc3c1aac2bedd137",
         "JPY": "0x3dd6e51cb9cae717d5a8778cf79a04029f9cfdf8",
         "KRW": "0x85bb02e0ae286600d1c68bb6ce22cc998d411916",
@@ -90,9 +90,9 @@
         "https://mainnet.optimism.io"
       ],
       "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
-      "explorerUrl": "https://optimistic.etherscan.io/",
+      "explorerUrl": "https://optimistic.etherscan.io",
       "timestamp": "2023-02-27T14:52:05+00:00",
-      "feeTreasury": "0x1A60Fe8EE817464208361d26a91b3B2333d17669",
+      "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "priceFeeds": {
         "AUD": "0x39be70e93d2d285c9e71be7f70fc5a45a7777b14",
         "EUR": "0x3626369857a10ccc6cc3a6e4f5c2f5984a519f20",
@@ -112,7 +112,7 @@
         "https://api.avax.network/ext/bc/C/rpc"
       ],
       "wrappedNativeToken": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
-      "explorerUrl": "https://snowtrace.io/",
+      "explorerUrl": "https://snowtrace.io",
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0x25e22F3ceE59F34622f7DC9a2078B85f17BfBe95",
       "priceFeeds": {
@@ -133,9 +133,9 @@
         "https://rpc.gnosis.gateway.fm"
       ],
       "wrappedNativeToken": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
-      "explorerUrl": "https://gnosisscan.io/",
+      "explorerUrl": "https://gnosisscan.io",
       "timestamp": "2023-07-27T14:52:05+00:00",
-      "feeTreasury": "0x3Fbe48F4314f6817B7Fe39cdAD635E8Dd12ab299",
+      "feeTreasury": "0x775aaf73a50C25eEBd308BBb9C34C73D081B423b",
       "priceFeeds": {
         "CHF": "0xFb00261Af80ADb1629D3869E377ae1EEC7bE659F",
         "DAI": "0x678df3415fc31947dA4324eC63212874be5a82f8",

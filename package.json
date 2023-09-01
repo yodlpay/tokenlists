@@ -1,6 +1,6 @@
 {
   "name": "@hiropay/tokenlists",
-  "version": "0.1.22",
+  "version": "0.1.29",
   "description": "Tokenlist typings, schema and lists.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

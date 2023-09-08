@@ -144,6 +144,43 @@
         "JPY": "0x2AfB993C670C01e9dA1550c58e8039C1D8b8A317"
       },
       "curveRouterAddress": "0xe6358f6a45b502477e83cc1cda759f540e4459ee"
+    },
+    {
+      "chainName": "Polygon",
+      "testnet": false,
+      "chainId": 137,
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/logo.svg",
+      "rpcUrls": [
+        "https://polygon-rpc.com"
+      ],
+      "wrappedNativeToken": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "explorerUrl": "https://polygonscan.com",
+      "timestamp": "2023-09-07T00:00:00+00:00",
+      "feeTreasury": "0x5f0947253a8218894af13438ac2e2E0CeD30d234",
+      "priceFeeds": {
+        "AED": "0x3fd911749Fce21a38704B76FFaBcB6BeF2567F2E",
+        "AUD": "0x062Df9C4efd2030e243ffCc398b652e8b8F95C6f",
+        "CAD": "0xACA44ABb8B04D07D883202F99FA5E3c53ed57Fb5",
+        "CHF": "0xc76f762CedF0F78a439727861628E0fdfE1e70c2",
+        "CNY": "0x04bB437Aa63E098236FA47365f0268547f6EAB32",
+        "EUR": "0x73366Fe0AA0Ded304479862808e02506FE556a98",
+        "GBP": "0x099a2540848573e94fb1Ca0Fa420b00acbBc845a",
+        "HKD": "0x82d43B72573f902F960126a19581BcBbA5b014F5",
+        "ILS": "0x8d5eB34C509261533235b91350d359EdcB969D33",
+        "INR": "0xDA0F8Df6F5dB15b346f4B8D1156722027E194E60",
+        "JPY": "0xD647a6fC9BC6402301583C91decC5989d8Bc382D",
+        "KRW": "0x24B820870F726dA9B0D83B0B28a93885061dbF50",
+        "MATIC": "0xAB594600376Ec9fD91F8e885dADF0CE036862dE0",
+        "MXN": "0x171b16562EA3476F5C61d1b8dad031DbA0768545",
+        "NZD": "0xa302a0B8a499fD0f00449df0a490DedE21105955",
+        "PHP": "0x218231089Bebb2A31970c3b77E96eCfb3BA006D1",
+        "PLN": "0xB34BCE11040702f71c11529D00179B2959BcE6C0",
+        "SEK": "0xbd92B4919ae82be8473859295dEF0e778A626302",
+        "SGD": "0x8CE3cAc0E6635ce04783709ca3CC4F5fc5304299",
+        "THB": "0x5164Ad28fb12a5e55946090Ec3eE1B748AFb3785",
+        "TRY": "0xd78325DcA0F90F0FFe53cCeA1B02Bb12E1bf8FdB"
+      },
+      "curveRouterAddress": "0x2a426b3Bb4fa87488387545f15D01d81352732F9"
     }
   ]
 }

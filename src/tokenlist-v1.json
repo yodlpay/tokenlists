@@ -451,6 +451,94 @@
         "Stablecoin"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/eure.svg"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "matic-network",
+      "name": "MATIC",
+      "symbol": "MATIC",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Polygon",
+        "Native Token"
+      ],
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "matic-network",
+      "name": "Wrapped MATIC",
+      "symbol": "WMATIC",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "Polygon",
+        "Native Token"
+      ],
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "tether",
+      "name": "Tether",
+      "symbol": "USDT",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "decimals": 6,
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "usd-coin",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "decimals": 6,
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "dai",
+      "name": "DAI",
+      "symbol": "DAI",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
+      "decimals": 18,
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "monerium-eur-money",
+      "address": "0x18ec0A6E18E5bc3784fDd3a3634b31245ab704F6",
+      "decimals": 18,
+      "name": "EURe",
+      "symbol": "EURe",
+      "currency": "EUR",
+      "tags": [
+        "Polygon",
+        "Stablecoin"
+      ],
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/eure.svg"
     }
   ],
   "timestamp": "2021-09-07T00:00:00+00:00"

@@ -1,13 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1920" enable-background="new 0 0 1920 1920" xml:space="preserve">
-<g>
-	<polygon fill="#8A92B2" points="959.8,80.7 420.1,976.3 959.8,731 	"/>
-	<polygon fill="#62688F" points="959.8,731 420.1,976.3 959.8,1295.4 	"/>
-	<polygon fill="#62688F" points="1499.6,976.3 959.8,80.7 959.8,731 	"/>
-	<polygon fill="#454A75" points="959.8,1295.4 1499.6,976.3 959.8,731 	"/>
-	<polygon fill="#8A92B2" points="420.1,1078.7 959.8,1839.3 959.8,1397.6 	"/>
-	<polygon fill="#62688F" points="959.8,1397.6 959.8,1839.3 1499.9,1078.7 	"/>
-</g>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M31.998 0.838867L50.9418 32.1423L32.0682 24.0757L31.998 0.838867Z" fill="#2F3030"/>
+<path d="M13.1055 32.1423L31.9972 0.838867L32.0674 24.0757L13.1055 32.1423Z" fill="#828384"/>
+<path d="M31.9972 43.6844L13.1055 32.1422L32.0674 24.0757L31.9972 43.6844Z" fill="#343535"/>
+<path d="M50.9418 32.1422L32.0682 24.0757L31.998 43.6844L50.9418 32.1422Z" fill="#131313"/>
+<path d="M31.998 47.6579L50.9418 36.4282L31.998 63.1205V47.6579Z" fill="#2F3030"/>
+<path d="M31.9972 47.6579L13.1055 36.4282L31.9972 63.1205V47.6579Z" fill="#828384"/>
 </svg>

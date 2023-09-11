@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 449.6 328.7" style="enable-background:new 0 0 449.6 328.7;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#E84142;}
-	.st1{fill:#FFFFFF;}
-</style>
-<g>
-	<circle class="st0" cx="224.8" cy="164.3" r="127"/>
-	<path class="st1" d="M269.6,167.6c4.4-7.6,11.5-7.6,15.9,0l27.4,48.1c4.4,7.6,0.8,13.8-8,13.8h-55.2c-8.7,0-12.3-6.2-8-13.8
-		L269.6,167.6z M216.6,75c4.4-7.6,11.4-7.6,15.8,0l6.1,11l14.4,25.3c3.5,7.2,3.5,15.7,0,22.9l-48.3,83.7
-		c-4.4,6.8-11.7,11.1-19.8,11.6h-40.1c-8.8,0-12.4-6.1-8-13.8L216.6,75z"/>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_261_39588)">
+<path d="M32 64C49.6731 64 64 49.6731 64 32C64 14.3269 49.6731 0 32 0C14.3269 0 0 14.3269 0 32C0 49.6731 14.3269 64 32 64Z" fill="#E84142"/>
+<path d="M43.29 32.832C44.4036 30.912 46.1828 30.912 47.2964 32.832L54.1956 44.9536C55.3092 46.8736 54.4004 48.4352 52.186 48.4352H38.2724C36.0836 48.4352 35.1748 46.8736 36.2628 44.9536L43.29 32.832ZM29.9396 9.49762C31.0532 7.57762 32.8068 7.57762 33.9204 9.49762L35.4564 12.2752L39.0788 18.6496C39.962 20.4672 39.962 22.6048 39.0788 24.4224L26.906 45.5168C25.7924 47.232 23.962 48.32 21.914 48.4352H11.8148C9.60036 48.4352 8.69156 46.8992 9.80516 44.9536L29.9396 9.49762Z" fill="white"/>
 </g>
+<defs>
+<clipPath id="clip0_261_39588">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
 </svg>

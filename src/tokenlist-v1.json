@@ -13,7 +13,7 @@
       "coinGeckoId": "ethereum",
       "name": "Ether",
       "symbol": "ETH",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/ETH.svg",
       "decimals": 18,
       "tags": [
         "Mainnet",
@@ -27,7 +27,7 @@
       "coinGeckoId": "ethereum",
       "name": "Ether",
       "symbol": "ETH",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/ETH.svg",
       "decimals": 18,
       "tags": [
         "Optimism",
@@ -41,7 +41,7 @@
       "coinGeckoId": "ethereum",
       "name": "Ether",
       "symbol": "ETH",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/ETH.svg",
       "decimals": 18,
       "tags": [
         "Arbitrum",
@@ -55,7 +55,7 @@
       "coinGeckoId": "weth",
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
       "tags": [
         "Mainnet"
@@ -67,7 +67,7 @@
       "coinGeckoId": "weth",
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
       "tags": [
         "Optimism"
@@ -79,7 +79,7 @@
       "coinGeckoId": "weth",
       "name": "Wrapped Ether",
       "symbol": "WETH",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
       "tags": [
         "Arbitrum"
@@ -93,7 +93,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
       "tags": [
         "Mainnet",
@@ -109,7 +109,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
       "tags": [
         "Optimism",
@@ -125,7 +125,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
       "tags": [
         "Arbitrum",
@@ -141,7 +141,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
       "tags": [
         "Mainnet",
@@ -157,7 +157,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
       "tags": [
         "Optimism",
@@ -173,7 +173,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
       "tags": [
         "Arbitrum",
@@ -189,7 +189,7 @@
       "name": "USD Coin - Bridged",
       "symbol": "USDC.e",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
       "tags": [
         "Arbitrum",
@@ -205,7 +205,7 @@
       "name": "DAI",
       "symbol": "DAI",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
       "tags": [
         "Mainnet",
@@ -221,7 +221,7 @@
       "name": "DAI",
       "symbol": "DAI",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
       "tags": [
         "Optimism",
@@ -237,7 +237,7 @@
       "name": "DAI",
       "symbol": "DAI",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
       "tags": [
         "Arbitrum",
@@ -253,7 +253,7 @@
       "name": "EURe",
       "symbol": "EURe",
       "currency": "EUR",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/eure.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/EURe.svg",
       "decimals": 18,
       "tags": [
         "Mainnet",
@@ -266,7 +266,7 @@
       "chainId": 5,
       "name": "XUSD",
       "symbol": "XUSD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -277,7 +277,7 @@
       "chainId": 5,
       "name": "USDC.test",
       "symbol": "USDC",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -288,7 +288,7 @@
       "chainId": 5,
       "name": "USDT.test",
       "symbol": "USDT",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 18,
       "tags": [
         "TESTNET"
@@ -307,7 +307,7 @@
         "Avalanche",
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xd586E7F844cEa2F87f50152665BCbc2C279D8d70/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/DAI.svg"
     },
     {
       "chainId": 43114,
@@ -321,7 +321,7 @@
         "Avalanche",
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg"
     },
     {
       "chainId": 43114,
@@ -335,7 +335,7 @@
         "Avalanche",
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg"
     },
     {
       "chainId": 43114,
@@ -348,7 +348,7 @@
         "Avalanche",
         "Stablecoins"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0x130966628846BFd36ff31a822705796e8cb8C18D/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/MIM.svg"
     },
     {
       "chainId": 43114,
@@ -363,7 +363,7 @@
         "Stablecoin",
         "Top10"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E/logo.png"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg"
     },
     {
       "chainId": 43114,
@@ -378,7 +378,7 @@
         "Stablecoin",
         "Top10"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg"
     },
     {
       "chainId": 100,
@@ -393,7 +393,7 @@
         "Stablecoin",
         "Top10"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg"
     },
     {
       "chainId": 100,
@@ -408,7 +408,7 @@
         "Stablecoin",
         "Top10"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg"
     },
     {
       "chainId": 100,
@@ -422,7 +422,7 @@
         "Gnosis",
         "Stablecoin"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/xDAI.svg"
     },
     {
       "chainId": 100,
@@ -436,7 +436,7 @@
         "Gnosis",
         "Stablecoin"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/wxDAI.svg"
     },
     {
       "chainId": 100,
@@ -450,7 +450,7 @@
         "Gnosis",
         "Stablecoin"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/eure.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/EURe.svg"
     },
     {
       "chainId": 137,
@@ -484,7 +484,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdt.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/USDT.svg",
       "decimals": 6,
       "tags": [
         "Polygon",
@@ -500,7 +500,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/usdc.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/USDC.svg",
       "decimals": 6,
       "tags": [
         "Polygon",
@@ -516,7 +516,7 @@
       "name": "DAI",
       "symbol": "DAI",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/dai.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/DAI.svg",
       "decimals": 18,
       "tags": [
         "Polygon",
@@ -538,7 +538,7 @@
         "Polygon",
         "Stablecoin"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/testnet/eure.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/EURe.svg"
     }
   ],
   "timestamp": "2021-09-07T00:00:00+00:00"

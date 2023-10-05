@@ -420,7 +420,8 @@
       "currency": "USD",
       "tags": [
         "Gnosis",
-        "Stablecoin"
+        "Stablecoin",
+        "Native Token"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/xDAI.svg"
     },
@@ -434,7 +435,8 @@
       "currency": "USD",
       "tags": [
         "Gnosis",
-        "Stablecoin"
+        "Stablecoin",
+        "Native Token"
       ],
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/wxDAI.svg"
     },
@@ -484,7 +486,7 @@
       "name": "Tether",
       "symbol": "USDT",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/USDT.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
       "tags": [
         "Polygon",
@@ -500,7 +502,7 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/USDC.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
       "tags": [
         "Polygon",
@@ -516,7 +518,7 @@
       "name": "DAI",
       "symbol": "DAI",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/DAI.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
       "tags": [
         "Polygon",
@@ -538,7 +540,7 @@
         "Polygon",
         "Stablecoin"
       ],
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/EURe.svg"
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/EURe.svg"
     }
   ],
   "timestamp": "2021-09-07T00:00:00+00:00"

@@ -400,7 +400,7 @@
       "coinGeckoId": "usd-coin",
       "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
       "decimals": 6,
-      "name": "USDC Coin",
+      "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
       "tags": [

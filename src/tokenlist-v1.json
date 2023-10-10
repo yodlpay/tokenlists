@@ -251,9 +251,9 @@
       "chainId": 1,
       "coinGeckoId": "crvusd",
       "name": "crvUSD",
-      "symbol": "CRVUSD",
+      "symbol": "crvUSD",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/CRV.svg",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/crvUSD.svg",
       "decimals": 18,
       "tags": [
         "Mainnet",

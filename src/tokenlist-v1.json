@@ -249,6 +249,20 @@
     },
     {
       "chainId": 1,
+      "coinGeckoId": "crvusd",
+      "name": "crvUSD",
+      "symbol": "CRVUSD",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/CRV.svg",
+      "decimals": 18,
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "USD"
+      ]
+    },
+    {
+      "chainId": 1,
       "coinGeckoId": "monerium-eur-money",
       "name": "EURe",
       "symbol": "EURe",

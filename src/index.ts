@@ -22,6 +22,33 @@ export function getChain(chainId: number): ChainInfo {
   }) as ChainInfo;
 }
 
+export function getTokenByAddress(
+  tokenAddress: string,
+  chainId?: number
+): TokenInfo | null {
+  return (
+    (tokenlist.tokens.find((token: any) => {
+      return (
+        token.address === tokenAddress &&
+        (!chainId || token.chainId === chainId)
+      );
+    }) as TokenInfo) ?? null
+  );
+}
+
+export function getTokenBySymbol(
+  tokenSymbol: string,
+  chainId?: number
+): TokenInfo | null {
+  return (
+    (tokenlist.tokens.find((token: any) => {
+      return (
+        token.symbol === tokenSymbol && (!chainId || token.chainId === chainId)
+      );
+    }) as TokenInfo) ?? null
+  );
+}
+
 export function getTokens(chainId: number): TokenInfo[] {
   return tokenlist.tokens.filter((needle: any) => {
     return needle.chainId === chainId;

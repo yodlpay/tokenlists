@@ -23,6 +23,7 @@ export interface RouterInfo {
   readonly address: string;
   readonly timestamp: string;
   readonly version: string;
+  readonly fee: string;
 }
 
 export interface TestnetFaucetInfo {

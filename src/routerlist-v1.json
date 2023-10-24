@@ -12,61 +12,71 @@
       "chainId": 1,
       "address": "0x4cafd841df0df6da5739f729491887d64ad2794c",
       "timestamp": "2022-12-30T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.1",
+      "fee": "0.002"
     },
     {
       "chainId": 1,
       "address": "0x061888246A29fEB9bb3f168CD8589B3Cf4115668",
       "timestamp": "2023-09-01T00:00:00+00:00",
-      "version": "0.2"
+      "version": "0.2",
+      "fee": "0.002"
     },
     {
       "chainId": 5,
       "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.1",
+      "fee": "0.002"
     },
     {
       "chainId": 10,
       "address": "0xfbA75752D73d3Fb3aA13e7BC7cfD142E73E78a8A",
       "timestamp": "2023-02-27T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.1",
+      "fee": "0.002"
     },
     {
       "chainId": 10,
       "address": "0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4",
       "timestamp": "2023-09-01T00:00:00+00:00",
-      "version": "0.2"
+      "version": "0.2",
+      "fee": "0.002"
     },
     {
       "chainId": 42161,
       "address": "0x334264f4fbb56a84f80df722ba765d210f0cf555",
       "timestamp": "2023-02-23T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.1",
+      "fee": "0.002"
     },
     {
       "chainId": 42161,
       "address": "0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4",
       "timestamp": "2023-09-01T00:00:00+00:00",
-      "version": "0.2"
+      "version": "0.2",
+      "fee": "0.002"
     },
     {
       "chainId": 100,
       "address": "0x448fabd2d16bc48ecdbe68890414de7a1b6348fd",
       "timestamp": "2023-07-27T00:00:00+00:00",
-      "version": "0.1"
+      "version": "0.1",
+      "fee": "0.002"
     },
     {
       "chainId": 100,
       "address": "0x5faD44Dc5B63f1717523c340de357ef399FeA0F2",
       "timestamp": "2023-09-01T00:00:00+00:00",
-      "version": "0.2"
+      "version": "0.2",
+      "fee": "0.002"
     },
     {
       "chainId": 137,
       "address": "0x8866DAFa2762346c85098C5b2201fA7CB2dA6100",
       "timestamp": "2023-09-07T00:00:00+00:00",
-      "version": "0.2"
+      "version": "0.2",
+      "fee": "0.002"
     }
   ]
 }

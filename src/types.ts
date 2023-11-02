@@ -35,6 +35,8 @@ export interface TestnetFaucetInfo {
 export interface ChainInfo {
   readonly chainId: number;
   readonly chainName: string;
+  // shortName is the EIP3770 short name
+  // chain details can be found here: https://github.com/ethereum-lists/chains/tree/master/_data/chains
   readonly shortName: string;
   readonly logoUri: string;
   readonly explorerUrl: string;

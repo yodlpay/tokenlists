@@ -10,6 +10,7 @@
   "chains": [
     {
       "chainName": "Ethereum",
+      "shortName": "eth",
       "testnet": false,
       "chainId": 1,
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
@@ -38,6 +39,7 @@
     },
     {
       "chainName": "Ethereum Goerli",
+      "shortName": "gor",
       "testnet": true,
       "chainId": 5,
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/5/logo.svg",
@@ -55,6 +57,7 @@
     },
     {
       "chainName": "Arbitrum One",
+      "shortName": "arb1",
       "testnet": false,
       "chainId": 42161,
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/42161/logo.svg",
@@ -82,6 +85,7 @@
     },
     {
       "chainName": "Optimism",
+      "shortName": "oeth",
       "testnet": false,
       "chainId": 10,
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/10/logo.svg",
@@ -104,6 +108,7 @@
     },
     {
       "chainName": "Avalanche",
+      "shortName": "avax",
       "testnet": false,
       "chainId": 43114,
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/43113/logo.svg",
@@ -125,6 +130,7 @@
     },
     {
       "chainName": "Gnosis",
+      "shortName": "gno",
       "testnet": false,
       "chainId": 100,
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/100/logo.svg",
@@ -146,6 +152,7 @@
     },
     {
       "chainName": "Polygon",
+      "shortName": "matic",
       "testnet": false,
       "chainId": 137,
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/logo.svg",

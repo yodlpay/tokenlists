@@ -35,6 +35,7 @@ export interface TestnetFaucetInfo {
 export interface ChainInfo {
   readonly chainId: number;
   readonly chainName: string;
+  readonly shortName: string;
   readonly logoUri: string;
   readonly explorerUrl: string;
   readonly rpcUrls: string[];

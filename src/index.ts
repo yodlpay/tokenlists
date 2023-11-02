@@ -81,3 +81,7 @@ export function getLatestRouter(chainId: number): RouterInfo {
   });
   return sorted[sorted.length - 1];
 }
+
+export function getShortNames(): string[] {
+  return chainlist.chains.map(chain => chain.shortName);
+}

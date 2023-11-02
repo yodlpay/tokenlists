@@ -58,7 +58,8 @@
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
       "tags": [
-        "Mainnet"
+        "Mainnet",
+        "Native Token"
       ],
       "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
     },
@@ -70,7 +71,8 @@
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
       "tags": [
-        "Optimism"
+        "Optimism",
+        "Native Token"
       ],
       "address": "0x4200000000000000000000000000000000000006"
     },
@@ -82,7 +84,8 @@
       "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
       "tags": [
-        "Arbitrum"
+        "Arbitrum",
+        "Native Token"
       ],
       "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },

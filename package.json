@@ -7,8 +7,8 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/cheq-pay/tokenlists.git",
-  "author": "hiro",
+  "repository": "https://github.com/yodlpay/tokenlists.git",
+  "author": "YodlPay",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",

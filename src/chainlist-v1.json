@@ -13,7 +13,7 @@
       "shortName": "eth",
       "testnet": false,
       "chainId": 1,
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/1/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/1/logo.svg",
       "rpcUrls": [
         "https://rpc.ankr.com/eth"
       ],
@@ -42,7 +42,7 @@
       "shortName": "gor",
       "testnet": true,
       "chainId": 5,
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/5/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/5/logo.svg",
       "rpcUrls": [
         "https://rpc.ankr.com/eth_goerli"
       ],
@@ -60,7 +60,7 @@
       "shortName": "arb1",
       "testnet": false,
       "chainId": 42161,
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/42161/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/42161/logo.svg",
       "rpcUrls": [
         "https://rpc.ankr.com/arbitrum"
       ],
@@ -88,7 +88,7 @@
       "shortName": "oeth",
       "testnet": false,
       "chainId": 10,
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/10/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/10/logo.svg",
       "rpcUrls": [
         "https://mainnet.optimism.io"
       ],
@@ -111,7 +111,7 @@
       "shortName": "avax",
       "testnet": false,
       "chainId": 43114,
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/43113/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/43113/logo.svg",
       "rpcUrls": [
         "https://api.avax.network/ext/bc/C/rpc"
       ],
@@ -133,7 +133,7 @@
       "shortName": "gno",
       "testnet": false,
       "chainId": 100,
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/100/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/100/logo.svg",
       "rpcUrls": [
         "https://rpc.gnosis.gateway.fm"
       ],
@@ -155,7 +155,7 @@
       "shortName": "matic",
       "testnet": false,
       "chainId": 137,
-      "logoUri": "https://raw.githubusercontent.com/hiropay/tokenlists/main/logos/chains/137/logo.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/137/logo.svg",
       "rpcUrls": [
         "https://polygon-rpc.com"
       ],

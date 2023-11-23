@@ -157,6 +157,22 @@
     {
       "chainId": 10,
       "coinGeckoId": "usd-coin",
+      "name": "USD Coin - Bridged",
+      "symbol": "USDC.e",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
+      "decimals": 6,
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+    },
+    {
+      "chainId": 10,
+      "coinGeckoId": "usd-coin",
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
@@ -168,7 +184,7 @@
         "Top10",
         "USD"
       ],
-      "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
+      "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
     },
     {
       "chainId": 42161,

@@ -164,7 +164,6 @@
       "timestamp": "2023-09-07T00:00:00+00:00",
       "feeTreasury": "0x5f0947253a8218894af13438ac2e2E0CeD30d234",
       "priceFeeds": {
-        "AED": "0x3fd911749Fce21a38704B76FFaBcB6BeF2567F2E",
         "AUD": "0x062Df9C4efd2030e243ffCc398b652e8b8F95C6f",
         "CAD": "0xACA44ABb8B04D07D883202F99FA5E3c53ed57Fb5",
         "CHF": "0xc76f762CedF0F78a439727861628E0fdfE1e70c2",

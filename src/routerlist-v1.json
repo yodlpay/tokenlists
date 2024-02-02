@@ -37,7 +37,7 @@
       "fee": "0.002"
     },
     {
-      "chainId": 10,
+      "chainId": 42161,
       "address": "0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4",
       "timestamp": "2023-09-01T00:00:00+00:00",
       "version": "0.2",

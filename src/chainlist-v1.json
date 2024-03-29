@@ -14,9 +14,7 @@
       "testnet": false,
       "chainId": 1,
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/1/logo.svg",
-      "rpcUrls": [
-        "https://rpc.ankr.com/eth"
-      ],
+      "rpcUrls": ["https://rpc.ankr.com/eth"],
       "wrappedNativeToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "explorerUrl": "https://etherscan.io",
       "timestamp": "2022-12-29T18:52:20+00:00",
@@ -26,7 +24,6 @@
         "CAD": "0xa34317db73e77d453b1b8d04550c44d10e981c8e",
         "CHF": "0x449d117117838ffa61263b61da6301aa2a88b13a",
         "EUR": "0xb49f677943bc038e9857d61e7d053caa2c1734c1",
-        "ETH": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
         "GBP": "0x5c0ab2d9b5a7ed9f470386e82bb36a3613cdd4b5",
         "JPY": "0xbce206cae7f0ec07b545edde332a47c2f75bbeb3",
         "CNY": "0xef8a4af35cd47424672e3c590abd37fbb7a7759a",
@@ -34,6 +31,9 @@
         "NZD": "0x3977cfc9e4f29c184d4675f4eb8e0013236e5f3e",
         "SGD": "0xe25277ff4bbf9081c75ab0eb13b4a13a721f3e13",
         "TRY": "0xb09fc5fd3f11cf9eb5e1c5dba43114e3c9f477b5"
+      },
+      "tokenFeeds": {
+        "ETH": "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
       },
       "curveRouterAddress": "0x99a58482BD75cbab83b27EC03CA68fF489b5788f"
     },
@@ -43,9 +43,7 @@
       "testnet": true,
       "chainId": 5,
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/5/logo.svg",
-      "rpcUrls": [
-        "https://rpc.ankr.com/eth_goerli"
-      ],
+      "rpcUrls": ["https://rpc.ankr.com/eth_goerli"],
       "wrappedNativeToken": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
       "explorerUrl": "https://goerli.etherscan.io",
       "timestamp": "2022-12-28T14:10:09+00:00",
@@ -61,9 +59,7 @@
       "testnet": false,
       "chainId": 42161,
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/42161/logo.svg",
-      "rpcUrls": [
-        "https://rpc.ankr.com/arbitrum"
-      ],
+      "rpcUrls": ["https://rpc.ankr.com/arbitrum"],
       "wrappedNativeToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
       "explorerUrl": "https://arbiscan.io",
       "timestamp": "2023-01-13T14:52:05+00:00",
@@ -72,7 +68,6 @@
         "AUD": "0x9854e9a850e7c354c1de177ea953a6b1fba8fc22",
         "CNY": "0xcc3370bde6afe51e1205a5038947b9836371eccb",
         "EUR": "0xa14d53bc1f1c0f31b4aa3bd109344e5009051a84",
-        "ETH": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612",
         "CAD": "0xf6da27749484843c4f02f5ad1378cee723dd61d4",
         "CHF": "0xe32AccC8c4eC03F6E75bd3621BfC9Fbb234E1FC3",
         "GBP": "0x9c4424fd84c6661f97d8d6b3fc3c1aac2bedd137",
@@ -80,6 +75,9 @@
         "KRW": "0x85bb02e0ae286600d1c68bb6ce22cc998d411916",
         "SEK": "0xde89a55d04ded40a410877ab87d4f567ee66a1f0",
         "SGD": "0xf0d38324d1f86a176ac727a4b0c43c9f9d9c5eb1"
+      },
+      "tokenFeeds": {
+        "ETH": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612"
       },
       "curveRouterAddress": "0x4c2af2df2a7e567b5155879720619ea06c5bb15d"
     },
@@ -89,9 +87,7 @@
       "testnet": false,
       "chainId": 10,
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/10/logo.svg",
-      "rpcUrls": [
-        "https://mainnet.optimism.io"
-      ],
+      "rpcUrls": ["https://mainnet.optimism.io"],
       "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
       "explorerUrl": "https://optimistic.etherscan.io",
       "timestamp": "2023-02-27T14:52:05+00:00",
@@ -99,10 +95,12 @@
       "priceFeeds": {
         "AUD": "0x39be70e93d2d285c9e71be7f70fc5a45a7777b14",
         "EUR": "0x3626369857a10ccc6cc3a6e4f5c2f5984a519f20",
-        "ETH": "0x13e3Ee699D1909E989722E753853AE30b17e08c5",
         "GBP": "0x540d48c01f946e729174517e013ad0bdae5f08c0",
         "JPY": "0x536944c3a71feb7c1e5c66ee37d1a148d8d8f619",
         "INR": "0x5535e67d8f99c8ebe961e1fc1f6ddae96fec82c9"
+      },
+      "tokenFeeds": {
+        "ETH": "0x13e3Ee699D1909E989722E753853AE30b17e08c5"
       },
       "curveRouterAddress": "0x89287c32c2cac1c76227f6d300b2dbbab6b75c08"
     },
@@ -112,20 +110,20 @@
       "testnet": false,
       "chainId": 43114,
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/43113/logo.svg",
-      "rpcUrls": [
-        "https://api.avax.network/ext/bc/C/rpc"
-      ],
+      "rpcUrls": ["https://api.avax.network/ext/bc/C/rpc"],
       "wrappedNativeToken": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
       "explorerUrl": "https://snowtrace.io",
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0x25e22F3ceE59F34622f7DC9a2078B85f17BfBe95",
       "priceFeeds": {
-        "AVAX": "0x0A77230d17318075983913bC2145DB16C7366156",
         "BRL": "0x609dddb75518aa4af84ac228b62261ae68e52989",
         "CHF": "0x3b37950485b450edf90cbb85d0cd27308af4ab9a",
         "EUR": "0x192f2dba961bb0277520c082d6bfa87d5961333e",
         "JPY": "0xf8b283ad4d969ecfd70005714dd5910160565b94",
         "TRY": "0xa61bf273688ea095b5e4c11f1af5e763f7aeee91"
+      },
+      "tokenFeeds": {
+        "AVAX": "0x0A77230d17318075983913bC2145DB16C7366156"
       }
     },
     {
@@ -134,19 +132,19 @@
       "testnet": false,
       "chainId": 100,
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/100/logo.svg",
-      "rpcUrls": [
-        "https://rpc.gnosis.gateway.fm"
-      ],
+      "rpcUrls": ["https://rpc.gnosis.gateway.fm"],
       "wrappedNativeToken": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
       "explorerUrl": "https://gnosisscan.io",
       "timestamp": "2023-07-27T14:52:05+00:00",
       "feeTreasury": "0x775aaf73a50C25eEBd308BBb9C34C73D081B423b",
       "priceFeeds": {
         "CHF": "0xFb00261Af80ADb1629D3869E377ae1EEC7bE659F",
-        "DAI": "0x678df3415fc31947dA4324eC63212874be5a82f8",
         "EUR": "0xab70BCB260073d036d1660201e9d5405F5829b7a",
-        "GNO": "0x22441d81416430A54336aB28765abd31a792Ad37",
         "JPY": "0x2AfB993C670C01e9dA1550c58e8039C1D8b8A317"
+      },
+      "tokenFeeds": {
+        "GNO": "0x22441d81416430A54336aB28765abd31a792Ad37",
+        "DAI": "0x678df3415fc31947dA4324eC63212874be5a82f8"
       },
       "curveRouterAddress": "0xe6358f6a45b502477e83cc1cda759f540e4459ee"
     },
@@ -156,9 +154,7 @@
       "testnet": false,
       "chainId": 137,
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/137/logo.svg",
-      "rpcUrls": [
-        "https://polygon-rpc.com"
-      ],
+      "rpcUrls": ["https://polygon-rpc.com"],
       "wrappedNativeToken": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
       "explorerUrl": "https://polygonscan.com",
       "timestamp": "2023-09-07T00:00:00+00:00",
@@ -174,7 +170,6 @@
         "INR": "0xDA0F8Df6F5dB15b346f4B8D1156722027E194E60",
         "JPY": "0xD647a6fC9BC6402301583C91decC5989d8Bc382D",
         "KRW": "0x24B820870F726dA9B0D83B0B28a93885061dbF50",
-        "MATIC": "0xAB594600376Ec9fD91F8e885dADF0CE036862dE0",
         "MXN": "0x171b16562EA3476F5C61d1b8dad031DbA0768545",
         "NZD": "0xa302a0B8a499fD0f00449df0a490DedE21105955",
         "PHP": "0x218231089Bebb2A31970c3b77E96eCfb3BA006D1",
@@ -183,6 +178,9 @@
         "SGD": "0x8CE3cAc0E6635ce04783709ca3CC4F5fc5304299",
         "THB": "0x5164Ad28fb12a5e55946090Ec3eE1B748AFb3785",
         "TRY": "0xd78325DcA0F90F0FFe53cCeA1B02Bb12E1bf8FdB"
+      },
+      "tokenFeeds": {
+        "MATIC": "0xAB594600376Ec9fD91F8e885dADF0CE036862dE0"
       },
       "curveRouterAddress": "0x2a426b3Bb4fa87488387545f15D01d81352732F9"
     }

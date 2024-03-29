@@ -15,7 +15,7 @@ export enum TokenListTagNames {
 
   // Misc
   TOP_10 = 'Top10',
-  NATIVE_TOKEN = 'Native Token'
+  NATIVE_TOKEN = 'Native Token',
 }
 
 export interface RouterInfo {
@@ -45,6 +45,9 @@ export interface ChainInfo {
   readonly feeTreasury?: string;
   readonly testnet: boolean;
   readonly priceFeeds?: {
+    readonly [key: string]: string | undefined;
+  };
+  readonly tokenFeeds?: {
     readonly [key: string]: string | undefined;
   };
   readonly curveRouterAddress?: string;

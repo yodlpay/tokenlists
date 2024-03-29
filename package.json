@@ -1,12 +1,10 @@
 {
   "name": "@yodlpay/tokenlists",
-  "version": "0.1.49",
+  "version": "0.2.0",
   "description": "Tokenlist typings, schema and lists.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": "https://github.com/yodlpay/tokenlists.git",
   "author": "YodlPay",
   "scripts": {

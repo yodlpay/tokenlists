@@ -1,3 +1,4 @@
+0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4
 {
   "name": "Default",
   "logoUri": "",
@@ -34,6 +35,13 @@
       "address": "0xfbA75752D73d3Fb3aA13e7BC7cfD142E73E78a8A",
       "timestamp": "2023-02-27T00:00:00+00:00",
       "version": "0.1",
+      "fee": "0.002"
+    },
+    {
+      "chainId": 10,
+      "address": "0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4",
+      "timestamp": "2023-09-01T00:00:00+00:00",
+      "version": "0.2",
       "fee": "0.002"
     },
     {

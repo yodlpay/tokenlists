@@ -29,7 +29,7 @@ export function getTokenByAddress(
   return (
     (tokenlist.tokens.find((token: any) => {
       return (
-        token.address === tokenAddress &&
+        token.address.toLowerCase() === tokenAddress.toLowerCase() &&
         (!chainId || token.chainId === chainId)
       );
     }) as TokenInfo) ?? null
@@ -58,7 +58,8 @@ export function getTokens(chainId: number): TokenInfo[] {
 export function getFaucetAddress(tokenInfo: TokenInfo): TestnetFaucetInfo {
   return testnetfaucets.faucets.find((needle: any) => {
     return (
-      needle.token === tokenInfo.address && needle.chainId === tokenInfo.chainId
+      needle.token.toLowerCase() === tokenInfo.address.toLowerCase() &&
+      needle.chainId === tokenInfo.chainId
     );
   }) as TestnetFaucetInfo;
 }

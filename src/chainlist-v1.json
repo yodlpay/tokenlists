@@ -149,6 +149,26 @@
       "curveRouterAddress": "0xe6358f6a45b502477e83cc1cda759f540e4459ee"
     },
     {
+      "chainName": "Base",
+      "shortName": "base",
+      "testnet": false,
+      "chainId": 8453,
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/8453/logo.png",
+      "rpcUrls": ["https://mainnet.base.org"],
+      "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
+      "explorerUrl": "https://basescan.org",
+      "timestamp": "2024-06-17T14:52:05+00:00",
+      "feeTreasury": "0x46959a8a332eca1a05Bd4F18115b8F2E1C2F2f05",
+      "priceFeeds": {
+        "BRL": "0x0b0E64c05083FdF9ED7C5D3d8262c4216eFc9394",
+        "EUR": "0xc91D87E81faB8f93699ECf7Ee9B44D11e1D53F0F"
+      },
+      "tokenFeeds": {
+        "ETH": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70"
+      },
+      "curveRouterAddress": "0x0000000000000000000000000000000000000000"
+    },
+    {
       "chainName": "Polygon",
       "shortName": "matic",
       "testnet": false,

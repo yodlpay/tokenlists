@@ -51,6 +51,20 @@
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     {
+      "chainId": 8453,
+      "coinGeckoId": "ethereum",
+      "name": "Ether",
+      "symbol": "ETH",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/ETH.svg",
+      "decimals": 18,
+      "tags": [
+        "Base",
+        "Native Token",
+        "Top10"
+      ],
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+    },
+    {
       "chainId": 1,
       "coinGeckoId": "weth",
       "name": "Wrapped Ether",
@@ -88,6 +102,19 @@
         "Native Token"
       ],
       "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
+    },
+{
+      "chainId": 8453,
+      "coinGeckoId": "weth",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/WETH.svg",
+      "decimals": 18,
+      "tags": [
+        "Base",
+        "Native Token"
+      ],
+      "address": "0x4200000000000000000000000000000000000006"
     },
 
     {
@@ -185,6 +212,22 @@
         "USD"
       ],
       "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
+    },
+    {
+      "chainId": 8453,
+      "coinGeckoId": "usd-coin",
+      "name": "USD Coin",
+      "symbol": "USDC",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
+      "decimals": 6,
+      "tags": [
+        "Base",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
     },
     {
       "chainId": 42161,

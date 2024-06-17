@@ -77,6 +77,13 @@
       "timestamp": "2023-09-07T00:00:00+00:00",
       "version": "0.2",
       "fee": "0.002"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2BaE9Bb53BCe89c760dBfA55D854D43ab96EE19f",
+      "timestamp": "2024-06-17T15:50:00+00:00",
+      "version": "0.2",
+      "fee": "0.002"
     }
   ]
 }

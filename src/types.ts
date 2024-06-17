@@ -6,6 +6,7 @@ export enum TokenListTagNames {
   OPTIMISM = 'Optimism',
   ARBITRUM = 'Arbitrum',
   AVALANCHE = 'Avalanche',
+  BASE = 'Base',
   TESTNET = 'TESTNET',
 
   // Coin/currency

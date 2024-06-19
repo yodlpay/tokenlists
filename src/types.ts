@@ -41,6 +41,7 @@ export interface ChainInfo {
   readonly shortName: string;
   readonly logoUri: string;
   readonly explorerUrl: string;
+  readonly timestamp: string;
   readonly rpcUrls: string[];
   readonly wrappedNativeToken: string;
   readonly feeTreasury?: string;
@@ -91,4 +92,24 @@ export interface TokenList {
   readonly keywords?: string[];
   readonly tags?: any;
   readonly logoUri?: string;
+}
+
+export interface PriceFeed {
+  readonly address: string;
+  readonly name: string;
+  readonly assetName: string;
+  readonly type: string;
+  readonly path: string;
+  readonly input: string;
+  readonly output: string;
+  readonly deviation: number;
+  readonly decimals: number;
+  readonly updateInterval: number;
+  readonly chainId: number;
+}
+
+export interface FiatCurrency {
+  readonly name: string;
+  readonly code: string;
+  readonly symbol: string;
 }

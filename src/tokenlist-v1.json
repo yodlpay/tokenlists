@@ -103,7 +103,7 @@
       ],
       "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
-{
+    {
       "chainId": 8453,
       "coinGeckoId": "weth",
       "name": "Wrapped Ether",
@@ -116,7 +116,6 @@
       ],
       "address": "0x4200000000000000000000000000000000000006"
     },
-
     {
       "chainId": 1,
       "coinGeckoId": "tether",
@@ -308,6 +307,22 @@
         "USD"
       ],
       "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+    },
+    {
+      "chainId": 8453,
+      "coinGeckoId": "dai",
+      "name": "DAI",
+      "symbol": "DAI",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg",
+      "decimals": 18,
+      "tags": [
+        "Base",
+        "Stablecoin",
+        "Top10",
+        "USD"
+      ],
+      "address": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb"
     },
     {
       "chainId": 1,

@@ -10,7 +10,7 @@ import {
   splitFeeds,
   setTimestamp,
   getTimestamp,
-} from './update';
+} from '../src/update';
 
 describe('Parse saved page', () => {
   const fakeChainLinkFetch = async (chainName: string) => {
@@ -20,10 +20,7 @@ describe('Parse saved page', () => {
   };
 
   test('finds 131 feeds', async () => {
-    const feeds = await fetchChainLinkFeed(
-      CHAIN_MAPPINGS[0].chainLink,
-      fakeChainLinkFetch
-    );
+    const feeds = await fakeChainLinkFetch(CHAIN_MAPPINGS[0].chainLink);
 
     expect(feeds.length === 131);
     const [fiatFeeds, tokenFeeds] = splitFeeds(feeds, 1);
@@ -120,5 +117,11 @@ describe('Parse saved page', () => {
     const bnbTokens = tokens.filter(t => t.symbol === 'BNB');
     expect(bnbTokens.length === 1);
     expect(bnbTokens[0].address === CONFLICT_OVERRIDES[1]['BNB']);
+
+    const nativeTokens = tokens.filter(t => t.symbol === 'ETH');
+    expect(nativeTokens.length === 1);
+
+    const ethereum = nativeTokens[0];
+    expect(ethereum?.address === '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE');
   });
 });

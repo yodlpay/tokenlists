@@ -1,0 +1,1012 @@
+{
+    "status": {
+        "timestamp": "2024-06-19T11:20:27.461Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 893,
+        "credit_count": 1,
+        "notice": null
+    },
+    "data": {
+        "id": "604f2755ebccdd50cd175fc2",
+        "name": "Algorithmic Stablecoin",
+        "title": "Algorithmic Stablecoin",
+        "description": "Algorithmic Stablecoin",
+        "num_tokens": 21,
+        "last_updated": "2023-08-09T13:43:29.711Z",
+        "avg_price_change": 3.9895443066666663,
+        "market_cap": 1053668301.1899999,
+        "market_cap_change": -0.678475,
+        "volume": 72708477.63115345,
+        "volume_change": 23.356049999999996,
+        "coins": [
+            {
+                "id": 19891,
+                "name": "USDD",
+                "symbol": "USDD",
+                "slug": "usdd",
+                "num_market_pairs": 166,
+                "date_added": "2022-05-02T08:07:12.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "arbitrum-ecosytem",
+                    "usd-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 736021200.092137,
+                "total_supply": 736021200.092137,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x0c10bf8fcb7bf5412187a595ab97a3609160b5c6"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 93,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": 736022140.092137,
+                "self_reported_market_cap": 734437819.7059995,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.9978474555317872,
+                        "volume_24h": 5667002.14433084,
+                        "volume_change_24h": -22.9308,
+                        "percent_change_1h": 0.0080767,
+                        "percent_change_24h": 0.09737731,
+                        "percent_change_7d": -0.00381173,
+                        "percent_change_30d": 0.15127541,
+                        "percent_change_60d": 2.11786159,
+                        "percent_change_90d": -0.08516566,
+                        "market_cap": 734436881.7293913,
+                        "market_cap_dominance": 0.0309,
+                        "fully_diluted_market_cap": 734436881.73,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 7129,
+                "name": "TerraClassicUSD",
+                "symbol": "USTC",
+                "slug": "terrausd",
+                "num_market_pairs": 848,
+                "date_added": "2020-09-21T00:00:00.000Z",
+                "tags": [
+                    "cosmos-ecosystem",
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "seigniorage",
+                    "terra-ecosystem",
+                    "injective-ecosystem",
+                    "bnb-chain",
+                    "usd-stablecoin",
+                    "alleged-sec-securities"
+                ],
+                "max_supply": null,
+                "circulating_supply": 5752021690.029811,
+                "total_supply": 8959561803.580833,
+                "is_active": 1,
+                "infinite_supply": true,
+                "platform": null,
+                "cmc_rank": 387,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.019056183415363793,
+                        "volume_24h": 51234279.69880565,
+                        "volume_change_24h": 28.8322,
+                        "percent_change_1h": -0.18375437,
+                        "percent_change_24h": 5.28382152,
+                        "percent_change_7d": -7.8140462,
+                        "percent_change_30d": -11.65846884,
+                        "percent_change_60d": 7.98794589,
+                        "percent_change_90d": -30.31480207,
+                        "market_cap": 109611580.3343589,
+                        "market_cap_dominance": 0.0046,
+                        "fully_diluted_market_cap": 170735053.05,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 6651,
+                "name": "USDX [Kava]",
+                "symbol": "USDX",
+                "slug": "usdx-kava",
+                "num_market_pairs": 19,
+                "date_added": "2020-08-20T00:00:00.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "usd-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 111567264,
+                "total_supply": 107526703,
+                "is_active": 1,
+                "infinite_supply": false,
+                "platform": null,
+                "cmc_rank": 431,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:19:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.8203415015242153,
+                        "volume_24h": 298010.54207546,
+                        "volume_change_24h": -8.0849,
+                        "percent_change_1h": 0.16464843,
+                        "percent_change_24h": -0.56957777,
+                        "percent_change_7d": -0.13238546,
+                        "percent_change_30d": -0.4076128,
+                        "percent_change_60d": -0.42794762,
+                        "percent_change_90d": -8.19238382,
+                        "market_cap": 91523256.87070853,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 88208616.99,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:19:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 7236,
+                "name": "Celo Dollar",
+                "symbol": "CUSD",
+                "slug": "celo-dollar",
+                "num_market_pairs": 115,
+                "date_added": "2020-09-29T00:00:00.000Z",
+                "tags": [
+                    "defi",
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "celo-ecosystem",
+                    "usd-stablecoin"
+                ],
+                "max_supply": 1000000000000000,
+                "circulating_supply": 35557304.42048679,
+                "total_supply": 57241566.21607361,
+                "platform": {
+                    "id": 5567,
+                    "name": "Celo",
+                    "symbol": "CELO",
+                    "slug": "celo",
+                    "token_address": "0x765de816845861e75a25fca122bb6898b8b1282a"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 695,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.9994875325594906,
+                        "volume_24h": 6957609.81844681,
+                        "volume_change_24h": 3.9384,
+                        "percent_change_1h": 0.01763099,
+                        "percent_change_24h": 0.01889915,
+                        "percent_change_7d": -0.08116315,
+                        "percent_change_30d": 0.00299145,
+                        "percent_change_60d": 0.00116742,
+                        "percent_change_90d": 0.00759495,
+                        "market_cap": 35539082.45969901,
+                        "market_cap_dominance": 0.0015,
+                        "fully_diluted_market_cap": 999487532559490.6,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 2927,
+                "name": "sUSD",
+                "symbol": "SUSD",
+                "slug": "susd",
+                "num_market_pairs": 216,
+                "date_added": "2018-07-13T00:00:00.000Z",
+                "tags": [
+                    "store-of-value",
+                    "defi",
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "synthetics",
+                    "fantom-ecosystem",
+                    "usd-stablecoin"
+                ],
+                "max_supply": 142399574,
+                "circulating_supply": 33675633.63613944,
+                "total_supply": 33675633.63613944,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x57Ab1ec28D129707052df4dF418D58a2D46d5f51"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 711,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.9982550263339321,
+                        "volume_24h": 1469313.03742404,
+                        "volume_change_24h": 155.9574,
+                        "percent_change_1h": -0.00422693,
+                        "percent_change_24h": 0.24181931,
+                        "percent_change_7d": 0.19880833,
+                        "percent_change_30d": 1.20392904,
+                        "percent_change_60d": 0.24706991,
+                        "percent_change_90d": -0.03155472,
+                        "market_cap": 33616870.54225623,
+                        "market_cap_dominance": 0.0014,
+                        "fully_diluted_market_cap": 142151090.49,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 4056,
+                "name": "Ampleforth",
+                "symbol": "AMPL",
+                "slug": "ampleforth",
+                "num_market_pairs": 73,
+                "date_added": "2019-06-28T00:00:00.000Z",
+                "tags": [
+                    "defi",
+                    "algorithmic-stablecoin",
+                    "rebase",
+                    "avalanche-ecosystem",
+                    "arrington-xrp-capital-portfolio",
+                    "alameda-research-portfolio",
+                    "pantera-capital-portfolio",
+                    "spartan-group"
+                ],
+                "max_supply": null,
+                "circulating_supply": 28274493.6,
+                "total_supply": 256522609.7624827,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0xd46ba6d942050d489dbd938a2c909a5d5039a161"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 771,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.9683347360963309,
+                        "volume_24h": 5204482.44184963,
+                        "volume_change_24h": 258.5347,
+                        "percent_change_1h": -0.03828406,
+                        "percent_change_24h": -6.18717963,
+                        "percent_change_7d": -21.33718686,
+                        "percent_change_30d": -25.55860233,
+                        "percent_change_60d": -11.80225802,
+                        "percent_change_90d": -52.50422332,
+                        "market_cap": 27379174.2984134,
+                        "market_cap_dominance": 0.0012,
+                        "fully_diluted_market_cap": 248399753.63,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 8642,
+                "name": "Fei USD",
+                "symbol": "FEI",
+                "slug": "fei-usd",
+                "num_market_pairs": 73,
+                "date_added": "2021-03-02T00:00:00.000Z",
+                "tags": [
+                    "defi",
+                    "stablecoin",
+                    "algorithmic-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 16225619.94479352,
+                "total_supply": 16484287.32755581,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x956F47F50A910163D8BF957Cf5846D573E7f87CA"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 967,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": 1591324.55559976,
+                "last_updated": "2024-06-19T11:19:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.9368301778381842,
+                        "volume_24h": 29199.88130972,
+                        "volume_change_24h": 6.3516,
+                        "percent_change_1h": 1.31090319,
+                        "percent_change_24h": -0.42973937,
+                        "percent_change_7d": -3.56524478,
+                        "percent_change_30d": -3.59122356,
+                        "percent_change_60d": -0.99840213,
+                        "percent_change_90d": -5.64019778,
+                        "market_cap": 15200650.418415703,
+                        "market_cap_dominance": 0.0006,
+                        "fully_diluted_market_cap": 15442977.83,
+                        "tvl": 9.5522,
+                        "last_updated": "2024-06-19T11:19:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 2308,
+                "name": "Single Collateral DAI ",
+                "symbol": "SAI",
+                "slug": "single-collateral-dai",
+                "num_market_pairs": 1,
+                "date_added": "2017-12-24T00:00:00.000Z",
+                "tags": [
+                    "store-of-value",
+                    "defi",
+                    "algorithmic-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 6660106.02362148,
+                "total_supply": 6660106.02362148,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+                },
+                "is_active": 0,
+                "infinite_supply": false,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2020-07-09T02:19:10.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 901.74576371,
+                        "volume_change_24h": 0,
+                        "percent_change_1h": -0.11536,
+                        "percent_change_24h": 5.18377,
+                        "percent_change_7d": 20.6722,
+                        "percent_change_30d": 0,
+                        "percent_change_60d": 0,
+                        "percent_change_90d": 0,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 0,
+                        "tvl": null,
+                        "last_updated": "2020-07-09T02:19:10.000Z"
+                    }
+                }
+            },
+            {
+                "id": 9467,
+                "name": "Celo Euro",
+                "symbol": "CEUR",
+                "slug": "celo-euro",
+                "num_market_pairs": 41,
+                "date_added": "2021-04-28T00:00:00.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "eur-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 5919118.03456651,
+                "total_supply": 5919118.03456651,
+                "platform": {
+                    "id": 5567,
+                    "name": "Celo",
+                    "symbol": "CELO",
+                    "slug": "celo",
+                    "token_address": "0xd8763cba276a3738e6de85b4b3bf5fded6d6ca73"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 1293,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 1.0746203234054112,
+                        "volume_24h": 1823572.14141443,
+                        "volume_change_24h": 7.493,
+                        "percent_change_1h": 0.12292617,
+                        "percent_change_24h": 0.3544586,
+                        "percent_change_7d": -0.12602888,
+                        "percent_change_30d": -1.10397653,
+                        "percent_change_60d": 0.93751047,
+                        "percent_change_90d": -1.42289077,
+                        "market_cap": 6360804.536580665,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 6360804.54,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 10845,
+                "name": "Zerogoki USD",
+                "symbol": "zUSD",
+                "slug": "zerogoki-usd",
+                "num_market_pairs": 1,
+                "date_added": "2021-07-12T00:00:00.000Z",
+                "tags": [
+                    "algorithmic-stablecoin"
+                ],
+                "max_supply": 42000000,
+                "circulating_supply": 2581806.35749534,
+                "total_supply": 2581806.35749534,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x76417e660df3e5c90c0361674c192da152a806e4"
+                },
+                "is_active": 0,
+                "infinite_supply": false,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2021-11-18T18:22:08.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 0,
+                        "volume_change_24h": 0,
+                        "percent_change_1h": 0.02870425,
+                        "percent_change_24h": 0.03911735,
+                        "percent_change_7d": -12.87663678,
+                        "percent_change_30d": -76.27191979,
+                        "percent_change_60d": -79.37394333,
+                        "percent_change_90d": -78.94703763,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 8104176.62,
+                        "tvl": null,
+                        "last_updated": "2021-11-18T18:22:08.000Z"
+                    }
+                }
+            },
+            {
+                "id": 626,
+                "name": "NuBits",
+                "symbol": "USNBT",
+                "slug": "nubits",
+                "num_market_pairs": 4,
+                "date_added": "2014-09-24T00:00:00.000Z",
+                "tags": [
+                    "pos",
+                    "sha-256",
+                    "stablecoin",
+                    "algorithmic-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 10981667.2799,
+                "total_supply": 70510851.3915,
+                "is_active": 0,
+                "infinite_supply": false,
+                "platform": null,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2022-05-16T18:30:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 0,
+                        "volume_change_24h": 0,
+                        "percent_change_1h": 0,
+                        "percent_change_24h": 0,
+                        "percent_change_7d": 0,
+                        "percent_change_30d": -70.28696781,
+                        "percent_change_60d": -65.99351812,
+                        "percent_change_90d": -79.94497125,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 258173.21,
+                        "tvl": null,
+                        "last_updated": "2022-05-16T18:30:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 10238,
+                "name": "MAI",
+                "symbol": "MIMATIC",
+                "slug": "mai",
+                "num_market_pairs": 570,
+                "date_added": "2021-06-02T00:00:00.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "arbitrum-ecosytem",
+                    "optimism-ecosystem"
+                ],
+                "max_supply": null,
+                "circulating_supply": 0,
+                "total_supply": 307484777,
+                "platform": {
+                    "id": 3890,
+                    "name": "Polygon",
+                    "symbol": "MATIC",
+                    "slug": "polygon",
+                    "token_address": "0xa3Fa99A148fA48D14Ed51d610c367C61876997F1"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 4711,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": 44262913,
+                "self_reported_market_cap": 35104989.62060951,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.7931016564727564,
+                        "volume_24h": 24803.42882321,
+                        "volume_change_24h": -60.6144,
+                        "percent_change_1h": -0.67228579,
+                        "percent_change_24h": 11.94835123,
+                        "percent_change_7d": 17.07312144,
+                        "percent_change_30d": 11.03796481,
+                        "percent_change_60d": -8.52726514,
+                        "percent_change_90d": 27.25025249,
+                        "market_cap": 0,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 243866685.98,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 18105,
+                "name": "TOR",
+                "symbol": "TOR",
+                "slug": "tor",
+                "num_market_pairs": 11,
+                "date_added": "2022-02-15T08:12:03.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "yield-farming",
+                    "usd-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 0,
+                "total_supply": 17070482.49,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x6b37374fe7980ae33fc87b0d66a490ec6903e87a"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 7978,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": 17070482.49,
+                "self_reported_market_cap": 196870.6364181216,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.011532810307702182,
+                        "volume_24h": 24.60605321,
+                        "volume_change_24h": -88.6521,
+                        "percent_change_1h": -0.1057254,
+                        "percent_change_24h": 11.79288857,
+                        "percent_change_7d": -13.4894386,
+                        "percent_change_30d": -39.17576924,
+                        "percent_change_60d": -39.87357685,
+                        "percent_change_90d": -50.86769677,
+                        "market_cap": 0,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 196870.64,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 8665,
+                "name": "Parallel",
+                "symbol": "PAR",
+                "slug": "parallel",
+                "num_market_pairs": 36,
+                "date_added": "2021-03-03T00:00:00.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "eur-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 0,
+                "total_supply": 2240894,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x68037790A0229e9Ce6EaA8A99ea92964106C4703"
+                },
+                "is_active": 1,
+                "infinite_supply": false,
+                "cmc_rank": 7210,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:19:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.563781383840369,
+                        "volume_24h": 165.05669,
+                        "volume_change_24h": -0.0224,
+                        "percent_change_1h": 0.0132124,
+                        "percent_change_24h": 25.16985687,
+                        "percent_change_7d": -37.96930477,
+                        "percent_change_30d": -43.75803196,
+                        "percent_change_60d": -43.65399296,
+                        "percent_change_90d": -46.84483009,
+                        "market_cap": 0,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 1263374.32,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:19:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 20306,
+                "name": "SpiceUSD",
+                "symbol": "USDS",
+                "slug": "spiceusd",
+                "num_market_pairs": 22,
+                "date_added": "2022-05-26T07:34:14.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "asset-backed-stablecoin",
+                    "ethereum-ecosystem",
+                    "avalanche-ecosystem",
+                    "polygon-ecosystem",
+                    "bnb-chain",
+                    "usd-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 0,
+                "total_supply": 5948226,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x45fDb1b92a649fb6A64Ef1511D3Ba5Bf60044838"
+                },
+                "is_active": 0,
+                "infinite_supply": false,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-05-07T01:21:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 0,
+                        "volume_change_24h": 0,
+                        "percent_change_1h": 0,
+                        "percent_change_24h": 0,
+                        "percent_change_7d": -8.6276623,
+                        "percent_change_30d": -16.74145012,
+                        "percent_change_60d": -10.23784035,
+                        "percent_change_90d": 23.39727078,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 0,
+                        "tvl": null,
+                        "last_updated": "2024-05-07T01:21:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 21034,
+                "name": "SpiceEURO",
+                "symbol": "EUROS",
+                "slug": "spiceeuro",
+                "num_market_pairs": 4,
+                "date_added": "2022-07-19T07:26:17.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "asset-backed-stablecoin",
+                    "avalanche-ecosystem",
+                    "eur-stablecoin"
+                ],
+                "max_supply": 0,
+                "circulating_supply": 0,
+                "total_supply": 495535,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x37129b96896891e56bc099540fe7D1841005A367"
+                },
+                "is_active": 0,
+                "infinite_supply": false,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2022-12-05T18:30:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 0,
+                        "volume_change_24h": 0,
+                        "percent_change_1h": 0,
+                        "percent_change_24h": 0,
+                        "percent_change_7d": 1.90554856,
+                        "percent_change_30d": 4.68286487,
+                        "percent_change_60d": -29.33599913,
+                        "percent_change_90d": -52.75100548,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 191861.32,
+                        "tvl": null,
+                        "last_updated": "2022-12-05T18:30:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 20307,
+                "name": "Inflation Adjusted USDS",
+                "symbol": "IUSDS",
+                "slug": "inflation-adjusted-usds",
+                "num_market_pairs": 5,
+                "date_added": "2022-05-26T07:35:40.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "asset-backed-stablecoin",
+                    "ethereum-ecosystem",
+                    "avalanche-ecosystem",
+                    "polygon-ecosystem",
+                    "bnb-chain"
+                ],
+                "max_supply": null,
+                "circulating_supply": 0,
+                "total_supply": 2210259,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0xF9C2B386FF5Df088AC717ab0010587bad3bC1ab1"
+                },
+                "is_active": 0,
+                "infinite_supply": false,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2022-12-05T18:30:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 0,
+                        "volume_change_24h": 0,
+                        "percent_change_1h": 0,
+                        "percent_change_24h": 0,
+                        "percent_change_7d": 0.10122477,
+                        "percent_change_30d": -19.68647652,
+                        "percent_change_60d": -19.5736798,
+                        "percent_change_90d": -38.64489716,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 0,
+                        "tvl": null,
+                        "last_updated": "2022-12-05T18:30:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 6881,
+                "name": "DefiDollar",
+                "symbol": "DUSD",
+                "slug": "defidollar",
+                "num_market_pairs": 33,
+                "date_added": "2020-09-04T00:00:00.000Z",
+                "tags": [
+                    "defi",
+                    "stablecoin",
+                    "algorithmic-stablecoin",
+                    "usd-stablecoin"
+                ],
+                "max_supply": 16697847,
+                "circulating_supply": 0,
+                "total_supply": 16697847,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x5bc25f649fc4e26069ddf4cf4010f9f706c23831"
+                },
+                "is_active": 0,
+                "infinite_supply": false,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2024-03-05T03:57:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 110009.68565373,
+                        "volume_change_24h": 373.4054,
+                        "percent_change_1h": 0,
+                        "percent_change_24h": 0,
+                        "percent_change_7d": 0,
+                        "percent_change_30d": 0,
+                        "percent_change_60d": -0.79883993,
+                        "percent_change_90d": -1.34498622,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 10728666.19,
+                        "tvl": null,
+                        "last_updated": "2024-03-05T03:57:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 19682,
+                "name": "USN",
+                "symbol": "USN",
+                "slug": "usn",
+                "num_market_pairs": 14,
+                "date_added": "2022-04-21T15:18:50.000Z",
+                "tags": [
+                    "stablecoin",
+                    "algorithmic-stablecoin"
+                ],
+                "max_supply": null,
+                "circulating_supply": 0,
+                "total_supply": 38439517,
+                "is_active": 1,
+                "infinite_supply": false,
+                "platform": null,
+                "cmc_rank": 8124,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": 38439517,
+                "self_reported_market_cap": 37587562.62391041,
+                "tvl_ratio": null,
+                "last_updated": "2024-06-19T11:18:00.000Z",
+                "quote": {
+                    "USD": {
+                        "price": 0.9778364963303365,
+                        "volume_24h": 14.83393045,
+                        "volume_change_24h": -0.5301,
+                        "percent_change_1h": 0.00974695,
+                        "percent_change_24h": 0.15355589,
+                        "percent_change_7d": 0.00780618,
+                        "percent_change_30d": 0.00187635,
+                        "percent_change_60d": 8.39578779,
+                        "percent_change_90d": 7.5651747,
+                        "market_cap": 0,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 37587562.62,
+                        "tvl": null,
+                        "last_updated": "2024-06-19T11:18:00.000Z"
+                    }
+                }
+            },
+            {
+                "id": 8361,
+                "name": "Universal Dollar",
+                "symbol": "U8D",
+                "slug": "universal-dollar",
+                "num_market_pairs": 1,
+                "date_added": "2021-01-29T00:00:00.000Z",
+                "tags": [
+                    "defi",
+                    "algorithmic-stablecoin",
+                    "dao",
+                    "yield-farming"
+                ],
+                "max_supply": null,
+                "circulating_supply": 0,
+                "total_supply": 0,
+                "platform": {
+                    "id": 1027,
+                    "name": "Ethereum",
+                    "symbol": "ETH",
+                    "slug": "ethereum",
+                    "token_address": "0x888888877A18532b78d259577d00057054C50Dd8"
+                },
+                "is_active": 0,
+                "infinite_supply": false,
+                "cmc_rank": null,
+                "is_fiat": 0,
+                "self_reported_circulating_supply": null,
+                "self_reported_market_cap": null,
+                "tvl_ratio": null,
+                "last_updated": "2021-06-14T09:14:54.000Z",
+                "quote": {
+                    "USD": {
+                        "price": null,
+                        "volume_24h": 0,
+                        "volume_change_24h": 0,
+                        "percent_change_1h": 0,
+                        "percent_change_24h": 0.01235972,
+                        "percent_change_7d": 0.01943006,
+                        "percent_change_30d": 0.02504098,
+                        "percent_change_60d": 21.23730864,
+                        "percent_change_90d": -3.89702808,
+                        "market_cap": null,
+                        "market_cap_dominance": 0,
+                        "fully_diluted_market_cap": 0,
+                        "tvl": null,
+                        "last_updated": "2021-06-14T09:14:54.000Z"
+                    }
+                }
+            }
+        ]
+    }
+}

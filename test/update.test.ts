@@ -6,11 +6,12 @@ import {
   CONFLICT_OVERRIDES,
   resolveChainData,
   resolveTokens,
-  fetchChainLinkFeed,
+  hydrateFiatCurrencies,
   splitFeeds,
   setTimestamp,
   getTimestamp,
 } from '../src/update';
+import * as dotenv from 'dotenv';
 
 describe('Parse saved page', () => {
   const fakeChainLinkFetch = async (chainName: string) => {
@@ -28,6 +29,11 @@ describe('Parse saved page', () => {
     expect(fiatFeeds[0].name === 'AUD / USD');
     expect(fiatFeeds[fiatFeeds.length - 1].name === 'TRY / USD');
     expect(fiatFeeds.length == 12);
+
+    const maticUsd = tokenFeeds.find(
+      f => f.input === 'MATIC' && f.output === 'USD'
+    );
+    expect(maticUsd.updateInterval === 10);
 
     expect(tokenFeeds[0].name === '1INCH / ETH');
     expect(tokenFeeds[tokenFeeds.length - 1].name === 'weETH / ETH');
@@ -48,17 +54,16 @@ describe('Parse saved page', () => {
         .readFileSync(path.resolve(__dirname, '../src/chainlist-v1.json'))
         .toString()
     );
-    const chain = chainData.chains.find(c => c.chainId === 1)! as ChainInfo;
-    setTimestamp();
-    const [updatedChain, fiatFeeds, tokenSymbolList] = await resolveChainData(
-      chain,
+    const [fiatFeeds, tokenFeeds, tokenSymbolList] = await resolveChainData(
+      1,
       fakeChainLinkFetch
     );
     expect(tokenSymbolList[0] === '1INCH');
     expect(tokenSymbolList[tokenSymbolList.length - 1] === 'ZRX');
 
-    expect(updatedChain.timestamp === getTimestamp());
-    expect(updatedChain.priceFeeds).toEqual({
+    const fiatMap = {};
+    fiatFeeds.forEach(f => (fiatMap[f.assetName] = f.address));
+    expect(fiatMap).toEqual({
       AUD: '0x77F9710E7d0A19669A13c055F62cd80d313dF022',
       CAD: '0xa34317DB73e77d453b1B8d04550c44D10e981C8e',
       CHF: '0x449d117117838fFA61263B61dA6301AA2a88B13A',
@@ -72,56 +77,65 @@ describe('Parse saved page', () => {
       SGD: '0xe25277fF4bbF9081C75Ab0EB13B4A13a721f3E13',
       TRY: '0xB09fC5fD3f11Cf9eb5E1C5Dba43114e3C9f477b5',
     });
+    expect(tokenFeeds[0].symbol === '1INCH');
     expect(
-      updatedChain.tokenFeeds['1INCH'] ===
-        '0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8'
+      tokenFeeds[0].address === '0x72AFAECF99C9d9C8215fF44C77B94B99C28741e8'
     );
     expect(
-      updatedChain.tokenFeeds['AAVE'] ===
+      tokenFeeds.find(f => f.assetName === 'AAVE') ===
         '0x6Df09E975c830ECae5bd4eD9d90f3A95a4f88012'
     );
-    expect(Object.keys(updatedChain.tokenFeeds).length == 41);
+    expect(Object.keys(tokenFeeds).length == 41);
     expect(fiatFeeds.length == 12);
     expect(fiatFeeds[0].name == 'AUD / USD');
     expect(fiatFeeds[fiatFeeds.length - 1].name == 'TRY / USD');
   });
 
   test('Correctly parses all tokens', async () => {
+    const chainId = 1;
     const fakeTokensFetch = async (chainName: string) => {
       const jsonFile = path.resolve(__dirname, 'data/coingecko-ethereum.json');
       const jsonBuf = fs.readFileSync(jsonFile);
       return JSON.parse(jsonBuf.toString());
     };
 
-    const chainData = JSON.parse(
-      fs
-        .readFileSync(path.resolve(__dirname, '../src/chainlist-v1.json'))
-        .toString()
-    );
-    const chain = chainData.chains.find(c => c.chainId === 1)! as ChainInfo;
-    setTimestamp();
-    const [updatedChain, fiatFeeds, tokenSymbolList] = await resolveChainData(
-      chain,
+    const [fiatFeeds, tokenfeeds, tokenSymbolList] = await resolveChainData(
+      chainId,
       fakeChainLinkFetch
     );
 
-    const tokens = await resolveTokens(
-      chain.chainId,
-      tokenSymbolList,
-      fakeTokensFetch
-    );
-    expect(tokens.length === 54);
+    const tokens = await resolveTokens(1, tokenSymbolList, fakeTokensFetch);
+    expect(tokens.length === 71);
     tokenSymbolList.forEach(symbol => {
-      expect(tokens.filter(t => t.symbol === symbol).length === 1);
+      expect(tokens.filter(t => t.symbol === symbol).length === chainId);
     });
+
     const bnbTokens = tokens.filter(t => t.symbol === 'BNB');
     expect(bnbTokens.length === 1);
     expect(bnbTokens[0].address === CONFLICT_OVERRIDES[1]['BNB']);
 
     const nativeTokens = tokens.filter(t => t.symbol === 'ETH');
-    expect(nativeTokens.length === 1);
+    expect(nativeTokens.length === 0);
 
-    const ethereum = nativeTokens[0];
-    expect(ethereum?.address === '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE');
+    const usdcToken = tokens.find(t => t.symbol === 'USDC');
+    expect(usdcToken).toBeUndefined();
+  });
+
+  test('correctly populates fiat currency', async () => {
+    const envFile = path.resolve(__dirname, '../.env');
+    if (!fs.existsSync(envFile)) {
+      throw new Error('Cannot load .env file');
+    }
+    dotenv.config();
+    const fiatSymbols = ['JPY', 'AUD'];
+
+    const currencies = await hydrateFiatCurrencies(fiatSymbols);
+    expect(currencies.length == 2);
+    const audCurrency = currencies[0];
+    expect(audCurrency.symbol == 'AUD');
+    expect(audCurrency.sign == '$');
+    const jpyCurrency = currencies[0];
+    expect(jpyCurrency.symbol == 'JPY');
+    expect(jpyCurrency.sign == '¥');
   });
 });

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Australian Dollar",
+    "symbol": "AUD",
+    "sign": "$"
+  },
+  {
+    "name": "Brazilian Real",
+    "symbol": "BRL",
+    "sign": "R$"
+  },
+  {
+    "name": "Canadian Dollar",
+    "symbol": "CAD",
+    "sign": "$"
+  },
+  {
+    "name": "Swiss Franc",
+    "symbol": "CHF",
+    "sign": "Fr"
+  },
+  {
+    "name": "Chinese Yuan",
+    "symbol": "CNY",
+    "sign": "¥"
+  },
+  {
+    "name": "Euro",
+    "symbol": "EUR",
+    "sign": "€"
+  },
+  {
+    "name": "Pound Sterling",
+    "symbol": "GBP",
+    "sign": "£"
+  },
+  {
+    "name": "Indonesian Rupiah",
+    "symbol": "IDR",
+    "sign": "Rp"
+  },
+  {
+    "name": "Israeli New Shekel",
+    "symbol": "ILS",
+    "sign": "₪"
+  },
+  {
+    "name": "Indian Rupee",
+    "symbol": "INR",
+    "sign": "₹"
+  },
+  {
+    "name": "Japanese Yen",
+    "symbol": "JPY",
+    "sign": "¥"
+  },
+  {
+    "name": "South Korean Won",
+    "symbol": "KRW",
+    "sign": "₩"
+  },
+  {
+    "name": "Mexican Peso",
+    "symbol": "MXN",
+    "sign": "$"
+  },
+  {
+    "name": "New Zealand Dollar",
+    "symbol": "NZD",
+    "sign": "$"
+  },
+  {
+    "name": "Philippine Peso",
+    "symbol": "PHP",
+    "sign": "₱"
+  },
+  {
+    "name": "Polish Złoty",
+    "symbol": "PLN",
+    "sign": "zł"
+  },
+  {
+    "name": "Swedish Krona",
+    "symbol": "SEK",
+    "sign": "kr"
+  },
+  {
+    "name": "Singapore Dollar",
+    "symbol": "SGD",
+    "sign": "S$"
+  },
+  {
+    "name": "Thai Baht",
+    "symbol": "THB",
+    "sign": "฿"
+  },
+  {
+    "name": "Turkish Lira",
+    "symbol": "TRY",
+    "sign": "₺"
+  },
+  {
+    "name": "South African Rand",
+    "symbol": "ZAR",
+    "sign": "R"
+  }
+]

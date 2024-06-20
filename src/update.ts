@@ -1,8 +1,11 @@
 import { FiatCurrency, PriceFeed, TokenInfo, ChainInfo } from './types';
+import { getFeaturedTokenBySymbol } from './index';
 
 // locations to find coin metadata:
 // https://docs.coingecko.com/reference/coins-list
 // https://coinmarketcap.com/api/documentation/v1/#operation/getV1CryptocurrencyMap
+
+export const deepCopy = (obj: any) => JSON.parse(JSON.stringify(obj));
 
 export const CHAIN_MAPPINGS = [
   {
@@ -10,19 +13,27 @@ export const CHAIN_MAPPINGS = [
     chainLink: 'mainnet',
     coinGecko: 'ethereum',
     chainId: 1,
+    nativeTokenSymbol: 'ETH',
   },
   {
     name: 'polygon',
     chainLink: 'matic-mainnet',
     coinGecko: 'polygon-pos',
     chainId: 137,
+    nativeTokenSymbol: 'ETH',
   },
-  { name: 'gnosis', chainLink: 'xdai-mainnet', coinGecko: null, chainId: 100 },
+  {
+    name: 'gnosis',
+    chainLink: 'xdai-mainnet',
+    coinGecko: null,
+    chainId: 100,
+  },
   {
     name: 'arbitrum',
     chainLink: 'ethereum-mainnet-arbitrum-1',
     coinGecko: 'arbitrum-one',
     chainId: 42161,
+    nativeTokenSymbol: 'ETH',
   },
   {
     name: 'base',
@@ -36,12 +47,13 @@ export const CHAIN_MAPPINGS = [
     coinGecko: 'optimistic-ethereum',
     chainId: 10,
   },
-  {
+  // BSC not supported at this time
+  /* {
     name: 'bsc',
     chainLink: 'bsc-mainnet',
     coinGecko: 'binance-smart-chain',
     chainId: 56,
-  },
+  }, */
 ];
 
 // canonical USDC addresses here:
@@ -80,44 +92,11 @@ const ethereumNative = {
   address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
 };
 
-const NATIVE_TOKENS = {
-  [1]: ethereumNative,
-  [10]: Object.assign({ chainId: 10 }, ethereumNative),
-  [56]: {
-    chainId: 56,
-    address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-    name: 'BNB',
-    symbol: 'BNB',
-    decimals: 18,
-    logoURI:
-      'https://assets.coingecko.com/coins/images/825/thumb/bnb-icon2_2x.png?1696501970',
-  },
-  [100]: {
-    chainId: 100,
-    coinGeckoId: 'xdai',
-    address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-    decimals: 18,
-    name: 'xDAI',
-    symbol: 'xDAI',
-    currency: 'USD',
-    tags: ['Gnosis', 'Stablecoin', 'Native Token'],
-    logoUri:
-      'https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/xDAI.svg',
-  },
-  [137]: {
-    chainId: 137,
-    coinGeckoId: 'matic-network',
-    name: 'MATIC',
-    symbol: 'MATIC',
-    logoUri:
-      'https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/137/logo.svg',
-    decimals: 18,
-    tags: ['Polygon', 'Native Token'],
-    address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE',
-  },
-  [8453]: Object.assign({ chainId: 8453 }, ethereumNative),
-  [42161]: Object.assign({ chainId: 42161 }, ethereumNative),
-};
+const optimismNative = Object.assign(deepCopy(ethereumNative), { chainId: 10 });
+const baseNative = Object.assign(deepCopy(ethereumNative), { chainId: 8453 });
+const arbitrumNative = Object.assign(deepCopy(ethereumNative), {
+  chainId: 42161,
+});
 
 let timestamp;
 
@@ -135,20 +114,6 @@ const getChainLinkFeed = (chainName: string) => {
   return `https://reference-data-directory.vercel.app/feeds-${chainName}.json`;
 };
 
-const FIAT_SYMBOLS = {
-  YEN: '¥',
-  EUR: '€',
-  USD: '$',
-  CHF: 'CHF',
-  AUD: '$',
-  CAD: '$',
-  CNY: '¥',
-  THB: '฿',
-  GBP: '£',
-  SEK: 'kr',
-  SGD: '$',
-};
-
 export const fetchChainLinkFeed = async (chainName: string) => {
   const url = getChainLinkFeed(chainName);
   const resp = await fetch(url);
@@ -160,7 +125,7 @@ export const fetchChainLinkFeed = async (chainName: string) => {
 
 const parseFeed = (f: any, chainId: number) => {
   let updateInterval = 600; // 10 minutes
-  if (f.pair[0] === 'MATIC' && chainId === 137) {
+  if (f.docs.baseAsset === 'MATIC' && chainId === 137) {
     updateInterval = 10;
   }
   return {
@@ -170,8 +135,8 @@ const parseFeed = (f: any, chainId: number) => {
     assetName: f.docs.baseAsset,
     address: f.proxyAddress,
     path: f.path,
-    input: f.pair[0],
-    output: f.pair[1],
+    input: f.docs.baseAsset,
+    output: f.docs.quoteAsset,
     deviation: f.deviation,
     type: f.feedType.toLowerCase() === 'crypto' ? 'crypto' : 'fiat',
     updateInterval: updateInterval,
@@ -194,59 +159,31 @@ export const splitFeeds = (feeds: any, chainId: number) => {
     ['Forex', 'Crypto'].includes(row.feedType)
   );
 
-  const fiatCurrencies = {} as {
-    string: FiatCurrency;
-  };
-
   const fiatFeeds = filteredFeeds
     .filter((f: any) => f.feedType === 'Forex')
     .sort(basicSort)
-    .map((f: any) => {
-      if (!fiatCurrencies[f.assetName]) {
-        fiatCurrencies[f.assetName] = {
-          name: f.assetName,
-          code: f.docs.baseAsset,
-          symbol: FIAT_SYMBOLS[f.docs.baseAsset]
-            ? FIAT_SYMBOLS[f.docs.baseAsset]
-            : f.docs.baseAsset,
-        } as FiatCurrency;
-      }
-      return parseFeed(f, chainId);
-    })
-    .filter((f: PriceFeed) => f.path.endsWith('usd'));
+    .map((f: any) => parseFeed(f, chainId));
 
   const tokenFeeds = filteredFeeds
     .filter((f: any) => f.feedType === 'Crypto')
     .sort(basicSort)
-    .map((f: any) => parseFeed(f, chainId))
-    .filter((f: PriceFeed) => f.path.endsWith('usd'));
+    .map((f: any) => parseFeed(f, chainId));
 
   return [fiatFeeds, tokenFeeds];
 };
 
 export const resolveChainData = async (
-  chainInfo: ChainInfo,
+  chainId: number,
   fetchFeed?,
   fetchCoinGecko?
 ) => {
-  const chainMapping = CHAIN_MAPPINGS.find(
-    m => m.chainId === chainInfo.chainId
-  )!;
+  const chainMapping = CHAIN_MAPPINGS.find(m => m.chainId === chainId)!;
   const func = fetchFeed ? fetchFeed : fetchChainLinkFeed;
   const feeds = await func(chainMapping.chainLink);
-  const [fiatFeeds, tokenFeeds] = splitFeeds(feeds, chainInfo.chainId);
-  (chainInfo as any).timestamp = getTimestamp();
-  const fiatMap = {};
-  fiatFeeds.map(f => {
-    fiatMap[f.input] = f.address;
-  });
-  const tokenMap = {};
-  tokenFeeds.map(f => (tokenMap[f.assetName] = f.address));
+  const [fiatFeeds, tokenFeeds] = splitFeeds(feeds, chainId);
 
-  (chainInfo as any).priceFeeds = fiatMap;
-  (chainInfo as any).tokenFeeds = tokenMap;
   const tokenSymbolList = new Set(tokenFeeds.map(f => f.assetName));
-  return [chainInfo, fiatFeeds, Array.from(tokenSymbolList)];
+  return [fiatFeeds, tokenFeeds, Array.from(tokenSymbolList)];
 };
 
 export const fetchTokenData = async (chainName: string) => {
@@ -266,13 +203,28 @@ export const resolveTokens = async (
   fetchTokensFunc?
 ) => {
   const chainMapping = CHAIN_MAPPINGS.find(c => c.chainId === chainId)!;
-  const func = fetchTokensFunc ? fetchTokensFunc : fetchTokenData;
+  let tokens: TokenInfo[];
 
-  const data = await func(chainMapping.coinGecko!);
-
-  const tokens: TokenInfo[] = data
-    .tokens!.filter((t: TokenInfo) => tokenSymbolList.includes(t.symbol))
-    .sort(basicSort);
+  // coingecko doesn't have coins for GNOSIS
+  if (chainId === 100) {
+    return [];
+  } else {
+    const func = fetchTokensFunc ? fetchTokensFunc : fetchTokenData;
+    const data = await func(chainMapping.coinGecko!);
+    tokens = data
+      .tokens!.filter((t: TokenInfo) => tokenSymbolList.includes(t.symbol))
+      .filter(
+        (t: TokenInfo) => getFeaturedTokenBySymbol(t.symbol, chainId) === null
+      )
+      .map((t: any) => {
+        // fix the logoUri attribute
+        const logo = t.logoURI;
+        delete t['logoURI']
+        t.logoUri = logo;
+        return t;
+      })
+      .sort(basicSort);
+  }
 
   // If we find duplicate symbols, drop the tokens on the floor
   // unless we have a value to determine which is correct
@@ -291,13 +243,32 @@ export const resolveTokens = async (
     }
   });
 
-  // look for tokens that copy the symbol of the chain's native token
-  const nativeTokenSymbol = NATIVE_TOKENS[chainId].symbol;
-  const copyCatNativeTokens = tokens.filter(t => t.symbol == nativeTokenSymbol);
-  copyCatNativeTokens.forEach(t => dumpList.push(t.address));
-
-  // Add the native token
-  tokens.push(NATIVE_TOKENS[chainId]);
-
   return tokens.filter((t: TokenInfo) => !dumpList.includes(t.address));
+};
+
+// Use symbols of input currency in pricefeeds
+// And all currency data from CoinMarketCap to create FiatCurrency objects
+export const hydrateFiatCurrencies = async (fiatSymbols: string[]) => {
+  if (!process.env.CMC_API_KEY) {
+    throw new Error(
+      'The environment variable CMC_API_KEY must be defined in .env'
+    );
+  }
+  const cmcUrl = 'https://pro-api.coinmarketcap.com/v1/fiat/map';
+  const resp = await fetch(cmcUrl, {
+    headers: { 'X-CMC_PRO_API_KEY': process.env.CMC_API_KEY },
+  });
+  if (!resp.ok) {
+    throw new Error(
+      `Request to ${cmcUrl} failed with status: ${resp.statusText}`
+    );
+  }
+  const allCurrencies = (await resp.json()).data;
+  const currencies = allCurrencies
+    .map(c => {
+      return { name: c.name, symbol: c.symbol, sign: c.sign } as FiatCurrency;
+    })
+    .filter(c => fiatSymbols.includes(c.symbol));
+
+  return currencies;
 };

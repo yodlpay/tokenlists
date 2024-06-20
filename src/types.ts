@@ -110,6 +110,6 @@ export interface PriceFeed {
 
 export interface FiatCurrency {
   readonly name: string;
-  readonly code: string;
   readonly symbol: string;
+  readonly sign: string;
 }

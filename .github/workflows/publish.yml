@@ -25,7 +25,7 @@ jobs:
         run: yarn build # If you have a build step
 
       - name: Publish to npm
-        run: yarn publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 

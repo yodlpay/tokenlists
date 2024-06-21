@@ -23,6 +23,13 @@
       "fee": "0.002"
     },
     {
+      "chainId": 1,
+      "address": "0x3E30748c33981E97CBA36d4Fc5eD0237E8Bab52A",
+      "timestamp": "2024-06-02T00:00:00+00:00",
+      "version": "0.3",
+      "fee": "0.002"
+    },
+    {
       "chainId": 5,
       "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",
@@ -44,6 +51,13 @@
       "fee": "0.002"
     },
     {
+      "chainId": 10,
+      "address": "0x2BaE9Bb53BCe89c760dBfA55D854D43ab96EE19f",
+      "timestamp": "2024-06-20T00:00:00+00:00",
+      "version": "0.3",
+      "fee": "0.002"
+    },
+    {
       "chainId": 42161,
       "address": "0x334264f4fbb56a84f80df722ba765d210f0cf555",
       "timestamp": "2023-02-23T00:00:00+00:00",
@@ -55,6 +69,13 @@
       "address": "0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4",
       "timestamp": "2023-09-01T00:00:00+00:00",
       "version": "0.2",
+      "fee": "0.002"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x2bae9bb53bce89c760dbfa55d854d43ab96ee19f",
+      "timestamp": "2024-06-20T00:00:00+00:00",
+      "version": "0.3",
       "fee": "0.002"
     },
     {
@@ -72,10 +93,24 @@
       "fee": "0.002"
     },
     {
+      "chainId": 100,
+      "address": "0x2BaE9Bb53BCe89c760dBfA55D854D43ab96EE19f",
+      "timestamp": "2024-06-20T00:00:00+00:00",
+      "version": "0.3",
+      "fee": "0.002"
+    },
+    {
       "chainId": 137,
       "address": "0x8866DAFa2762346c85098C5b2201fA7CB2dA6100",
       "timestamp": "2023-09-07T00:00:00+00:00",
       "version": "0.2",
+      "fee": "0.002"
+    },
+    {
+      "chainId": 137,
+      "address": "0x42ecf39814824a684529d57e1635d30a90fb9c33",
+      "timestamp": "2024-06-20T00:00:00+00:00",
+      "version": "0.3",
       "fee": "0.002"
     },
     {
@@ -90,6 +125,13 @@
       "address": "0x775397bf2f68af5aba4029260c1f44770b77d513",
       "timestamp": "2024-06-18T17:50:00+00:00",
       "version": "0.2",
+      "fee": "0.002"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x2bfDCe58C5f3533617013aa2e4f8C6BD6dc4398e",
+      "timestamp": "2024-06-20T15:50:00+00:00",
+      "version": "0.3",
       "fee": "0.002"
     }
   ]

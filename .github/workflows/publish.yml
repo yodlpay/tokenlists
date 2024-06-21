@@ -21,9 +21,6 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Build the project
-        run: yarn build # If you have a build step
-
       - name: Publish to npm
         run: npm publish
         env:

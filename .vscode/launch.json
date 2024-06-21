@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Next.js: run tests",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "yarn jest",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

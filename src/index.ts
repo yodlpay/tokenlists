@@ -21,6 +21,10 @@ const tokenlist = featuredTokenlist.tokens.concat(
   generatedTokenlist.tokens as TokenInfo[]
 );
 
+export function getChains(): ChainInfo[] {
+  return chainlist.chains;
+}
+
 export function getChain(chainId: number): ChainInfo {
   return chainlist.chains.find((needle: any) => {
     return needle.chainId === chainId;
@@ -115,10 +119,12 @@ export function getTokenBySymbol(
   return tokens.length > 0 ? tokens[0] : null;
 }
 
-export function getTokens(chainId: number): TokenInfo[] {
-  return tokenlist.filter((needle: any) => {
-    return needle.chainId === chainId;
-  }) as TokenInfo[];
+export function getTokens(chainId?: number): TokenInfo[] {
+  return chainId
+    ? (tokenlist.filter((needle: any) => {
+        return needle.chainId === chainId;
+      }) as TokenInfo[])
+    : (tokenlist as TokenInfo[]);
 }
 
 export function getFaucetAddress(tokenInfo: TokenInfo): TestnetFaucetInfo {
@@ -136,10 +142,30 @@ export function getRouters(chainId: number): RouterInfo[] {
   }) as RouterInfo[];
 }
 
-export function getRouter(chainId: number, version: string): RouterInfo {
+export function getRouter(
+  chainId: number,
+  version: string
+): RouterInfo | undefined {
   return routerlist.routers.find((needle: any) => {
     return needle.chainId === chainId && needle.version === version;
   }) as RouterInfo;
+}
+
+export function getRouterByAddress(
+  address: string,
+  chainId?: number
+): RouterInfo | undefined {
+  const findByAddress = (router: RouterInfo) =>
+    router.address.toLowerCase() === address.toLowerCase();
+
+  const findByAddressAndChainId = (router: RouterInfo) =>
+    router.address.toLowerCase() === address.toLowerCase() &&
+    router.chainId == chainId;
+
+  const filter = chainId ? findByAddressAndChainId : findByAddress;
+
+  const routerInfo = routerlist.routers.find(filter);
+  return routerInfo;
 }
 
 export function getLatestRouter(chainId: number): RouterInfo {

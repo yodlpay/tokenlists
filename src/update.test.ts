@@ -13,9 +13,14 @@ import {
 } from '../src/update';
 import * as dotenv from 'dotenv';
 
+beforeEach(() => {
+  //@ts-ignore
+  fetch.resetMocks();
+});
+
 describe('Parse saved page', () => {
   const fakeChainLinkFetch = async (chainName: string) => {
-    const jsonFile = path.resolve(__dirname, 'data/feeds-mainnet.json');
+    const jsonFile = path.resolve(__dirname, '../test/data/feeds-mainnet.json');
     const jsonBuf = fs.readFileSync(jsonFile);
     return JSON.parse(jsonBuf.toString());
   };
@@ -50,9 +55,7 @@ describe('Parse saved page', () => {
 
   test('Sets correct values for priceFeeds and tokenFeeds', async () => {
     const chainData = JSON.parse(
-      fs
-        .readFileSync(path.resolve(__dirname, '../src/chainlist-v1.json'))
-        .toString()
+      fs.readFileSync(path.resolve(__dirname, 'chainlist-v1.json')).toString()
     );
     const [fiatFeeds, tokenFeeds, tokenSymbolList] = await resolveChainData(
       1,
@@ -94,7 +97,10 @@ describe('Parse saved page', () => {
   test('Correctly parses all tokens', async () => {
     const chainId = 1;
     const fakeTokensFetch = async (chainName: string) => {
-      const jsonFile = path.resolve(__dirname, 'data/coingecko-ethereum.json');
+      const jsonFile = path.resolve(
+        __dirname,
+        '../test/data/coingecko-ethereum.json'
+      );
       const jsonBuf = fs.readFileSync(jsonFile);
       return JSON.parse(jsonBuf.toString());
     };
@@ -122,13 +128,15 @@ describe('Parse saved page', () => {
   });
 
   test('correctly populates fiat currency', async () => {
-    const envFile = path.resolve(__dirname, '../.env');
-    if (!fs.existsSync(envFile)) {
-      throw new Error('Cannot load .env file');
-    }
-    dotenv.config();
+    process.env.CMC_API_KEY = 'test';
     const fiatSymbols = ['JPY', 'AUD'];
-
+    const jsonFile = path.resolve(
+      __dirname,
+      '../test/data/fiat-currencies.json'
+    );
+    const jsonBuf = fs.readFileSync(jsonFile);
+    //@ts-ignore
+    fetch.mockResponseOnce(jsonBuf.toString());
     const currencies = await hydrateFiatCurrencies(fiatSymbols);
     expect(currencies.length == 2);
     const audCurrency = currencies[0];

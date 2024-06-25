@@ -1,5 +1,5 @@
 {
-  "include": ["src", "types", "scripts", "test/update.test.ts"],
+  "include": ["src", "types", "test/update.test.ts"],
   "compilerOptions": {
     "module": "esnext",
     "lib": ["dom", "esnext"],
@@ -18,7 +18,7 @@
     "moduleResolution": "node",
     "baseUrl": "./",
     "paths": {
-      "*": ["src/*", "node_modules/*", "scripts/*"]
+      "*": ["src/*", "node_modules/*"]
     },
     "jsx": "react",
     "esModuleInterop": true

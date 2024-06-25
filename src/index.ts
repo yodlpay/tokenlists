@@ -21,7 +21,9 @@ const tokenlist = featuredTokenlist.tokens.concat(
   generatedTokenlist.tokens as TokenInfo[]
 );
 
-export { tokenlist, chainlist, routerlist };
+export function getChains(): ChainInfo[] {
+  return chainlist.chains;
+}
 
 export function getChain(chainId: number): ChainInfo {
   return chainlist.chains.find((needle: any) => {
@@ -56,7 +58,9 @@ export function getFiatFeeds(chainId: number) {
 }
 
 export function getFiatCurrency(symbol: string) {
-  return fiatCurrencies.find(c => c.symbol.toLowerCase() === symbol.toLowerCase());
+  return fiatCurrencies.find(
+    c => c.symbol.toLowerCase() === symbol.toLowerCase()
+  );
 }
 
 export function getPriceFeed(
@@ -66,15 +70,19 @@ export function getPriceFeed(
 ) {
   const _quoteSymbol = quoteSymbol ? quoteSymbol : 'USD';
   const feed = priceFeeds.find(
-    f => f.input?.toLowerCase() === baseSymbol.toLowerCase() &&
-      f.output === _quoteSymbol && f.chainId === chainId
+    f =>
+      f.input?.toLowerCase() === baseSymbol.toLowerCase() &&
+      f.output === _quoteSymbol &&
+      f.chainId === chainId
   );
   if (feed) {
     return feed;
   } else {
     // feed not found, find any feed that matches the base symbol
     return priceFeeds.find(
-      f => f.input?.toLowerCase() === baseSymbol.toLowerCase() && f.chainId === chainId
+      f =>
+        f.input?.toLowerCase() === baseSymbol.toLowerCase() &&
+        f.chainId === chainId
     );
   }
 }
@@ -86,7 +94,8 @@ export function getFeaturedTokenBySymbol(
   return (
     (featuredTokenlist.tokens.find((token: any) => {
       return (
-        token.symbol.toLowerCase() === tokenSymbol.toLowerCase() && (!chainId || token.chainId === chainId)
+        token.symbol.toLowerCase() === tokenSymbol.toLowerCase() &&
+        (!chainId || token.chainId === chainId)
       );
     }) as TokenInfo) ?? null
   );
@@ -98,7 +107,8 @@ export function getTokenBySymbol(
 ): TokenInfo | null {
   const tokens = tokenlist.filter((token: any) => {
     return (
-      token.symbol.toLowerCase() === tokenSymbol.toLowerCase() && (!chainId || token.chainId === chainId)
+      token.symbol.toLowerCase() === tokenSymbol.toLowerCase() &&
+      (!chainId || token.chainId === chainId)
     );
   }) as TokenInfo[];
 
@@ -109,10 +119,12 @@ export function getTokenBySymbol(
   return tokens.length > 0 ? tokens[0] : null;
 }
 
-export function getTokens(chainId: number): TokenInfo[] {
-  return tokenlist.filter((needle: any) => {
-    return needle.chainId === chainId;
-  }) as TokenInfo[];
+export function getTokens(chainId?: number): TokenInfo[] {
+  return chainId
+    ? (tokenlist.filter((needle: any) => {
+        return needle.chainId === chainId;
+      }) as TokenInfo[])
+    : (tokenlist as TokenInfo[]);
 }
 
 export function getFaucetAddress(tokenInfo: TokenInfo): TestnetFaucetInfo {
@@ -130,10 +142,30 @@ export function getRouters(chainId: number): RouterInfo[] {
   }) as RouterInfo[];
 }
 
-export function getRouter(chainId: number, version: string): RouterInfo {
+export function getRouter(
+  chainId: number,
+  version: string
+): RouterInfo | undefined {
   return routerlist.routers.find((needle: any) => {
     return needle.chainId === chainId && needle.version === version;
   }) as RouterInfo;
+}
+
+export function getRouterByAddress(
+  address: string,
+  chainId?: number
+): RouterInfo | undefined {
+  const findByAddress = (router: RouterInfo) =>
+    router.address.toLowerCase() === address.toLowerCase();
+
+  const findByAddressAndChainId = (router: RouterInfo) =>
+    router.address.toLowerCase() === address.toLowerCase() &&
+    router.chainId == chainId;
+
+  const filter = chainId ? findByAddressAndChainId : findByAddress;
+
+  const routerInfo = routerlist.routers.find(filter);
+  return routerInfo;
 }
 
 export function getLatestRouter(chainId: number): RouterInfo {

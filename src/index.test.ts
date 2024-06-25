@@ -1,6 +1,7 @@
 import {
   getTokens,
   getChain,
+  getChains,
   getTokenByAddress,
   getTokenBySymbol,
   getRouter,
@@ -10,10 +11,15 @@ import {
   getFiatCurrency,
   getFiatFeeds,
   getTokenFeeds,
+  getRouters,
+  getRouterByAddress,
 } from '../src';
 
 describe('Test basic functionality', () => {
   test('getters', () => {
+    const baseChain = getChains().find(c => c.chainName === 'Base')!;
+    expect(baseChain.chainId === 8453);
+
     const chain = getChain(1);
     expect(chain.chainName).toBe('Ethereum');
     const tokens = getTokens(1);
@@ -27,6 +33,9 @@ describe('Test basic functionality', () => {
     );
     expect(token?.name).toBe('Ether');
 
+    const allTokens = getTokens();
+    expect(allTokens[0].chainId).toBe(1);
+
     expect(getTokenBySymbol('ZZZZZZZZZZ', 1)).toBeNull();
     expect(getTokenBySymbol('ETH', 1)?.symbol).toBe('ETH');
 
@@ -36,12 +45,30 @@ describe('Test basic functionality', () => {
     );
 
     const opRouter = getRouter(10, '0.2');
-    expect(opRouter.address).toBe('0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4');
+    expect(opRouter!.address).toBe(
+      '0x408EB3F5A578b3eEcFe2c0cD58988fAb306885b4'
+    );
 
     const latestOpRouter = getLatestRouter(10);
     expect(latestOpRouter.address).toBe(
       '0x2BaE9Bb53BCe89c760dBfA55D854D43ab96EE19f'
     );
+
+    const allRouters = getRouters(1);
+    expect(allRouters[0].address).toBe(
+      '0x4cafd841df0df6da5739f729491887d64ad2794c'
+    );
+
+    const firstRouter = getRouterByAddress(
+      '0x4cafd841df0df6da5739f729491887d64ad2794c'
+    );
+    expect(firstRouter?.chainId).toBe(1);
+
+    const secondRouter = getRouterByAddress(
+      '0x3E30748c33981E97CBA36d4Fc5eD0237E8Bab52A',
+      1
+    );
+    expect(secondRouter?.version).toBe('0.3');
 
     const agEurFeed = getPriceFeed(1, 'AGEUR', 'EUR');
     expect(agEurFeed?.address).toBe(

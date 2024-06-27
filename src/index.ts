@@ -178,3 +178,20 @@ export function getLatestRouter(chainId: number): RouterInfo {
 export function getShortNames(): string[] {
   return chainlist.chains.map(chain => chain.shortName);
 }
+
+export function getNativeWrappedToken(chainId: number): TokenInfo {
+  const nativeTokens = featuredTokenlist.tokens.filter(
+    t =>
+      t.chainId === chainId &&
+      t.tags.map(tag => tag.toLowerCase()).includes('wrapped') &&
+      t.tags.map(tag => tag.toLowerCase()).includes('native token')
+  ) as TokenInfo[];
+  if (nativeTokens.length > 1) {
+    throw new Error(
+      `Found more than one native wrapped token for chain ${chainId}`
+    );
+  } else if (nativeTokens.length < 1) {
+    throw new Error(`No native wrapped token found for chain ${chainId}`);
+  }
+  return nativeTokens[0];
+}

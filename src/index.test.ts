@@ -13,6 +13,7 @@ import {
   getTokenFeeds,
   getRouters,
   getRouterByAddress,
+  getNativeWrappedToken,
 } from '../src';
 
 describe('Test basic functionality', () => {
@@ -93,5 +94,26 @@ describe('Test basic functionality', () => {
 
     const tokenFeeds = getTokenFeeds(1);
     expect(tokenFeeds[0].name).toBe('1INCH / ETH');
+  });
+  test('test fetching native wrapped token', () => {
+    const weth = getNativeWrappedToken(1);
+    expect(weth.address).toBe('0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2');
+
+    const wmatic = getNativeWrappedToken(137);
+    expect(wmatic.address).toBe('0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270');
+
+    const wethArb = getNativeWrappedToken(42161);
+    expect(wethArb.address).toBe('0x82aF49447D8a07e3bd95BD0d56f35241523fBab1');
+
+    const wethOp = getNativeWrappedToken(10);
+    expect(wethOp.address).toBe('0x4200000000000000000000000000000000000006');
+
+    const wethBase = getNativeWrappedToken(8453);
+    expect(wethBase.address).toBe('0x4200000000000000000000000000000000000006');
+
+    const wXDAI = getNativeWrappedToken(100);
+    expect(wXDAI.address).toBe('0xe91d153e0b41518a2ce8dd3d7944fa863463a97d');
+
+    expect(() => getNativeWrappedToken(999999)).toThrow(Error);
   });
 });

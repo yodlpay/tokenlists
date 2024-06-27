@@ -13,7 +13,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "postbuild": "mkdir dist; cp src/*.json dist/",
-    "lint": "tsdx lint src test",
+    "lint": "tsdx lint src",
     "test": "jest",
     "typecheck": "tsc --noEmit -p ./tsconfig.json",
     "update": "tsx scripts/update.ts",

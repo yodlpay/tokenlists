@@ -30,6 +30,13 @@
       "fee": "0.002"
     },
     {
+      "chainId": 1,
+      "address": "0x9569B81892B7168efe41cdc51aa075a71C0f4F5b",
+      "timestamp": "2024-06-28T00:00:00+00:00",
+      "version": "0.4",
+      "fee": "0.002"
+    },
+    {
       "chainId": 5,
       "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",

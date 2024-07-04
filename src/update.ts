@@ -133,7 +133,7 @@ const parseFeed = (f: any, chainId: number) => {
     chainId: chainId,
     name: f.name,
     assetName: f.docs.baseAsset,
-    address: f.proxyAddress,
+    address: f.proxyAddress ? f.proxyAddress : f.contractAddress,
     path: f.path,
     input: f.docs.baseAsset,
     output: f.docs.quoteAsset,

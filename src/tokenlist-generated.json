@@ -1,5 +1,5 @@
 {
-  "timestamp": "2024-06-21T11:10:43.633Z",
+  "timestamp": "2024-07-02T10:09:42.127Z",
   "tokens": [
     {
       "chainId": 1,
@@ -40,14 +40,6 @@
       "symbol": "AMPL",
       "decimals": 9,
       "logoUri": "https://assets.coingecko.com/coins/images/4708/thumb/Ampleforth.png?1696505273"
-    },
-    {
-      "chainId": 1,
-      "address": "0x4d224452801aced8b2f0aebe155379bb5d594381",
-      "name": "ApeCoin",
-      "symbol": "APE",
-      "decimals": 18,
-      "logoUri": "https://assets.coingecko.com/coins/images/24383/thumb/apecoin.jpg?1696523566"
     },
     {
       "chainId": 1,
@@ -176,6 +168,14 @@
       "symbol": "MLN",
       "decimals": 18,
       "logoUri": "https://assets.coingecko.com/coins/images/605/thumb/Enzyme_Icon_Secondary.png?1696501803"
+    },
+    {
+      "chainId": 1,
+      "address": "0x9d39a5de30e57443bff2a8307a4256c8797a3497",
+      "name": "Ethena Staked USDe",
+      "symbol": "SUSDE",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/33669/thumb/sUSDe-Symbol-Color.png?1716307680"
     },
     {
       "chainId": 1,
@@ -328,6 +328,14 @@
       "symbol": "MKR",
       "decimals": 18,
       "logoUri": "https://assets.coingecko.com/coins/images/1364/thumb/Mark_Maker.png?1696502423"
+    },
+    {
+      "chainId": 1,
+      "address": "0xd5f7838f5c461feff7fe49ea5ebaf7728bb0adfa",
+      "name": "Mantle Staked Ether",
+      "symbol": "METH",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/33345/thumb/symbol_transparent_bg.png?1701697066"
     },
     {
       "chainId": 1,
@@ -859,6 +867,14 @@
     },
     {
       "chainId": 42161,
+      "address": "0xe05a08226c49b636acf99c40da8dc6af83ce5bb3",
+      "name": "Ankr Staked ETH",
+      "symbol": "ANKRETH",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/13403/thumb/aETHc.png?1696513165"
+    },
+    {
+      "chainId": 42161,
       "address": "0x912ce59144191c1204e64559fe8253a0e49e6548",
       "name": "Arbitrum",
       "symbol": "ARB",
@@ -968,6 +984,22 @@
       "symbol": "GNS",
       "decimals": 18,
       "logoUri": "https://assets.coingecko.com/coins/images/19737/thumb/logo.png?1696519161"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x5a7a183b6b44dc4ec2e3d2ef43f98c5152b1d76d",
+      "name": "Inception Restaked ETH",
+      "symbol": "INETH",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/34127/thumb/inETH.png?1715036464"
+    },
+    {
+      "chainId": 42161,
+      "address": "0xd08c3f25862077056cb1b710937576af899a4959",
+      "name": "Inception stETH",
+      "symbol": "INSTETH",
+      "decimals": 18,
+      "logoUri": "https://assets.coingecko.com/coins/images/34954/thumb/Group_14.png?1706773546"
     },
     {
       "chainId": 42161,
@@ -1167,7 +1199,7 @@
       "name": "Xai",
       "symbol": "XAI",
       "decimals": 18,
-      "logoUri": "https://assets.coingecko.com/coins/images/34258/thumb/2024-01-09_16.31.28.jpg?1704789138"
+      "logoUri": "https://assets.coingecko.com/coins/images/34258/thumb/round_icon_2048_px.png?1719523838"
     },
     {
       "chainId": 42161,

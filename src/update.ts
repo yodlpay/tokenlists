@@ -128,12 +128,18 @@ const parseFeed = (f: any, chainId: number) => {
   if (f.docs.baseAsset === 'MATIC' && chainId === 137) {
     updateInterval = 10;
   }
+  const address = f.proxyAddress ? f.proxyAddress : f.contractAddress;
+  
+  if (!address) {
+    throw new Error(`No pricefeed address found for feed ${f.name}`);
+  }
+  
   return {
     decimals: f.decimals,
     chainId: chainId,
     name: f.name,
     assetName: f.docs.baseAsset,
-    address: f.proxyAddress ? f.proxyAddress : f.contractAddress,
+    address: address,
     path: f.path,
     input: f.docs.baseAsset,
     output: f.docs.quoteAsset,

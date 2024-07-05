@@ -112,7 +112,7 @@ export function getTokenBySymbol(
     );
   }) as TokenInfo[];
 
-  if (tokens && tokens.length > 1) {
+  if (chainId && tokens && tokens.length > 1) {
     throw new Error(`Duplicate tokens found for symbol ${tokenSymbol}`);
   }
 

@@ -63,6 +63,10 @@ export function getFiatCurrency(symbol: string) {
   );
 }
 
+export function getFiatCurrencies() {
+  return fiatCurrencies;
+}
+
 export function getPriceFeed(
   chainId: number,
   baseSymbol: string,

@@ -183,6 +183,10 @@ export function getShortNames(): string[] {
   return chainlist.chains.map(chain => chain.shortName);
 }
 
+export function getNativeToken(chainId: number): string {
+  return chainlist.chains.find(chain => chain.chainId === chainId)?.nativeTokenName!;
+}
+
 export function getNativeWrappedToken(chainId: number): TokenInfo {
   const nativeTokens = featuredTokenlist.tokens.filter(
     t =>

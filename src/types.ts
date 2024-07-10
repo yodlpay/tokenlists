@@ -44,6 +44,7 @@ export interface ChainInfo {
   readonly timestamp: string;
   readonly rpcUrls: string[];
   readonly wrappedNativeToken: string;
+  readonly nativeTokenName: string;
   readonly feeTreasury?: string;
   readonly testnet: boolean;
   readonly priceFeeds?: {

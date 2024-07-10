@@ -19,6 +19,7 @@
       ],
       "wrappedNativeToken": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
       "explorerUrl": "https://etherscan.io",
+      "nativeTokenName": "ETH",
       "timestamp": "2024-06-20T08:16:18.193Z",
       "feeTreasury": "0x9C48d180e4eEE0dA2A899EE1E4c533cA5e92db77",
       "curveRouterAddress": "0x99a58482BD75cbab83b27EC03CA68fF489b5788f"
@@ -34,6 +35,7 @@
       ],
       "wrappedNativeToken": "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6",
       "explorerUrl": "https://goerli.etherscan.io",
+      "nativeTokenName":  "ETH",
       "timestamp": "2022-12-28T14:10:09+00:00",
       "feeTreasury": "0x3E8A61F0532BA2b58660606d61110cC9E90c4D29"
     },
@@ -48,6 +50,7 @@
       ],
       "wrappedNativeToken": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
       "explorerUrl": "https://arbiscan.io",
+      "nativeTokenName":  "ETH",
       "timestamp": "2024-06-20T08:16:18.932Z",
       "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "curveRouterAddress": "0x4c2af2df2a7e567b5155879720619ea06c5bb15d"
@@ -63,6 +66,7 @@
       ],
       "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
       "explorerUrl": "https://optimistic.etherscan.io",
+      "nativeTokenName":  "ETH",
       "timestamp": "2024-06-20T08:16:19.165Z",
       "feeTreasury": "0x5f0947253a8218894af13438ac2e2e0ced30d234",
       "curveRouterAddress": "0x89287c32c2cac1c76227f6d300b2dbbab6b75c08"
@@ -78,6 +82,7 @@
       ],
       "wrappedNativeToken": "0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB",
       "explorerUrl": "https://snowtrace.io",
+      "nativeTokenName":  "AVAX",
       "timestamp": "2023-01-13T14:52:05+00:00",
       "feeTreasury": "0x25e22F3ceE59F34622f7DC9a2078B85f17BfBe95"
     },
@@ -92,6 +97,7 @@
       ],
       "wrappedNativeToken": "0xe91d153e0b41518a2ce8dd3d7944fa863463a97d",
       "explorerUrl": "https://gnosisscan.io",
+      "nativeTokenName":  "xDAI",
       "timestamp": "2024-06-20T08:16:18.872Z",
       "feeTreasury": "0x775aaf73a50C25eEBd308BBb9C34C73D081B423b",
       "curveRouterAddress": "0xe6358f6a45b502477e83cc1cda759f540e4459ee"
@@ -107,6 +113,7 @@
       ],
       "wrappedNativeToken": "0x4200000000000000000000000000000000000006",
       "explorerUrl": "https://basescan.org",
+      "nativeTokenName":  "ETH",
       "timestamp": "2024-06-20T08:16:19.051Z",
       "feeTreasury": "0x46959a8a332eca1a05Bd4F18115b8F2E1C2F2f05",
       "curveRouterAddress": "0x0000000000000000000000000000000000000000"
@@ -122,6 +129,7 @@
       ],
       "wrappedNativeToken": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
       "explorerUrl": "https://polygonscan.com",
+      "nativeTokenName":  "MATIC",
       "timestamp": "2024-06-20T08:16:18.717Z",
       "feeTreasury": "0x5f0947253a8218894af13438ac2e2E0CeD30d234",
       "curveRouterAddress": "0x2a426b3Bb4fa87488387545f15D01d81352732F9"

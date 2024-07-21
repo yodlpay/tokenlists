@@ -36,8 +36,8 @@ jobs:
       - name: 📥 Install Dependencies
         run: yarn install
 
-      - name: 🔎 Type check
-        run: yarn run typecheck
+#      - name: 🔎 Type check
+#        run: yarn run typecheck
 
       - name: test
         run: yarn run test

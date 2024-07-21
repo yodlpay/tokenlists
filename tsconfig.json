@@ -9,7 +9,6 @@
     "rootDir": "./src",
     "strict": true,
     "noUnusedLocals": false,
-    "suppressImplicitAnyIndexErrors": true,
     "noImplicitAny": false,
     "noUnusedParameters": false,
     "noImplicitReturns": true,

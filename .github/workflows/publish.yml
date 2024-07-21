@@ -28,13 +28,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '22.4'
 
       - name: 📥 Install Dependencies
         run: yarn install
 
-#      - name: 🔎 Type check
-#        run: yarn run typecheck
+      - name: 🔎 Type check
+        run: yarn run typecheck
 
       - name: test
         run: yarn run test

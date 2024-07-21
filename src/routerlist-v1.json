@@ -37,6 +37,13 @@
       "fee": "0.002"
     },
     {
+      "chainId": 1,
+      "address": "0x42ecf39814824a684529d57e1635d30a90fb9c33",
+      "timestamp": "2024-07-17T00:00:00+00:00",
+      "version": "0.5",
+      "fee": "0.002"
+    },
+    {
       "chainId": 5,
       "address": "0x8412D3c11aa605EbaF14D0b6BC7705ab45143Ee8",
       "timestamp": "2022-12-23T00:00:00+00:00",
@@ -72,6 +79,13 @@
       "fee": "0.002"
     },
     {
+      "chainId": 10,
+      "address": "0x589fce694575064b5637310804587338037d1de9",
+      "timestamp": "2024-07-17T00:00:00+00:00",
+      "version": "0.5",
+      "fee": "0.002"
+    },
+    {
       "chainId": 42161,
       "address": "0x334264f4fbb56a84f80df722ba765d210f0cf555",
       "timestamp": "2023-02-23T00:00:00+00:00",
@@ -97,6 +111,13 @@
       "address": "0x9569B81892B7168efe41cdc51aa075a71C0f4F5b",
       "timestamp": "2024-06-28T00:00:00+00:00",
       "version": "0.4",
+      "fee": "0.002"
+    },
+    {
+      "chainId": 42161,
+      "address": "0x627a23113d5d4b2731002d71a6330802374d71d9",
+      "timestamp": "2024-07-17T00:00:00+00:00",
+      "version": "0.5",
       "fee": "0.002"
     },
     {
@@ -128,6 +149,13 @@
       "fee": "0.002"
     },
     {
+      "chainId": 100,
+      "address": "0xbb8f4e641bbef2fb3e4d73ddf902bee92cee8889",
+      "timestamp": "2024-07-17T00:00:00+00:00",
+      "version": "0.5",
+      "fee": "0.002"
+    },
+    {
       "chainId": 137,
       "address": "0x8866DAFa2762346c85098C5b2201fA7CB2dA6100",
       "timestamp": "2023-09-07T00:00:00+00:00",
@@ -146,6 +174,13 @@
       "address": "0x0642F4e4fcfA014Db0134D6C96aCcBb2bdD77ba4",
       "timestamp": "2024-06-28T00:00:00+00:00",
       "version": "0.4",
+      "fee": "0.002"
+    },
+    {
+      "chainId": 137,
+      "address": "0x24794f216fd5a90927c47b8799fd73c9a8d083a1",
+      "timestamp": "2024-07-17T00:00:00+00:00",
+      "version": "0.5",
       "fee": "0.002"
     },
     {
@@ -174,6 +209,13 @@
       "address": "0xe066da17bf33B51271CFB568A04B6115402b6C2d",
       "timestamp": "2024-06-28T10:50:00+00:00",
       "version": "0.4",
+      "fee": "0.002"
+    },
+    {
+      "chainId": 8453,
+      "address": "0x556280bb6f34b4387662e59de18028052cd4d466",
+      "timestamp": "2024-07-17T00:00:00+00:00",
+      "version": "0.5",
       "fee": "0.002"
     }
   ]

@@ -166,7 +166,7 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Stablecoin", "USD", "featured"],
+      "tags": ["Optimism", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     },
     {
@@ -188,7 +188,7 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Stablecoin", "USD", "featured"],
+      "tags": ["Base", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     },
     {
@@ -221,7 +221,7 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Stablecoin", "USD", "featured"],
+      "tags": ["Arbitrum", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     },
     {
@@ -516,7 +516,7 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Stablecoin", "USD", "featured"],
+      "tags": ["Polygon", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     }
   ]

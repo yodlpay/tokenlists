@@ -126,6 +126,17 @@
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     },
     {
+      "chainId": 1,
+      "coinGeckoId": "glo-dollar",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
+      "decimals": 18,
+      "tags": ["Mainnet", "Stablecoin", "USD", "featured"],
+      "address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"
+    },
+    {
       "chainId": 10,
       "coinGeckoId": "usd-coin",
       "name": "USD Coin - Bridged",
@@ -148,6 +159,17 @@
       "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
     },
     {
+      "chainId": 10,
+      "coinGeckoId": "glo-dollar",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
+      "decimals": 18,
+      "tags": ["Optimism", "Stablecoin", "USD", "featured"],
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
+    },
+    {
       "chainId": 8453,
       "coinGeckoId": "usd-coin",
       "name": "USD Coin",
@@ -157,6 +179,17 @@
       "decimals": 6,
       "tags": ["Base", "Stablecoin", "Top10", "USD", "featured"],
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+    },
+    {
+      "chainId": 8453,
+      "coinGeckoId": "glo-dollar",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
+      "decimals": 18,
+      "tags": ["Base", "Stablecoin", "USD", "featured"],
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     },
     {
       "chainId": 42161,
@@ -179,6 +212,17 @@
       "decimals": 6,
       "tags": ["Arbitrum", "Stablecoin", "Top10", "USD", "featured"],
       "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+    },
+    {
+      "chainId": 42161,
+      "coinGeckoId": "glo-dollar",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
+      "decimals": 18,
+      "tags": ["Arbitrum", "Stablecoin", "USD", "featured"],
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     },
     {
       "chainId": 1,
@@ -463,6 +507,17 @@
       "currency": "EUR",
       "tags": ["Polygon", "Stablecoin", "featured"],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/EURe.svg"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "glo-dollar",
+      "name": "Glo Dollar",
+      "symbol": "USDGLO",
+      "currency": "USD",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
+      "decimals": 18,
+      "tags": ["Polygon", "Stablecoin", "USD", "featured"],
+      "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
     }
   ]
 }

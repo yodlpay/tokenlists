@@ -131,7 +131,7 @@
       "name": "Glo Dollar",
       "symbol": "USDGLO",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
       "decimals": 18,
       "tags": ["Mainnet", "Stablecoin", "USD", "featured"],
       "address": "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3"
@@ -164,7 +164,7 @@
       "name": "Glo Dollar",
       "symbol": "USDGLO",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
       "decimals": 18,
       "tags": ["Optimism", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
@@ -186,7 +186,7 @@
       "name": "Glo Dollar",
       "symbol": "USDGLO",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
       "decimals": 18,
       "tags": ["Base", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
@@ -219,7 +219,7 @@
       "name": "Glo Dollar",
       "symbol": "USDGLO",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
       "decimals": 18,
       "tags": ["Arbitrum", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
@@ -514,7 +514,7 @@
       "name": "Glo Dollar",
       "symbol": "USDGLO",
       "currency": "USD",
-      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.svg",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDGLO.png",
       "decimals": 18,
       "tags": ["Polygon", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"

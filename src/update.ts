@@ -47,13 +47,12 @@ export const CHAIN_MAPPINGS = [
     coinGecko: 'optimistic-ethereum',
     chainId: 10,
   },
-  // BSC not supported at this time
-  /* {
+ {
     name: 'bsc',
     chainLink: 'bsc-mainnet',
     coinGecko: 'binance-smart-chain',
     chainId: 56,
-  }, */
+  },
 ];
 
 // canonical USDC addresses here:
@@ -239,7 +238,11 @@ export const resolveTokens = async (
     const matchingTokens = tokens.filter((t: TokenInfo) => t.symbol === s);
     if (matchingTokens.length > 1) {
       matchingTokens.forEach((t: TokenInfo) => {
-        if (CONFLICT_OVERRIDES[chainId][s] !== t.address) {
+        const conflict = CONFLICT_OVERRIDES[chainId];
+        if (!conflict || !conflict[s]) {
+          return
+        }
+        if (conflict[s] !== t.address) {
           console.log(
             `Duplicate symbol found. Excluding token: \n symbol: ${t.symbol}, name: "${t.name}", address: ${t.address}`
           );

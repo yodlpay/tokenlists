@@ -8,7 +8,12 @@
       "symbol": "ETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/ETH.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Native Token", "Top10", "featured"],
+      "tags": [
+        "Mainnet",
+        "Native Token",
+        "Top10",
+        "featured"
+      ],
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     {
@@ -18,7 +23,12 @@
       "symbol": "ETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/ETH.svg",
       "decimals": 18,
-      "tags": ["Optimism", "Native Token", "Top10", "featured"],
+      "tags": [
+        "Optimism",
+        "Native Token",
+        "Top10",
+        "featured"
+      ],
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     {
@@ -28,7 +38,12 @@
       "symbol": "ETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/ETH.svg",
       "decimals": 18,
-      "tags": ["Arbitrum", "Native Token", "Top10", "featured"],
+      "tags": [
+        "Arbitrum",
+        "Native Token",
+        "Top10",
+        "featured"
+      ],
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     {
@@ -38,7 +53,12 @@
       "symbol": "ETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/ETH.svg",
       "decimals": 18,
-      "tags": ["Base", "Native Token", "Top10", "featured"],
+      "tags": [
+        "Base",
+        "Native Token",
+        "Top10",
+        "featured"
+      ],
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     {
@@ -48,7 +68,12 @@
       "symbol": "WETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Native Token", "featured", "wrapped"],
+      "tags": [
+        "Mainnet",
+        "Native Token",
+        "featured",
+        "wrapped"
+      ],
       "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
     },
     {
@@ -58,7 +83,12 @@
       "symbol": "WETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
-      "tags": ["Optimism", "Native Token", "featured", "wrapped"],
+      "tags": [
+        "Optimism",
+        "Native Token",
+        "featured",
+        "wrapped"
+      ],
       "address": "0x4200000000000000000000000000000000000006"
     },
     {
@@ -68,7 +98,12 @@
       "symbol": "WETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
-      "tags": ["Arbitrum", "Native Token", "featured", "wrapped"],
+      "tags": [
+        "Arbitrum",
+        "Native Token",
+        "featured",
+        "wrapped"
+      ],
       "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1"
     },
     {
@@ -78,7 +113,12 @@
       "symbol": "WETH",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/WETH.svg",
       "decimals": 18,
-      "tags": ["Base", "Native Token", "featured", "wrapped"],
+      "tags": [
+        "Base",
+        "Native Token",
+        "featured",
+        "wrapped"
+      ],
       "address": "0x4200000000000000000000000000000000000006"
     },
     {
@@ -89,7 +129,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
-      "tags": ["Mainnet", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
     },
     {
@@ -100,7 +146,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
-      "tags": ["Optimism", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58"
     },
     {
@@ -111,7 +163,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
-      "tags": ["Arbitrum", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
     },
     {
@@ -122,7 +180,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Mainnet", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
     },
     {
@@ -144,7 +208,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Optimism", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x7f5c764cbc14f9669b88837ca1490cca17c31607"
     },
     {
@@ -155,7 +225,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Optimism", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85"
     },
     {
@@ -177,7 +253,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Base", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Base",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
     },
     {
@@ -199,7 +281,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Arbitrum", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
     },
     {
@@ -210,7 +298,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Arbitrum", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
     },
     {
@@ -232,7 +326,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
     },
     {
@@ -243,7 +343,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
-      "tags": ["Optimism", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     },
     {
@@ -254,7 +360,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
-      "tags": ["Arbitrum", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     },
     {
@@ -265,7 +377,12 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/crvUSD.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Stablecoin", "USD", "featured"],
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
       "address": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e"
     },
     {
@@ -276,7 +393,11 @@
       "currency": "EUR",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/EURe.svg",
       "decimals": 18,
-      "tags": ["Mainnet", "Stablecoin", "EUR"],
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "EUR"
+      ],
       "address": "0x3231Cb76718CDeF2155FC47b5286d82e6eDA273f"
     },
     {
@@ -285,7 +406,9 @@
       "symbol": "XUSD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 18,
-      "tags": ["TESTNET"],
+      "tags": [
+        "TESTNET"
+      ],
       "address": "0x33ca3889bb0032e9c3794b608a242d27e7293353"
     },
     {
@@ -294,7 +417,9 @@
       "symbol": "USDC",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 18,
-      "tags": ["TESTNET"],
+      "tags": [
+        "TESTNET"
+      ],
       "address": "0xe5768E2dDEc1E50Ac2672a2d75D63d36A8Ec88d9"
     },
     {
@@ -303,7 +428,9 @@
       "symbol": "USDT",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 18,
-      "tags": ["TESTNET"],
+      "tags": [
+        "TESTNET"
+      ],
       "address": "0xeB87E5d9c773d3E802989295147564985B5B358C"
     },
     {
@@ -314,7 +441,10 @@
       "name": "Dai Stablecoin",
       "symbol": "DAI.e",
       "currency": "USD",
-      "tags": ["Avalanche", "Stablecoins"],
+      "tags": [
+        "Avalanche",
+        "Stablecoins"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg"
     },
     {
@@ -325,7 +455,10 @@
       "name": "Tether - Bridged",
       "symbol": "USDT.e",
       "currency": "USD",
-      "tags": ["Avalanche", "Stablecoins"],
+      "tags": [
+        "Avalanche",
+        "Stablecoins"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg"
     },
     {
@@ -336,7 +469,12 @@
       "name": "USD Coin - Bridged",
       "symbol": "USDC.e",
       "currency": "USD",
-      "tags": ["Avalanche", "Stablecoins", "USD", "featured"],
+      "tags": [
+        "Avalanche",
+        "Stablecoins",
+        "USD",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg"
     },
     {
@@ -346,7 +484,11 @@
       "decimals": 18,
       "name": "Magic Internet Money",
       "symbol": "MIM",
-      "tags": ["Avalanche", "Stablecoins", "featured"],
+      "tags": [
+        "Avalanche",
+        "Stablecoins",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/MIM.svg"
     },
     {
@@ -357,7 +499,13 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
-      "tags": ["Avalanche", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Avalanche",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg"
     },
     {
@@ -368,7 +516,13 @@
       "name": "Tether",
       "symbol": "USDT",
       "currency": "USD",
-      "tags": ["Avalanche", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Avalanche",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg"
     },
     {
@@ -379,7 +533,13 @@
       "name": "Tether",
       "symbol": "USDT",
       "currency": "USD",
-      "tags": ["Gnosis", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Gnosis",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg"
     },
     {
@@ -390,7 +550,13 @@
       "name": "USD Coin",
       "symbol": "USDC",
       "currency": "USD",
-      "tags": ["Gnosis", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Gnosis",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg"
     },
     {
@@ -401,7 +567,13 @@
       "name": "xDAI",
       "symbol": "xDAI",
       "currency": "USD",
-      "tags": ["Gnosis", "Stablecoin", "Native Token", "USD", "featured"],
+      "tags": [
+        "Gnosis",
+        "Stablecoin",
+        "Native Token",
+        "USD",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/xDAI.svg"
     },
     {
@@ -430,7 +602,11 @@
       "name": "EURe",
       "symbol": "EURe",
       "currency": "EUR",
-      "tags": ["Gnosis", "Stablecoin", "featured"],
+      "tags": [
+        "Gnosis",
+        "Stablecoin",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/EURe.svg"
     },
     {
@@ -440,7 +616,11 @@
       "symbol": "MATIC",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/137/logo.svg",
       "decimals": 18,
-      "tags": ["Polygon", "Native Token", "featured"],
+      "tags": [
+        "Polygon",
+        "Native Token",
+        "featured"
+      ],
       "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     {
@@ -450,7 +630,12 @@
       "symbol": "WMATIC",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/137/logo.svg",
       "decimals": 18,
-      "tags": ["Polygon", "Native Token", "featured", "wrapped"],
+      "tags": [
+        "Polygon",
+        "Native Token",
+        "featured",
+        "wrapped"
+      ],
       "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270"
     },
     {
@@ -461,7 +646,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg",
       "decimals": 6,
-      "tags": ["Polygon", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
     },
     {
@@ -472,7 +663,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Polygon", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
     },
     {
@@ -483,7 +680,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDC.svg",
       "decimals": 6,
-      "tags": ["Polygon", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
     },
     {
@@ -494,7 +697,13 @@
       "currency": "USD",
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg",
       "decimals": 18,
-      "tags": ["Polygon", "Stablecoin", "Top10", "USD", "featured"],
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
       "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
     },
     {
@@ -505,7 +714,11 @@
       "name": "EURe",
       "symbol": "EURe",
       "currency": "EUR",
-      "tags": ["Polygon", "Stablecoin", "featured"],
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "featured"
+      ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/EURe.svg"
     },
     {
@@ -518,6 +731,69 @@
       "decimals": 18,
       "tags": ["Polygon", "Stablecoin", "USD", "featured"],
       "address": "0x4f604735c1cf31399c6e711d5962b2b3e0225ad3"
+    },
+    {
+      "chainId": 56,
+      "coinGeckoId": "bnb",
+      "name": "BNB",
+      "symbol": "BNB",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/56/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "BNB Smart Chain",
+        "Native Token",
+        "featured"
+      ],
+      "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
+    },
+    {
+      "chainId": 56,
+      "coinGeckoId": "usd-coin",
+      "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 18,
+      "currency": "USD",
+      "tags": [
+        "BNB Smart Chain",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
+      "logoUri": "https://assets.coingecko.com/coins/images/35220/thumb/USDC.jpg?1707919050"
+    },
+    {
+      "chainId": 56,
+      "coinGeckoId": "tether",
+      "address": "0x55d398326f99059fF775485246999027B3197955",
+      "name": "USDT",
+      "symbol": "USDT",
+      "decimals": 18,
+      "currency": "USD",
+      "tags": [
+        "BNB Smart Chain",
+        "Stablecoin",
+        "Top10",
+        "USD",
+        "featured"
+      ],
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/USDT.svg"
+    },
+    {
+      "chainId": 56,
+      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
+      "coinGeckoId": "dai",
+      "name": "Dai",
+      "symbol": "DAI",
+      "decimals": 18,
+      "tags": [
+        "BNB Smart Chain",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg"
     }
   ]
 }

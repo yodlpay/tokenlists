@@ -334,19 +334,9 @@
             "type": "bytes32"
           },
           {
-            "internalType": "address[9]",
-            "name": "route",
-            "type": "address[9]"
-          },
-          {
-            "internalType": "uint256[3][4]",
-            "name": "swapParams",
-            "type": "uint256[3][4]"
-          },
-          {
-            "internalType": "address[4]",
-            "name": "factoryAddresses",
-            "type": "address[4]"
+            "internalType": "bytes",
+            "name": "path",
+            "type": "bytes"
           },
           {
             "internalType": "address[2]",
@@ -362,6 +352,11 @@
             "internalType": "uint256",
             "name": "extraFeeBps",
             "type": "uint256"
+          },
+          {
+            "internalType": "enum YodlUniswapRouter.SwapType",
+            "name": "swapType",
+            "type": "uint8"
           },
           {
             "internalType": "uint256",
@@ -391,12 +386,12 @@
             "type": "tuple[]"
           }
         ],
-        "internalType": "struct YodlCurveRouter.YodlCurveParams",
+        "internalType": "struct YodlUniswapRouter.YodlUniswapParams",
         "name": "params",
         "type": "tuple"
       }
     ],
-    "name": "yodlWithCurve",
+    "name": "yodlWithPancake",
     "outputs": [
       {
         "internalType": "uint256",

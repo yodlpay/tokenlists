@@ -1,6 +1,6 @@
 {
   "name": "@yodlpay/tokenlists",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Tokenlist typings, schema and lists.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",

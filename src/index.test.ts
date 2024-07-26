@@ -73,7 +73,7 @@ describe('Test basic functionality', () => {
 
     const agEurFeed = getPriceFeed(1, 'AGEUR', 'EUR');
     expect(agEurFeed?.address).toBe(
-      '0xb4d5289C58CE36080b0748B47F859D8F50dFAACb'
+      '0x68e5F5dA6C1b65Ea8Fa0b0d88f578da02076aDcC'
     );
 
     const feed = getPriceFeed(1, 'ETH');

@@ -52,7 +52,7 @@ describe('Test basic functionality', () => {
 
     const latestOpRouter = getLatestRouter(10);
     expect(latestOpRouter.address).toBe(
-      '0x589fce694575064b5637310804587338037d1de9'
+      '0x42EcF39814824a684529d57e1635D30a90Fb9c33'
     );
 
     const allRouters = getRouters(1);

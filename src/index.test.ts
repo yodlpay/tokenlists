@@ -114,6 +114,9 @@ describe('Test basic functionality', () => {
     const wXDAI = getNativeWrappedToken(100);
     expect(wXDAI.address).toBe('0xe91d153e0b41518a2ce8dd3d7944fa863463a97d');
 
+    const wBNB = getNativeWrappedToken(56);
+    expect(wBNB.address).toBe('0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c');
+
     expect(() => getNativeWrappedToken(999999)).toThrow(Error);
   });
 });

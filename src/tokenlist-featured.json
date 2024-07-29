@@ -748,6 +748,21 @@
     },
     {
       "chainId": 56,
+      "coinGeckoId": "bnb",
+      "name": "WBNB",
+      "symbol": "WBNB",
+      "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/chains/56/logo.svg",
+      "decimals": 18,
+      "tags": [
+        "BNB Smart Chain",
+        "Native Token",
+        "featured",
+        "wrapped"
+      ],
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+    },
+    {
+      "chainId": 56,
       "coinGeckoId": "usd-coin",
       "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
       "name": "USDC",

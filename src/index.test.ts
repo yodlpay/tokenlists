@@ -71,10 +71,11 @@ describe('Test basic functionality', () => {
     );
     expect(secondRouter?.version).toBe('0.3');
 
-    const agEurFeed = getPriceFeed(1, 'AGEUR', 'EUR');
-    expect(agEurFeed?.address).toBe(
-      '0x68e5F5dA6C1b65Ea8Fa0b0d88f578da02076aDcC'
+
+    const nextRouter = getRouterByAddress(
+      '0x0642f4e4fcfa014db0134d6c96accbb2bdd77ba4'
     );
+    expect(nextRouter?.chainId).toBe(137);
 
     const feed = getPriceFeed(1, 'ETH');
     expect(feed?.address === '0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419');

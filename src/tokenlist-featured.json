@@ -802,6 +802,7 @@
       "name": "Dai",
       "symbol": "DAI",
       "decimals": 18,
+      "currency": "USD",
       "tags": [
         "BNB Smart Chain",
         "Stablecoin",

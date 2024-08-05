@@ -136,6 +136,32 @@
   },
   {
     "inputs": [],
+    "name": "CHAINLINK_FEED",
+    "outputs": [
+      {
+        "internalType": "int8",
+        "name": "",
+        "type": "int8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "EXTERNAL_FEED",
+    "outputs": [
+      {
+        "internalType": "int8",
+        "name": "",
+        "type": "int8"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "MAX_EXTRA_FEE_BPS",
     "outputs": [
       {
@@ -207,6 +233,11 @@
             "type": "address"
           },
           {
+            "internalType": "int8",
+            "name": "feedType",
+            "type": "int8"
+          },
+          {
             "internalType": "string",
             "name": "currency",
             "type": "string"
@@ -218,7 +249,7 @@
           },
           {
             "internalType": "uint256",
-            "name": "decimals",
+            "name": "deadline",
             "type": "uint256"
           },
           {
@@ -227,9 +258,9 @@
             "type": "bytes"
           }
         ],
-        "internalType": "struct AbstractYodlRouter.PriceFeed[3]",
+        "internalType": "struct AbstractYodlRouter.PriceFeed[2]",
         "name": "priceFeeds",
-        "type": "tuple[3]"
+        "type": "tuple[2]"
       },
       {
         "internalType": "uint256",
@@ -333,6 +364,11 @@
             "type": "address"
           },
           {
+            "internalType": "int8",
+            "name": "feedType",
+            "type": "int8"
+          },
+          {
             "internalType": "string",
             "name": "currency",
             "type": "string"
@@ -344,7 +380,7 @@
           },
           {
             "internalType": "uint256",
-            "name": "decimals",
+            "name": "deadline",
             "type": "uint256"
           },
           {
@@ -366,7 +402,7 @@
         "type": "bool"
       }
     ],
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -443,6 +479,11 @@
                 "type": "address"
               },
               {
+                "internalType": "int8",
+                "name": "feedType",
+                "type": "int8"
+              },
+              {
                 "internalType": "string",
                 "name": "currency",
                 "type": "string"
@@ -454,7 +495,7 @@
               },
               {
                 "internalType": "uint256",
-                "name": "decimals",
+                "name": "deadline",
                 "type": "uint256"
               },
               {
@@ -463,9 +504,9 @@
                 "type": "bytes"
               }
             ],
-            "internalType": "struct AbstractYodlRouter.PriceFeed[3]",
+            "internalType": "struct AbstractYodlRouter.PriceFeed[2]",
             "name": "priceFeeds",
-            "type": "tuple[3]"
+            "type": "tuple[2]"
           },
           {
             "internalType": "address",
@@ -573,6 +614,11 @@
                 "type": "address"
               },
               {
+                "internalType": "int8",
+                "name": "feedType",
+                "type": "int8"
+              },
+              {
                 "internalType": "string",
                 "name": "currency",
                 "type": "string"
@@ -584,7 +630,7 @@
               },
               {
                 "internalType": "uint256",
-                "name": "decimals",
+                "name": "deadline",
                 "type": "uint256"
               },
               {
@@ -593,9 +639,9 @@
                 "type": "bytes"
               }
             ],
-            "internalType": "struct AbstractYodlRouter.PriceFeed[3]",
+            "internalType": "struct AbstractYodlRouter.PriceFeed[2]",
             "name": "priceFeeds",
-            "type": "tuple[3]"
+            "type": "tuple[2]"
           },
           {
             "internalType": "address",

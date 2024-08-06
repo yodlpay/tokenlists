@@ -462,6 +462,136 @@
       {
         "components": [
           {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "receiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountIn",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountOut",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "memo",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "path",
+            "type": "bytes"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "feedAddress",
+                "type": "address"
+              },
+              {
+                "internalType": "int8",
+                "name": "feedType",
+                "type": "int8"
+              },
+              {
+                "internalType": "string",
+                "name": "currency",
+                "type": "string"
+              },
+              {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "deadline",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "signature",
+                "type": "bytes"
+              }
+            ],
+            "internalType": "struct AbstractYodlRouter.PriceFeed[2]",
+            "name": "priceFeeds",
+            "type": "tuple[2]"
+          },
+          {
+            "internalType": "address",
+            "name": "extraFeeReceiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "extraFeeBps",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum YodlUniswapRouter.SwapType",
+            "name": "swapType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint256",
+            "name": "yd",
+            "type": "uint256"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "yApp",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "sessionId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes[]",
+                "name": "payload",
+                "type": "bytes[]"
+              }
+            ],
+            "internalType": "struct AbstractYodlRouter.YApp[]",
+            "name": "yAppList",
+            "type": "tuple[]"
+          }
+        ],
+        "internalType": "struct YodlUniswapRouter.YodlUniswapParams",
+        "name": "params",
+        "type": "tuple"
+      }
+    ],
+    "name": "yodlWithPancake",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
             "internalType": "bytes32",
             "name": "memo",
             "type": "bytes32"
@@ -705,5 +835,141 @@
   {
     "stateMutability": "payable",
     "type": "receive"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "receiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountIn",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amountOut",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "memo",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "address[9]",
+            "name": "route",
+            "type": "address[9]"
+          },
+          {
+            "internalType": "uint256[3][4]",
+            "name": "swapParams",
+            "type": "uint256[3][4]"
+          },
+          {
+            "internalType": "address[4]",
+            "name": "factoryAddresses",
+            "type": "address[4]"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "feedAddress",
+                "type": "address"
+              },
+              {
+                "internalType": "int8",
+                "name": "feedType",
+                "type": "int8"
+              },
+              {
+                "internalType": "string",
+                "name": "currency",
+                "type": "string"
+              },
+              {
+                "internalType": "uint256",
+                "name": "amount",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256",
+                "name": "deadline",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes",
+                "name": "signature",
+                "type": "bytes"
+              }
+            ],
+            "internalType": "struct AbstractYodlRouter.PriceFeed[2]",
+            "name": "priceFeeds",
+            "type": "tuple[2]"
+          },
+          {
+            "internalType": "address",
+            "name": "extraFeeReceiver",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "extraFeeBps",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "yd",
+            "type": "uint256"
+          },
+          {
+            "components": [
+              {
+                "internalType": "address",
+                "name": "yApp",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "sessionId",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bytes[]",
+                "name": "payload",
+                "type": "bytes[]"
+              }
+            ],
+            "internalType": "struct AbstractYodlRouter.YApp[]",
+            "name": "yAppList",
+            "type": "tuple[]"
+          }
+        ],
+        "internalType": "struct YodlCurveRouter.YodlCurveParams",
+        "name": "params",
+        "type": "tuple"
+      }
+    ],
+    "name": "yodlWithCurve",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "payable",
+    "type": "function"
   }
 ]
+

@@ -263,6 +263,56 @@
         "type": "tuple[2]"
       },
       {
+        "internalType": "int256[2]",
+        "name": "prices",
+        "type": "int256[2]"
+      }
+    ],
+    "name": "emitConversionEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "feedAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "int8",
+            "name": "feedType",
+            "type": "int8"
+          },
+          {
+            "internalType": "string",
+            "name": "currency",
+            "type": "string"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "deadline",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "signature",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct AbstractYodlRouter.PriceFeed[2]",
+        "name": "priceFeeds",
+        "type": "tuple[2]"
+      },
+      {
         "internalType": "uint256",
         "name": "amount",
         "type": "uint256"
@@ -286,7 +336,7 @@
         "type": "int256[2]"
       }
     ],
-    "stateMutability": "nonpayable",
+    "stateMutability": "view",
     "type": "function"
   },
   {

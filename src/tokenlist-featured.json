@@ -809,6 +809,38 @@
         "featured"
       ],
       "logoUri": "https://raw.githubusercontent.com/yodlpay/tokenlists/main/logos/tokens/DAI.svg"
+    },
+    {
+      "chainId": 1,
+      "coinGeckoId": "usdm",
+      "name": "USDM",
+      "symbol": "USDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
+      "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C"
+    },
+    {
+      "chainId": 1,
+      "coinGeckoId": "wusdm",
+      "name": "wUSDM",
+      "symbol": "wUSDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Mainnet",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
+      "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812"
     }
   ]
 }

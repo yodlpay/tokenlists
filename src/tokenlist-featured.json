@@ -893,7 +893,7 @@
     {
       "chainId": 1,
       "coinGeckoId": "wusdm",
-      "name": "wUSDM",
+      "name": "Wrapped USDM",
       "symbol": "wUSDM",
       "currency": "USD",
       "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
@@ -902,9 +902,79 @@
         "Mainnet",
         "Stablecoin",
         "USD",
-        "featured"
+        "featured",
+        "wrapped"
       ],
       "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812"
-    }
+    },
+    {
+      "chainId": 10,
+      "coinGeckoId": "wusdm",
+      "name": "Wrapped USDM",
+      "symbol": "wUSDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "USD",
+        "featured",
+        "wrapped"
+      ],
+      "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812"
+    },
+    {
+      "chainId": 137,
+      "coinGeckoId": "wusdm",
+      "name": "Wrapped USDM",
+      "symbol": "wUSDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "USD",
+        "featured",
+        "wrapped"
+      ],
+      "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812"
+    },
+    {
+      "chainId": 8453,
+      "coinGeckoId": "wusdm",
+      "name": "Wrapped USDM",
+      "symbol": "wUSDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Base",
+        "Stablecoin",
+        "USD",
+        "featured",
+        "wrapped"
+      ],
+      "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812"
+    },
+    {
+      "chainId": 42161,
+      "coinGeckoId": "wusdm",
+      "name": "Wrapped USDM",
+      "symbol": "wUSDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "USD",
+        "featured",
+        "wrapped"
+      ],
+      "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812"
+    }    
+    
   ]
 }

@@ -827,6 +827,70 @@
       "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C"
     },
     {
+      "chainId": 10,
+      "coinGeckoId": "usdm",
+      "name": "USDM",
+      "symbol": "USDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Optimism",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
+      "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C"
+    },
+     {
+      "chainId": 137,
+      "coinGeckoId": "usdm",
+      "name": "USDM",
+      "symbol": "USDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Polygon",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
+      "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C"
+    },
+    {
+      "chainId": 8453,
+      "coinGeckoId": "usdm",
+      "name": "USDM",
+      "symbol": "USDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Base",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
+      "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C"
+    },
+    {
+      "chainId": 42161,
+      "coinGeckoId": "usdm",
+      "name": "USDM",
+      "symbol": "USDM",
+      "currency": "USD",
+      "logoUri": "https://assets.coingecko.com/coins/images/31719/standard/usdm.png",
+      "decimals": 18,
+      "tags": [
+        "Arbitrum",
+        "Stablecoin",
+        "USD",
+        "featured"
+      ],
+      "address": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C"
+    },
+    {
       "chainId": 1,
       "coinGeckoId": "wusdm",
       "name": "wUSDM",

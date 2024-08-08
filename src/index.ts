@@ -2,7 +2,6 @@ import featuredTokenlist from './tokenlist-featured.json';
 import generatedTokenlist from './tokenlist-generated.json';
 import chainlist from './chainlist-v1.json';
 import routerlist from './routerlist-v1.json';
-import testnetfaucets from './testnet-faucets-v1.json';
 import priceFeeds from './pricefeeds.json';
 import fiatCurrencies from './fiatCurrencies.json';
 import { ChainInfo, RouterInfo, TokenInfo, TestnetFaucetInfo } from './types';
@@ -129,15 +128,6 @@ export function getTokens(chainId?: number): TokenInfo[] {
         return needle.chainId === chainId;
       }) as TokenInfo[])
     : (tokenlist as TokenInfo[]);
-}
-
-export function getFaucetAddress(tokenInfo: TokenInfo): TestnetFaucetInfo {
-  return testnetfaucets.faucets.find((needle: any) => {
-    return (
-      needle.token.toLowerCase() === tokenInfo.address.toLowerCase() &&
-      needle.chainId === tokenInfo.chainId
-    );
-  }) as TestnetFaucetInfo;
 }
 
 export function getRouters(chainId: number): RouterInfo[] {

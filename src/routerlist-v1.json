@@ -94,7 +94,7 @@
     },
     {
       "chainId": 10,
-      "address": "0xE39b811C7c393990F201f1C8836C1fC637029Ad7",
+      "address": "0x34AAD7D735992A8e3Be4734E84dC17091E3B451F",
       "timestamp": "2024-07-17T00:00:00+00:00",
       "version": "0.6",
       "fee": "0.002"
@@ -136,7 +136,7 @@
     },
     {
       "chainId": 42161,
-      "address": "0xE39b811C7c393990F201f1C8836C1fC637029Ad7",
+      "address": "0x34AAD7D735992A8e3Be4734E84dC17091E3B451F",
       "timestamp": "2024-07-17T00:00:00+00:00",
       "version": "0.6",
       "fee": "0.002"
@@ -178,7 +178,7 @@
     },
     {
       "chainId": 100,
-      "address": "0xe7DF349468b11bc8cf141023bC71Fa2Ac5772176",
+      "address": "0xE39b811C7c393990F201f1C8836C1fC637029Ad7",
       "timestamp": "2024-07-17T00:00:00+00:00",
       "version": "0.6",
       "fee": "0.002"
@@ -269,7 +269,7 @@
     },
     {
       "chainId": 56,
-      "address": "0xE39b811C7c393990F201f1C8836C1fC637029Ad7",
+      "address": "0x34AAD7D735992A8e3Be4734E84dC17091E3B451F",
       "timestamp": "2024-07-17T00:00:00+00:00",
       "version": "0.6",
       "fee": "0.002"
